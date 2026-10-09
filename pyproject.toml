@@ -1,0 +1,21 @@
+[project]
+name = "fomo-top100-traders"
+version = "0.1.0"
+description = "Curated multi-chain dataset of Top 100 traders on FOMO platform: unmasked EVM/Solana addresses, portfolio allocations, PnL metrics, and feature matrix."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Angle Lee", email = "anglee@users.noreply.github.com" }
+]
+keywords = [
+    "crypto", "solana", "evm", "fomo", "smart-money",
+    "onchain-data", "machine-learning", "defi"
+]
+dependencies = [
+    "pandas>=2.0.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
