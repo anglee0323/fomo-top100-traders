@@ -1522,7 +1522,7 @@
   },
   {
     "trader_handle": "Tekkerrss",
-    "symbol": "",
+    "symbol": "UNKNOWN",
     "token_address": "",
     "chain": "solana",
     "usd_value": 32335.16,
