@@ -38,9 +38,11 @@ fomo-top100-traders/
     ├── tokens_holdings.json       # 嵌套持仓 JSON 格式
     ├── ml_features.csv            # 专为 AI / ML 训练预归一化的特征工程宽表 (17个量化特征)
     ├── shared_tokens_graph.json   # 交易员交叉持仓二分网络图
-    └── sample_dex_swaps/          # 真实链上 DEX 买卖微观交易序列
-        ├── dumbcrayoneater_swaps.json  # 500 笔 Base / Solana 真实 Swap（带价格、滑点、时间戳）
-        └── unipcs_swaps.json           # 高频交易员交易流水
+    ├── dex_swaps_summary.csv      # 全量 100 位交易员微观执行汇总索引表
+    ├── dex_swaps/                 # 全量 100 位交易员真实 DEX 买卖微观交易序列 (3,549 笔 Swap)
+    └── sample_dex_swaps/          # 经典样本交易流水
+        ├── dumbcrayoneater_swaps.json  # 经典 DEX 狙击手交易流水
+        └── unipcs_swaps.json           # 经典机构级高频交易员交易流水
 ```
 
 ---

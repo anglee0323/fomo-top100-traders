@@ -1,0 +1,42 @@
+{
+  "activities": [
+    {
+      "wallet": "0x9919e20bb91c78cd5282d3da39fead7d597d342c",
+      "chain": "eth",
+      "tx_hash": "0x48bcfa1d5097f022b60cce2b64d85d046f8e91a78f5608b5aa75fb4adc0da7d4",
+      "timestamp": 1791379007,
+      "event_type": "sell",
+      "token": {
+        "address": "0xa0df17b5ac76ababa36e1450e2cbcd18a620c845",
+        "symbol": "FWA",
+        "logo": "https://gmgn.ai/external-res/6752c72f2593aed78ee5b92b8e7e44a5_v2.webp",
+        "total_supply": "950134948.1616708"
+      },
+      "token_amount": "68697.0473066225",
+      "quote_amount": "0.4468254549581992",
+      "cost_usd": "1145.0125696031334",
+      "buy_cost_usd": "1141.226260729341",
+      "price_usd": "0.016667565994393948",
+      "price": "0.0000065042890848545185",
+      "is_open_or_close": 1,
+      "quote_token": {
+        "token_address": "0x0000000000000000000000000000000000000000",
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+      },
+      "quote_address": "0x0000000000000000000000000000000000000000",
+      "from_address": "",
+      "to_address": "",
+      "gas_native": "0.001477555120404408",
+      "gas_usd": "3.786308873792316",
+      "dex_native": "0",
+      "dex_usd": "0",
+      "priority_fee": "0",
+      "tip_fee": "0",
+      "launchpad": "",
+      "launchpad_platform": ""
+    }
+  ]
+}

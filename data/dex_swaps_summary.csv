@@ -1,0 +1,101 @@
+rank,handle,primary_chain,total_swaps,buy_count,sell_count,total_volume_usd,tokens_count,tokens_sample,queried_chains
+1,theunipcs,hood,43,4,38,48544.61,25,"AI, XAUt0, GLDx, USEFUL, SNDK",robinhood:50 | sol:50
+2,pointfarmcap,solana,26,22,4,7224.66,7,"Altruists, PURR, SPCX, HYPE, JupSOL",sol:50
+3,theveeman,solana,54,11,43,51782.47,31,"DJT, AI, PEPE, STONKHOUSE, SENTS",sol:50 | robinhood:50
+4,The__Solstice,solana,63,14,49,9836.06,37,"TSM, ORCL, AMZN, META, HYPE",sol:50 | robinhood:48
+5,DumbCrayonEater,hood,42,12,30,57556.66,22,"CrayonEater, HAMSTER, PUMP, LOOKSMAX, CATE",robinhood:50 | sol:50
+6,0xAvast,bsc,64,19,45,110685.27,27,"AI, LIGHT, wish, QQQB, HOOKMIND",bsc:50 | sol:50
+7,Chubbi230,hood,32,17,15,58178.43,6,"musebook, PONS, CARDS, SPY, SPCX",robinhood:50 | sol:50
+8,Salem1299534,hood,39,17,20,1085046.3,17,"OpenCodeJr, Plumber, MDUDAS, AI, Dinger",robinhood:50 | sol:50
+9,AvgJoesCrypto,hood,59,11,48,41647.47,23,"DJT, MU, XOM, OCTO, BULL",robinhood:50 | sol:50
+10,PoorGoat_,solana,41,21,16,27864.19,17,"kipps, LMAO!, LOOM, CATE, FLYSEC",sol:50 | robinhood:9
+11,econoar,hood,36,15,21,76094.83,19,"inuzard, AI, BADGERS, COMD, familiars",robinhood:50 | sol:50
+12,FullPinkYak,solana,26,13,13,55064.58,4,"e/acc, AAPL, NVDAx, SI",sol:50 | robinhood:28
+13,gajria,hood,18,2,16,142628.3,11,"AI, COPCAT, COPX, GME, COPPERINU",robinhood:21 | sol:23
+14,Natan_benish,hood,23,11,12,848.3,12,"VIBECRAFT, REDWOODJS, JitoSOL, RJGN, PACK",robinhood:3 | sol:29
+15,RugDalio,hood,49,14,35,27274.66,20,"DKNG, ELO, ALLINU, LAUNCHPAD, ELSE",robinhood:50 | sol:50
+16,0xdetweiler,solana,30,12,18,65888.95,11,"RIP, GENIE, CASHCAT, OTC, ROUTE",sol:50 | robinhood:50
+17,lordarbiter,hood,22,7,15,18115.77,12,"POOH, PONS, OFY, ORE, ARROWFARM",robinhood:46
+18,motiyawerey,solana,38,16,22,14881.38,25,"musebook, Venice, META, SNDK, emojibutt",sol:50 | robinhood:50
+19,brrrgrrrz,hood,30,4,26,37505.51,12,"Bonk, AI, GOOGL, SPY, AAPL",robinhood:50 | sol:50
+20,soby0x,hood,34,17,17,104958.1,16,"Minecraft, NVDAx, AI, HOOKR, MSFTx",robinhood:50 | sol:50
+21,Quanterty,bsc,68,15,5,93307.43,27,"MOGGED, musebook, 永生果蝇, 果蝇, Agency",bsc:50 | sol:50
+22,bigbabbajohnson,solana,56,21,35,81707.21,23,"U, ASTEROID, CALI, FILL, FILLED",sol:50 | robinhood:50
+23,changefomo,hood,61,18,33,103276.17,24,"MU, HOLDPLEASE, e/acc, BOIÚNA, CATE",robinhood:40 | sol:50
+24,0xnobi,hood,40,12,19,26718.35,16,"GOLD, BABYPONS, PONS, NOBI VENTURES, CARDS",robinhood:32 | sol:50
+25,seralberttrades,hood,40,8,32,74214.32,22,"Ash, TWEETCRAFT, AAPLx, HOOKED, EIN",robinhood:50 | sol:50
+26,visionary,solana,15,10,5,18758.87,8,"Human, LACY, SNAP, ANTHROPIC, TWEETCRAFT",sol:19 | robinhood:8
+27,pricedin,hood,31,10,21,80150.4,11,"musebook, ORBANCY, PERPSPAD, BUTT, META",robinhood:50 | sol:50
+28,clam,hood,44,14,30,61569.29,20,"JTVO, TREX, VECTIS, STANDARD, POLYMARKET",robinhood:50 | sol:50
+29,kyle,hood,54,24,30,44061.12,23,"AI, mSOL, Tokabu, pepescobar, LIFE3",robinhood:50 | sol:50
+30,0xRareDualJay,hood,65,28,37,40463.1,8,"TOPCAT, ORBLIVION, shoggoth, Ash, HOTBOT",robinhood:50 | sol:50
+31,CardinalSaint2,hood,36,10,26,56064.69,20,"Jimothy, AI, ASTEROID, Agency, SPY",robinhood:50 | sol:50
+32,zeri_term,solana,23,6,17,10443.37,12,"cbBTC, PURR, HYPE, ZEC, BOP",sol:50 | robinhood:7
+33,TheDazzleNovak,solana,51,19,32,37883.08,32,"PURSER, ATM, AI, HOOD, DRAW",sol:50 | robinhood:50
+34,TheOnlyOMP,solana,30,8,22,8963.47,20,"JTO, SPCXx, MU, GHOSTCAT, Bonk",sol:50 | robinhood:5
+35,RowdyCrypto,solana,38,11,27,60860.4,24,"musebook, Altruists, SWOLE, WATCHER, ASS",sol:50 | robinhood:50
+36,boosteryting,solana,61,21,40,17712.23,23,"KURA, MIKA, PUMPGU, RIPS, STONKHOUSE",sol:50 | robinhood:38
+37,USronaldcarter,solana,29,10,19,44443.46,4,"JUP, NVDAx, baton, PUMP",sol:50
+38,lp1,hood,25,1,24,15050.09,8,"富贵, SPY, NOSH, NVDA, LIGER",robinhood:50
+39,notanicecat69,hood,31,14,17,90892.51,6,"AI, MSFTx, CRAWL, slopcannon, Agency",robinhood:50 | sol:50
+40,LehmanFarters,hood,12,0,11,28808.88,7,"crown, musebook, AI, BONER, BUN",robinhood:50
+41,montyMole44,hood,33,16,17,17687.76,16,"ONTOLOGY, Jimothy, Tilcayo, ALFRED, TODD",robinhood:4 | sol:50
+42,carlwheezor,hood,39,21,18,4886.52,16,"SEKOLAH, NEIL, RayRay, CPX, Battlefield",robinhood:0 | sol:50
+43,Tekkerrss,solana,64,27,37,22259.71,26,"HOOD, PARLEY, META, ai17z, ALLINU",sol:50 | robinhood:50
+44,cosby,hood,42,27,15,82224.58,2,"PONS, STONK",robinhood:50 | sol:50
+45,0x_Leo_,solana,23,9,14,125710.95,7,"BP, AI, CRCL, SPY, META",sol:50 | robinhood:50
+46,kingofgotham,solana,27,18,9,114188.78,6,"PERPSHOOD, PONS, KNOTS, BUN, AGI",sol:50 | robinhood:36
+47,Milliardi,solana,24,11,13,97368.98,11,"e/acc, E/ACC, FEEBITS, SPY, BAGSPAY",sol:50 | robinhood:28
+48,Bull_Path,solana,26,16,10,11179.72,2,"fone, CATE",sol:50
+49,macdegods,solana,39,12,27,80660.9,25,"RARI, RACE, PAXOS, TWEETCRAFT, META",sol:50 | robinhood:50
+50,NachSOL,ethereum,41,11,30,73536.95,12,"e/acc, BNKR, SPCX, CLAUDIA, FOMO",eth:35 | sol:50
+51,OinkersRUs,solana,62,15,47,36631.51,31,"TERRA, AI, TEST, GOON, COS",sol:50 | robinhood:50
+52,looc,hood,48,12,36,63742.63,22,"AI, RIPS, mSOL, MU, PATCH",robinhood:50 | sol:50
+53,RZDxbt,solana,38,21,17,77179.76,11,"CHATON, musebook, RIP, HAMSTER, HOOD",sol:50 | robinhood:25
+54,GuavaGuy2001,bsc,48,6,42,106796.53,24,"DKNG, Hobbes, House, fomo, Somnia",bsc:33 | sol:50
+55,aki11a,hood,33,16,17,83270.05,10,"SWITCHED, AI, CLAW, TWEETCRAFT, HOTBOT",robinhood:50 | sol:50
+56,0xsneakky,solana,67,22,45,49067.92,36,"FORESKIN, MEMECHAN, U, TOKEN, RIPS",sol:50 | robinhood:50
+57,Lingard0x,base,44,10,34,53891.8,11,"CAT, HIGGS, UMIA, BSTONK, CLANKER",base:50 | sol:50
+58,kb,hood,46,12,34,14572.75,31,"DKNG, Jimothy, FLUX, AI, STATEMENTS",robinhood:40 | sol:50
+59,beetle,bsc,69,9,36,123920.4,21,"PMARCA, QQQB, Agency, 제로, GM",bsc:50 | sol:50
+60,cryptochi3f_,hood,59,7,52,12041.67,33,"FEELINU, DJT, musebook, MAXING, HOOD",robinhood:50 | sol:50
+61,BtheBezel,solana,49,18,31,18933.87,27,"BCI, AI, HOOD, USH, CASHED",sol:50 | robinhood:50
+62,facap_,hood,41,14,27,57659.54,12,"CLAUDIA, FOMO, CATGPT, MU, MEME",robinhood:50 | sol:50
+63,Samisa_btc,hood,54,16,38,21152.79,34,"CONV, META, GP, SPCXx, TIPTOE",robinhood:50 | sol:50
+64,omakase,solana,57,24,33,52645.64,18,"unbound, PQLN, HIGGS, OTTO, CLONES",sol:50 | robinhood:50
+65,jols,hood,18,5,13,29871.55,5,"PONS, AI, BONER, NOSH, TIBBIR",robinhood:50
+66,dtrains,solana,22,12,10,29652.61,7,"BP, cbBTC, BINKY, NEAR, DARK",sol:50
+67,testaccount,hood,3,0,3,427.89,1,AI,robinhood:13
+68,user,solana,42,19,23,74587.98,14,"TOPCAT, MEMECHAN, SEA, SPY, CRAWL",sol:50 | robinhood:50
+69,BTCdayu,hood,13,0,13,29585.58,11,"CEST, PONS, CANAL, AI, SPCX",robinhood:46 | sol:0
+70,dreamloaderxo,solana,49,27,22,8028.09,24,"AI, META, PUMP, mSOL, Agency",sol:50 | robinhood:50
+71,end837,hood,7,1,6,912.73,5,"META, NVDA, MOO, TOP, STARSHIP",robinhood:50
+72,tremendoustoad,solana,28,12,16,53524.48,14,"tOpenAI, HOOKI, HAMSTER, cbBTC, HOOKEDINU",sol:50
+73,naP0Liano,ethereum,33,25,8,20786.21,4,"SIMD, CLAUS, CRAWL, HOTBOT",eth:15 | sol:50
+74,sadcrissy,solana,25,16,9,8625.29,8,"COCKROACH, PLAGUE, SI, PUMP, APU",sol:50
+75,ventikohi,solana,42,13,29,80526.36,28,"DKNG, WICKR, ALLINU, SHR, DOGGO",sol:50 | robinhood:50
+76,ionnnnn_,solana,38,15,23,26990.03,17,"CAT, OMNI, ROBIT, ZERO, VRAX",sol:50 | robinhood:35
+77,mrfernando88,solana,24,13,11,10825.9,9,"NVDAx, TWAAAHNG, cbBTC, PUMP, ZEC",sol:50
+78,carve,solana,41,37,4,15129.71,10,"MASK, Quantcum, PLAGUE, ZEC, PQC",sol:50
+79,kv4rl,base,11,2,9,2370.05,3,"cbBTC, VVV, DRV",base:50
+80,BitCloutCat,solana,37,10,27,55380.74,27,"AGRIPPA, GIWA, SPCXx, backpack, DOMAIN",sol:50 | robinhood:44
+81,gameplay,hood,62,12,50,91992.82,21,"POKEMON, AI, MOS, Clude, JUP",robinhood:50 | sol:50
+82,ResellCalendar,solana,48,17,31,30924.66,34,"BCI, Goudvius, HI, GIF, CSTR",sol:50 | robinhood:50
+83,yeon__,solana,28,18,10,32831.24,10,"OFFICIAL, pill, DRMR, JLP, PUMP",sol:50
+84,rainnen23,solana,50,10,39,38622.69,31,"DKNG, musebook, ORCL, AMZN, META",sol:50 | robinhood:34
+85,frankdegods,solana,29,7,22,498382.71,19,"RARI, AI, RACE, PARLEY, TWEETCRAFT",sol:50 | robinhood:50
+86,derekz,ethereum,28,18,10,23247.14,9,"CLAUS, HAMSTER, SPROUT, CRAWL, BORDR",eth:5 | sol:50
+87,ExactTallTakin,solana,41,33,8,9121.45,1,TikTok,sol:50
+88,Pasterniq,solana,29,17,12,75618.85,12,"CORNELL, NVDAx, Simulation, ROUTE, HIMS",sol:50
+89,frogmanhaha,solana,0,0,0,0.0,0,,sol:0
+90,idealplumtoad,solana,34,10,24,25739.72,16,"LMAO!, threehalves, bull, 旺旺, YOTS",sol:50
+91,AnselFang,solana,18,0,18,244637.45,1,STONK,sol:50
+92,wukong,bsc,12,0,12,133115.87,4,"FLORK, 牛来, QQQB, MarsCoin",bsc:50
+93,0xSporadic,hood,17,0,16,3876.58,10,"PONS, ORCL, WICKR, NOSH, META",robinhood:24
+94,solarfirmdingo,solana,26,11,15,8361.73,15,"CATE, PEPE, COPX, WIRE, NEURALINK",sol:50
+95,ether_monk,bsc,31,0,31,1302.95,12,"BREWCAT, Froggie, GMEB, BREW, SATURN",bsc:50
+96,lowrivalrat,hood,10,0,10,22008.25,6,"PONS, TAB, AI, SPCX, Titan",robinhood:50
+97,lowgrandcrane,ethereum,1,0,1,1145.01,1,FWA,eth:1
+98,boosted,robinhood,0,0,0,0.0,0,,robinhood:0 | sol:0
+99,CryptoZachLA,robinhood,0,0,0,0.0,0,,robinhood:0 | sol:0
+100,XbtPika,robinhood,0,0,0,0.0,0,,robinhood:0 | sol:0

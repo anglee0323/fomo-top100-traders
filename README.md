@@ -38,9 +38,11 @@ fomo-top100-traders/
     ├── tokens_holdings.json       # Structured token holdings list
     ├── ml_features.csv            # Pre-normalized feature matrix ready for modeling
     ├── shared_tokens_graph.json   # Inter-trader co-holding network
+    ├── dex_swaps_summary.csv      # Unified execution index across all 100 traders
+    ├── dex_swaps/                 # Comprehensive DEX transaction archives for all 100 traders (3,549 swaps)
     └── sample_dex_swaps/          # Sample on-chain DEX Buy/Sell executions
-        ├── dumbcrayoneater_swaps.json  # 500 historical DEX swaps on Base & Solana
-        └── unipcs_swaps.json           # DEX swap execution history
+        ├── dumbcrayoneater_swaps.json  # DEX sniper execution history
+        └── unipcs_swaps.json           # High-frequency whale execution history
 ```
 
 ---

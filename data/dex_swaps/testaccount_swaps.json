@@ -1,0 +1,118 @@
+{
+  "activities": [
+    {
+      "wallet": "0xdb5cb33ccaf4a5c7f509b2e80f0ee9ed67861942",
+      "chain": "robinhood",
+      "tx_hash": "0xa6f37405749e526ceecf621c78b799144c4b88aa7c5898005cbf9563693482f0",
+      "timestamp": 1791395023,
+      "event_type": "sell",
+      "token": {
+        "address": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+        "symbol": "AI",
+        "logo": "https://gmgn.ai/external-res/d176a8cab51a71bd401923c9626e8153_v2.webp",
+        "total_supply": "991101708.097438"
+      },
+      "token_amount": "222.41887577624638",
+      "quote_amount": "24.961371056584877",
+      "cost_usd": "24.961371056584877",
+      "buy_cost_usd": "63.532853210145205",
+      "price_usd": "0.11222685560957534",
+      "price": "0.11222685560957534",
+      "is_open_or_close": 0,
+      "quote_token": {
+        "token_address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+        "name": "Global Dollar",
+        "symbol": "USDG",
+        "decimals": 6,
+        "logo": "https://gmgn.ai/external-res/daed8c564edd9cd35016947e29922786_v2.webp"
+      },
+      "quote_address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+      "from_address": "",
+      "to_address": "",
+      "gas_native": "0.0000103916971935",
+      "gas_usd": "0.026437412913011413",
+      "dex_native": "0.037442056584877315",
+      "dex_usd": "0.037442056584877315",
+      "priority_fee": "0",
+      "tip_fee": "0",
+      "launchpad": "longxyz",
+      "launchpad_platform": "longxyz"
+    },
+    {
+      "wallet": "0xdb5cb33ccaf4a5c7f509b2e80f0ee9ed67861942",
+      "chain": "robinhood",
+      "tx_hash": "0x31c32adf48b45380de4dac89715fc0af7dc1bde63e9dcd2f5e6a6c536494050c",
+      "timestamp": 1791394986,
+      "event_type": "sell",
+      "token": {
+        "address": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+        "symbol": "AI",
+        "logo": "https://gmgn.ai/external-res/d176a8cab51a71bd401923c9626e8153_v2.webp",
+        "total_supply": "991101708.097438"
+      },
+      "token_amount": "3250.542662679329",
+      "quote_amount": "365.44569079606975",
+      "cost_usd": "365.44569079606975",
+      "buy_cost_usd": "928.5014552860134",
+      "price_usd": "0.11242605580658442",
+      "price": "0.11242605580658442",
+      "is_open_or_close": 0,
+      "quote_token": {
+        "token_address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+        "name": "Global Dollar",
+        "symbol": "USDG",
+        "decimals": 6,
+        "logo": "https://gmgn.ai/external-res/daed8c564edd9cd35016947e29922786_v2.webp"
+      },
+      "quote_address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+      "from_address": "",
+      "to_address": "",
+      "gas_native": "0.000019640578909",
+      "gas_usd": "0.05000393187336855",
+      "dex_native": "0.9501587960697815",
+      "dex_usd": "0.9501587960697815",
+      "priority_fee": "0",
+      "tip_fee": "0",
+      "launchpad": "longxyz",
+      "launchpad_platform": "longxyz"
+    },
+    {
+      "wallet": "0xdb5cb33ccaf4a5c7f509b2e80f0ee9ed67861942",
+      "chain": "robinhood",
+      "tx_hash": "0x73d90e0d89effd20a6f6452822477b349a598bf57459d0011714db09c9d25d9a",
+      "timestamp": 1791048974,
+      "event_type": "sell",
+      "token": {
+        "address": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+        "symbol": "AI",
+        "logo": "https://gmgn.ai/external-res/d176a8cab51a71bd401923c9626e8153_v2.webp",
+        "total_supply": "991101708.097438"
+      },
+      "token_amount": "306.77412340132935",
+      "quote_amount": "37.478549098196396",
+      "cost_usd": "37.478549098196396",
+      "buy_cost_usd": "87.6285130149458",
+      "price_usd": "0.12216985149417588",
+      "price": "0.12216985149417588",
+      "is_open_or_close": 0,
+      "quote_token": {
+        "token_address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+        "name": "Global Dollar",
+        "symbol": "USDG",
+        "decimals": 6,
+        "logo": "https://gmgn.ai/external-res/daed8c564edd9cd35016947e29922786_v2.webp"
+      },
+      "quote_address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+      "from_address": "",
+      "to_address": "",
+      "gas_native": "0.000009992564626286",
+      "gas_usd": "0.026818144869671864",
+      "dex_native": "0.07495709819639279",
+      "dex_usd": "0.07495709819639279",
+      "priority_fee": "0",
+      "tip_fee": "0",
+      "launchpad": "longxyz",
+      "launchpad_platform": "longxyz"
+    }
+  ]
+}
