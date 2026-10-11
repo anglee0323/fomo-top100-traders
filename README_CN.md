@@ -129,3 +129,16 @@ print(f"特征矩阵维度: {features.shape}")
 本数据集基于 [MIT 许可证](LICENSE) 开源发布。
 
 本仓库仅供学术研究、数据科学探索与量化建模分析使用，不构成任何形式的投资建议或金融指导。
+
+### 3.1 `data/positions_fifo.parquet`（跨链统一 FIFO 重建仓位表）
+
+全链（sol/bsc/base/robinhood/eth）以统一 FIFO 口径重建的 token 级仓位表，解决原 `positions.parquet` 中 EVM 链仓位构建不全的问题。字段与官方表兼容，新增：
+
+| 字段名 | 类型 | 说明 |
+| :--- | :--- | :--- |
+| `wallet_address` | 字符串 | 该仓位所在钱包地址 |
+| `remaining_token_amount` | 浮点数 | 仓位剩余代币数量 |
+| `outcome_label` | 字符串 | 三态口径：ROI 分箱 / `open_never_sold`（从未卖出）/ `open_partial`（部分退出） |
+| `is_anomaly` | 布尔 | 报价异常标记（单仓投入/实现额超阈值的报价错误仓位） |
+
+重建方法与清洗阈值详见关联研究报告《链上头部交易者行为分型与策略解构》附录 A。
