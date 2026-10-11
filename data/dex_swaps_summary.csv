@@ -1,101 +1,101 @@
-rank,handle,primary_chain,total_swaps,buy_count,sell_count,total_volume_usd,tokens_count,tokens_sample,queried_chains
-1,theunipcs,hood,324,59,263,353068.93,138,"Bonk, HIMS, ZEC, Unipcs, cc",robinhood:200 | sol:438
-2,pointfarmcap,solana,2465,2038,427,712765.47,156,"BP, NiggaButt, ZEC, 80085, OILRIG",sol:5000
-3,theveeman,solana,632,218,414,594038.19,209,"Bonk, PONS, GTA, WTFO, MEME",sol:972 | robinhood:78
-4,The__Solstice,solana,1494,976,517,693531.7,181,"Bonk, BP, ZEC, CATCOIN, COUPON",sol:2758 | robinhood:48
-5,DumbCrayonEater,hood,503,304,199,237150.91,139,"Bonk, vellum, Herm3x, HAMSTER, PONS",robinhood:60 | sol:706
-6,0xAvast,bsc,288,91,196,456596.21,111,"ZEC, $INVEST, ART, anon, baton",bsc:148 | sol:334
-7,Chubbi230,hood,193,118,75,146204.23,34,"juicelee, GME, LIQLORACLE, PONS, WISE",robinhood:132 | sol:346
-8,Salem1299534,hood,359,169,188,2217779.72,82,"DRUGS, PONS, PUB, HUMANITY, Lobsty",robinhood:352 | sol:450
-9,AvgJoesCrypto,hood,246,81,165,184974.87,66,"SPYx, BUN, OCTO, PONS, AI",robinhood:96 | sol:278
-10,PoorGoat_,solana,1426,766,642,672238.4,314,"GTA, JUAN, jito, SUITCAT, SHILLCOIN",sol:1815 | robinhood:9
-11,econoar,hood,514,325,184,2075107.42,143,"GME, Council, PONS, ROBINCAT, FEELS",robinhood:416 | sol:563
-12,FullPinkYak,solana,298,177,121,441085.0,61,"SPYx, MUFFIN, ZEC, USDG, Pistacio",sol:531 | robinhood:28
-13,gajria,hood,18,2,16,142628.3,11,"GME, COPCAT, XCU, APEC, AI",robinhood:21 | sol:23
-14,Natan_benish,hood,23,11,12,848.3,12,"ELON, VIBECRAFT, BUSINESS, JitoSOL, ROBIN",robinhood:3 | sol:29
-15,RugDalio,hood,523,196,327,309766.13,75,"MET, ALLINU, GME, BUN, ARROWFARM",robinhood:124 | sol:928
-16,0xdetweiler,solana,2845,1245,1600,4274124.86,428,"5XZCAT, Aria, SNILL, Annie, SYNA",sol:5000 | robinhood:434
-17,lordarbiter,hood,22,7,15,18115.77,12,"OFY, ARROWFARM, PONS, CHOW, POOH",robinhood:46
-18,motiyawerey,solana,1411,780,631,1346123.66,278,"BP, Bonk, HIMS, ZEC, Euler",sol:2962 | robinhood:125
-19,brrrgrrrz,hood,1391,731,658,855030.03,185,"Bonk, RBTC, remus, Baby, FCST",robinhood:136 | sol:2101
-20,soby0x,hood,112,49,54,444185.82,47,"SPYx, ALLINU, ZEC, OCTO, NBIS",robinhood:133 | sol:138
-21,Quanterty,bsc,379,113,124,988195.32,123,"unc, PSX, P0, ZEC, Punch",bsc:280 | sol:393
-22,bigbabbajohnson,solana,3108,1661,1447,3064019.67,397,"BP, Council, MARIO64, CATCOIN, TANAKI",sol:5000 | robinhood:529
-23,changefomo,hood,2172,1416,742,2012191.28,252,"Bonk, GME, unc, ZOOMER, PNL",robinhood:40 | sol:3216
-24,0xnobi,hood,1091,696,386,254780.91,243,"Bonk, GME, PONS, pibble, Baby",robinhood:32 | sol:1396
-25,seralberttrades,hood,1271,648,623,1954760.87,194,"ZEC, MARIO64, PONS, GAY, Loom",robinhood:457 | sol:2326
-26,visionary,solana,15,10,5,18758.87,8,"TWEETCRAFT, RATTERY, Metapad, ANTHROPIC, Human",sol:19 | robinhood:8
-27,pricedin,hood,100,62,38,169380.46,22,"ZEC, JACKJACK, 5XZCAT, ANTHROPIC, Futardio",robinhood:61 | sol:212
-28,clam,hood,371,216,155,167605.21,80,"PONS, JEV, JTVO, AGNT, POLYMARKET",robinhood:326 | sol:413
-29,kyle,hood,499,164,335,271446.22,110,"GME, PONS, ROBIN, MEME, LOLA",robinhood:864 | sol:353
-30,0xRareDualJay,hood,635,175,460,295887.45,72,"MET, Nautilo, GME, BUN, Agrippa",robinhood:620 | sol:568
-31,CardinalSaint2,hood,444,214,230,314489.52,122,"Meowpin, ZEC, PONS, SQQQ, CIA",robinhood:111 | sol:735
-32,zeri_term,solana,534,240,294,566324.0,64,"SPYx, ALLINU, ZEC, MASK, NEARKAT",sol:1054 | robinhood:7
-33,TheDazzleNovak,solana,532,249,283,611457.62,150,"BP, ZEC, DIS, NINE, ABTC",sol:963 | robinhood:53
-34,TheOnlyOMP,solana,460,255,205,372553.15,58,"Bonk, SPYx, MET, BTC, three",sol:1085 | robinhood:5
-35,RowdyCrypto,solana,835,394,441,2285292.6,256,"Cadence, HIMS, ZEC, Auton, $INVEST",sol:1411 | robinhood:247
-36,boosteryting,solana,2557,1341,1206,622289.87,490,"$LHR911, CATCOIN, SOCIAL, GTA, FaceFees",sol:3680 | robinhood:38
-37,USronaldcarter,solana,798,448,350,887753.26,77,"WENCOIN, GAY, FOMO?, baton, NiuLai",sol:1346
-38,lp1,hood,67,1,66,40928.16,11,"LIGER, BOW, RAXOL, NVDA, AA",robinhood:169
-39,notanicecat69,hood,629,265,364,1253283.38,105,"Bonk, unc, MARIO64, ZEC, PONS",robinhood:469 | sol:1007
-40,LehmanFarters,hood,44,3,35,137333.9,25,"BUN, USAR, AI, GLD, BONER",robinhood:176
-41,montyMole44,hood,203,118,85,71073.73,55,"SPYx, ZEC, Lucia, SQQQ, GTA6",robinhood:4 | sol:342
-42,carlwheezor,hood,3693,1715,1978,989171.1,686,"Punch, PHOTO, KK, ABG, Baby",robinhood:0 | sol:5000
-43,Tekkerrss,solana,2743,1667,1076,1078871.69,476,"BP, DOGGO, claudecat, MAMESUKE, BILLSMITH",sol:5000 | robinhood:187
-44,cosby,hood,185,47,138,304199.53,11,"CRCL, Agrippa, PONS, CHOW, NVDA",robinhood:543 | sol:91
-45,0x_Leo_,solana,438,251,187,2845426.2,45,"BP, MET, FireHorse, PONS, AI",sol:945 | robinhood:140
-46,kingofgotham,solana,92,73,19,249718.85,16,"AGI, biketyson, BUN, PONS, USELESS",sol:219 | robinhood:36
-47,Milliardi,solana,103,55,48,612321.9,19,"ZEC, STONK, cc, PAID, HOOKED",sol:242 | robinhood:28
-48,Bull_Path,solana,449,305,144,531493.96,30,"USDG, GTA6, hwg, BOT, titcoin",sol:824
-49,macdegods,solana,1754,1091,663,2600774.05,317,"BP, SAM, GOLD, SLAWTH, Quamfy",sol:3276 | robinhood:193
-50,NachSOL,ethereum,1638,879,759,2863030.77,246,"ZEC, NightTrader, HAMSTER, GIRL, Punch",eth:35 | sol:2997
-51,OinkersRUs,solana,2070,890,1180,1281820.31,700,"BP, RUM, PMF, JMI, SNIBBU",sol:2825 | robinhood:89
-52,looc,hood,2822,1382,1440,3597440.0,429,"BP, DNUTS, GOLD, SLAWTH, MARINE",robinhood:1245 | sol:5000
-53,RZDxbt,solana,1231,548,683,1467532.92,140,"BP, Euler, ZEC, HAMSTER, PONS",sol:2429 | robinhood:25
-54,GuavaGuy2001,bsc,290,102,188,402623.17,71,"Bonk, ALLINU, gork, Ralph, 我的刀盾",bsc:33 | sol:508
-55,aki11a,hood,166,84,82,279887.93,51,"NEARKAT, PONS, WOJAK, AI, SWITCHED",robinhood:189 | sol:267
-56,0xsneakky,solana,2955,1026,1927,1944389.52,824,"BP, NiggaButt, AEVA, BIDET, JMI",sol:5000 | robinhood:229
-57,Lingard0x,base,507,239,266,764762.93,86,"ZEC, airtime, DLVRD, baton, ZODL",base:210 | sol:907
-58,kb,hood,176,86,90,83104.33,62,"ALLINU, MAKEIT, ZEC, LiQiT, HAROLD",robinhood:40 | sol:261
-59,beetle,bsc,612,203,322,960588.93,97,"ZEC, Momota, GTA, ZC, GOVC",bsc:515 | sol:518
-60,cryptochi3f_,hood,1147,560,587,453803.96,235,"RUM, GME, ZEC, JMI, PONS",robinhood:123 | sol:1730
-61,BtheBezel,solana,2409,1099,1309,1625102.31,542,"Fomo, SENSE, DOGGO, Baby, BROOKE",sol:3531 | robinhood:179
-62,facap_,hood,679,291,388,945433.81,103,"BP, GME, ZEC, PONS, JTVO",robinhood:331 | sol:1199
-63,Samisa_btc,hood,1805,892,913,406303.8,569,"Punch, WW11, AK, CIA, NIKKI",robinhood:135 | sol:2216
-64,omakase,solana,1911,913,997,2087084.42,322,"SEWAGECOIN, RUM, DOGGO, BIO, SLAWTH",sol:3385 | robinhood:230
-65,jols,hood,24,5,19,48930.88,6,"PONS, AI, TIBBIR, BONER, NOSH",robinhood:72
-66,dtrains,solana,427,195,232,757903.48,58,"BP, ALLINU, BABYZCAT, ZEC, MASK",sol:969
-67,testaccount,hood,3,0,3,427.89,1,AI,robinhood:13
-68,user,solana,3067,1707,1360,3175864.33,563,"BP, hwg, CIA, LAUNCHNEAR, JupUSD",sol:5000 | robinhood:721
-69,BTCdayu,hood,13,0,13,29585.58,11,"EARN, MU, PONS, CEST, NVDA",robinhood:46 | sol:0
-70,dreamloaderxo,solana,3194,2207,987,1565875.12,265,"Bonk, PLANB, HIMS, Pygoscelis , o",sol:5000 | robinhood:669
-71,end837,hood,16,2,14,12523.05,8,"MU, NVDA, MOO, QQQ, TOP",robinhood:127
-72,tremendoustoad,solana,298,104,194,985002.86,42,"BP, SPYx, ZEC, BTC, HAMSTER",sol:643
-73,naP0Liano,ethereum,158,111,47,73986.51,18,"MET, HOTBOT, WBTC, xSOL, GENIE",eth:15 | sol:357
-74,sadcrissy,solana,2543,763,1780,1598951.34,144,"BP, Bonk, GAY, baton, CAPY",sol:5000
-75,ventikohi,solana,116,59,57,254639.29,52,"BP, ALLINU, PARASITE, VEIL, SOLCAT",sol:210 | robinhood:51
-76,ionnnnn_,solana,506,268,238,513213.98,94,"Bonk, BP, HIMS, ZEC, LEVERAGE",sol:1004 | robinhood:35
-77,mrfernando88,solana,544,235,309,671952.68,125,"ZEC, ART, Willy, RING, SAPLING",sol:944
-78,carve,solana,1775,949,826,1441056.47,372,"BP, RUM, DNUTS, Sift, BLUE",sol:3265
-79,kv4rl,base,30,3,27,25712.17,10,"AAPLc, VEIL, Ratspeak, VVV, plumber",base:113
-80,BitCloutCat,solana,287,156,131,423930.34,137,"BP, RLM, SILLY, MARIO64, CHATXOS",sol:448 | robinhood:44
-81,gameplay,hood,2127,709,1418,1508075.32,216,"BP, ORDR, Bonk, ZEC, SESTRI",robinhood:631 | sol:2706
-82,ResellCalendar,solana,3267,1315,1952,2877740.86,830,"BP, CASHDINO, PMF, KK, SAM",sol:5000 | robinhood:95
-83,yeon__,solana,297,191,106,433043.68,71,"MET, SPYx, ZDOG, SXSI, ZEC",sol:595
-84,rainnen23,solana,194,80,113,267774.46,75,"MET, ALLINU, juicelee, MPAIR, GOOGL",sol:332 | robinhood:34
-85,frankdegods,solana,2785,1461,1324,9254271.29,731,"BP, MARIO64, Punch, SAM, GTA",sol:5000 | robinhood:295
-86,derekz,ethereum,382,251,131,1431782.17,53,"BP, ALLINU, Bonk, MET, BTC",eth:5 | sol:949
-87,ExactTallTakin,solana,507,340,167,534536.99,97,"SAM, https, KYCPAD, AUTON, BLUF",sol:717
-88,Pasterniq,solana,328,191,137,1009787.91,51,"SPYx, HIMS, Sacabambaspis, $WIF, GO",sol:678
-89,frogmanhaha,solana,0,0,0,0.0,0,,sol:0
-90,idealplumtoad,solana,1737,795,942,1589183.28,378,"Punch, JUAN, BROOKE, hwg, CIA",sol:2672
-91,AnselFang,solana,65,21,44,631473.09,4,"STONK, HYPE, CTO, PURR",sol:188
-92,wukong,bsc,56,0,56,301801.53,5,"牛来, QQQB, MarsCoin, FLORK, SPCXB",bsc:178
-93,0xSporadic,hood,17,0,16,3876.58,10,"MU, PONS, ORCL, WICKR, COUPONS",robinhood:24
-94,solarfirmdingo,solana,265,137,128,484254.55,95,"JTVO, PVE , Method, WORLDCUP, YUGIOH",sol:474
-95,ether_monk,bsc,41,0,41,1994.17,17,"BNBDOG, QQQB, FXIon, BREW, BITCAT",bsc:66
-96,lowrivalrat,hood,14,0,14,26278.21,8,"PONS, Titan, AI, SPCX, DEED",robinhood:67
-97,lowgrandcrane,ethereum,1,0,1,1145.01,1,FWA,eth:1
-98,boosted,robinhood,0,0,0,0.0,0,,robinhood:0 | sol:0
-99,CryptoZachLA,robinhood,0,0,0,0.0,0,,robinhood:0 | sol:0
-100,XbtPika,robinhood,0,0,0,0.0,0,,robinhood:0 | sol:0
+rank,handle,primary_chain,total_swaps,new_swaps_synced,chain_breakdown,buy_count,sell_count,total_volume_usd
+1,theunipcs,hood,938,789,sol:248 | bsc:603 | robinhood:77 | eth:2 | base:8,60,491,742697.28
+2,pointfarmcap,solana,2574,133,sol:2481 | bsc:71 | robinhood:10 | base:12,2048,484,774319.57
+3,theveeman,solana,1248,876,sol:600 | robinhood:42 | bsc:567 | eth:3 | base:36,226,1022,807952.81
+4,The__Solstice,solana,1714,811,sol:1472 | robinhood:36 | bsc:25 | base:181,994,719,857437.25
+5,DumbCrayonEater,hood,562,101,eth:1 | sol:486 | bsc:19 | robinhood:17 | base:39,314,245,266533.27
+6,0xAvast,bsc,297,22,sol:194 | bsc:94 | robinhood:5 | eth:2 | base:2,92,204,465974.39
+7,Chubbi230,hood,195,2,robinhood:43 | sol:150 | bsc:2,118,77,146321.08
+8,Salem1299534,hood,473,247,robinhood:79 | sol:280 | bsc:52 | base:54 | eth:8,196,275,3049490.47
+9,AvgJoesCrypto,hood,293,86,eth:12 | base:34 | robinhood:53 | sol:193 | bsc:1,87,206,242522.12
+10,PoorGoat_,solana,1560,142,bsc:133 | sol:1417 | robinhood:9 | base:1,766,659,695348.64
+11,econoar,hood,551,98,eth:5 | robinhood:106 | sol:408 | bsc:19 | base:13,327,215,2132319.32
+12,FullPinkYak,solana,398,279,sol:295 | bsc:85 | robinhood:3 | base:15,177,221,609618.48
+13,gajria,hood,29,40,eth:1 | robinhood:6 | base:3 | sol:12 | bsc:7,2,27,180800.25
+14,Natan_benish,hood,35,15,robinhood:1 | bsc:1 | sol:22 | base:11,15,19,1202.29
+15,RugDalio,hood,540,26,sol:470 | robinhood:59 | bsc:7 | eth:1 | base:3,197,343,318397.05
+16,0xdetweiler,solana,3564,1337,robinhood:119 | sol:2730 | eth:1 | bsc:92 | base:622,1358,2201,4905935.41
+17,lordarbiter,hood,103,137,robinhood:22 | sol:63 | bsc:14 | base:4,48,55,71095.02
+18,motiyawerey,solana,1464,85,sol:1383 | bsc:39 | robinhood:38 | eth:3 | base:1,783,681,1473629.57
+19,brrrgrrrz,hood,1487,163,robinhood:21 | sol:1370 | base:1 | bsc:95,731,754,1028713.22
+20,soby0x,hood,151,57,sol:75 | robinhood:37 | bsc:36 | eth:1 | base:2,49,93,487769.64
+21,Quanterty,bsc,395,38,sol:191 | bsc:191 | robinhood:10 | base:3,113,137,1001779.95
+22,bigbabbajohnson,solana,3992,1619,sol:2973 | eth:12 | bsc:324 | base:539 | robinhood:144,1894,2088,4120867.48
+23,changefomo,hood,2855,1978,eth:1 | sol:2139 | robinhood:33 | bsc:31 | base:651,1572,1256,3955729.95
+24,0xnobi,hood,1140,98,sol:1071 | robinhood:20 | base:45 | bsc:4,700,431,262001.31
+25,seralberttrades,hood,1727,1054,sol:1157 | robinhood:122 | bsc:281 | base:158 | eth:9,652,1074,2399224.7
+26,visionary,solana,15,0,sol:11 | robinhood:4,10,5,18758.87
+27,pricedin,hood,114,49,robinhood:13 | eth:9 | sol:90 | base:1 | bsc:1,71,42,204035.64
+28,clam,hood,457,213,robinhood:86 | sol:285 | bsc:2 | base:84,275,182,209507.06
+29,kyle,hood,754,464,robinhood:264 | base:144 | eth:31 | bsc:74 | sol:241,169,585,450651.25
+30,0xRareDualJay,hood,770,260,robinhood:311 | sol:329 | bsc:89 | eth:11 | base:30,180,590,342067.35
+31,CardinalSaint2,hood,455,40,sol:412 | robinhood:32 | bsc:11,214,241,325202.58
+32,zeri_term,solana,541,11,sol:532 | eth:5 | robinhood:2 | base:2,240,301,571673.29
+33,TheDazzleNovak,solana,560,50,sol:512 | robinhood:23 | eth:4 | bsc:17 | base:4,250,310,624424.39
+34,TheOnlyOMP,solana,507,116,sol:484 | robinhood:6 | base:17,256,251,388170.3
+35,RowdyCrypto,solana,1110,722,sol:794 | eth:23 | bsc:196 | robinhood:49 | base:48,399,710,3196490.19
+36,boosteryting,solana,3170,861,sol:2551 | bsc:495 | eth:17 | robinhood:29 | base:78,1362,1797,838984.06
+37,USronaldcarter,solana,804,12,sol:802 | base:2,451,353,892139.34
+38,lp1,hood,974,1452,robinhood:67 | base:136 | sol:770 | bsc:1,530,444,167946.21
+39,notanicecat69,hood,648,37,robinhood:80 | sol:557 | eth:2 | bsc:4 | base:5,275,373,1289086.48
+40,LehmanFarters,hood,67,36,robinhood:45 | sol:21 | eth:1,13,48,149919.22
+41,montyMole44,hood,243,47,sol:199 | robinhood:4 | bsc:39 | base:1,118,125,75292.54
+42,carlwheezor,hood,4074,630,sol:3693 | base:366 | bsc:15,1852,2222,1142568.26
+43,Tekkerrss,solana,3144,663,sol:2789 | robinhood:86 | bsc:211 | eth:7 | base:51,1745,1399,1244327.12
+44,cosby,hood,214,85,robinhood:144 | sol:47 | bsc:16 | base:7,50,164,347366.0
+45,0x_Leo_,solana,489,255,base:42 | sol:421 | robinhood:17 | bsc:9,257,232,3042520.92
+46,kingofgotham,solana,94,4,eth:1 | sol:83 | robinhood:9 | base:1,73,21,251762.55
+47,Milliardi,solana,115,55,sol:100 | robinhood:3 | eth:1 | bsc:11,55,60,664520.34
+48,Bull_Path,solana,541,248,sol:449 | bsc:64 | robinhood:9 | base:19,307,234,574455.56
+49,macdegods,solana,1969,543,robinhood:56 | eth:12 | sol:1698 | base:84 | bsc:119,1131,834,2900494.76
+50,NachSOL,ethereum,1993,1220,sol:1635 | robinhood:168 | eth:15 | bsc:140 | base:35,903,1088,3323907.47
+51,OinkersRUs,solana,2217,261,sol:2018 | robinhood:55 | bsc:42 | eth:3 | base:99,910,1301,1417666.53
+52,looc,hood,3118,774,sol:2517 | eth:54 | robinhood:329 | bsc:133 | base:85,1397,1714,4203892.11
+53,RZDxbt,solana,1273,84,sol:1225 | eth:3 | bsc:33 | robinhood:10 | base:2,549,724,1519642.82
+54,GuavaGuy2001,bsc,314,53,eth:7 | robinhood:11 | bsc:21 | sol:269 | base:6,107,207,516260.2
+55,aki11a,hood,204,85,bsc:7 | sol:145 | robinhood:24 | base:28,92,112,363586.94
+56,0xsneakky,solana,3576,1063,sol:2836 | eth:29 | bsc:298 | robinhood:141 | base:272,1065,2499,2435070.47
+57,Lingard0x,base,632,492,bsc:73 | sol:456 | robinhood:52 | base:51,243,387,1022599.83
+58,kb,hood,189,19,sol:164 | robinhood:14 | bsc:10 | base:1,87,101,89163.37
+59,beetle,bsc,783,914,bsc:329 | base:154 | sol:283 | robinhood:11 | eth:6,222,474,1105816.68
+60,cryptochi3f_,hood,1419,448,sol:1067 | robinhood:80 | base:63 | bsc:209,565,851,530515.56
+61,BtheBezel,solana,2730,596,robinhood:55 | sol:2357 | bsc:140 | eth:2 | base:176,1145,1582,1780145.52
+62,facap_,hood,732,122,sol:595 | bsc:13 | robinhood:85 | base:33 | eth:6,293,439,1020902.5
+63,Samisa_btc,hood,1938,200,robinhood:65 | sol:1741 | eth:9 | bsc:35 | base:88,919,1019,449090.56
+64,omakase,solana,1999,215,sol:1874 | robinhood:58 | eth:6 | bsc:51 | base:10,926,1072,2201987.95
+65,jols,hood,304,392,base:4 | bsc:27 | sol:249 | robinhood:24,154,150,143957.99
+66,dtrains,solana,438,27,sol:430 | robinhood:2 | base:4 | bsc:2,196,241,770706.21
+67,testaccount,hood,376,693,sol:273 | robinhood:3 | base:12 | bsc:88,141,235,525907.81
+68,user,solana,3518,1159,sol:2920 | robinhood:172 | eth:17 | bsc:143 | base:266,1788,1725,3825224.56
+69,BTCdayu,hood,70,165,robinhood:13 | bsc:43 | base:13 | eth:1,2,68,162587.16
+70,dreamloaderxo,solana,3522,821,sol:2922 | eth:18 | bsc:200 | robinhood:296 | base:86,2237,1282,1821724.92
+71,end837,hood,56,50,sol:40 | robinhood:16,39,17,71134.21
+72,tremendoustoad,solana,301,4,sol:298 | robinhood:3,104,197,985020.6
+73,naP0Liano,ethereum,187,52,sol:151 | bsc:18 | eth:7 | robinhood:11,118,69,102961.71
+74,sadcrissy,solana,4143,3830,sol:2544 | bsc:948 | robinhood:11 | base:640,802,3337,2457090.05
+75,ventikohi,solana,130,37,sol:93 | robinhood:23 | bsc:7 | base:7,59,71,289592.92
+76,ionnnnn_,solana,532,68,sol:492 | eth:7 | robinhood:14 | bsc:19,268,264,540563.1
+77,mrfernando88,solana,634,147,sol:554 | bsc:65 | robinhood:14 | base:1,240,394,734735.21
+78,carve,solana,1839,177,sol:1776 | eth:5 | robinhood:31 | bsc:26 | base:1,951,888,1490224.79
+79,kv4rl,base,139,243,eth:2 | sol:102 | robinhood:5 | base:30,59,80,277582.44
+80,BitCloutCat,solana,358,151,sol:276 | bsc:59 | eth:1 | robinhood:13 | base:9,156,196,535651.51
+81,gameplay,hood,2840,1454,sol:1641 | robinhood:493 | eth:44 | base:656 | bsc:6,780,2047,2115150.04
+82,ResellCalendar,solana,4184,1503,bsc:72 | sol:3245 | eth:4 | robinhood:32 | base:831,1474,2694,3677388.01
+83,yeon__,solana,594,777,sol:298 | bsc:206 | robinhood:40 | base:48 | eth:2,197,396,1078811.72
+84,rainnen23,solana,269,263,sol:176 | robinhood:18 | bsc:24 | base:51,90,178,397178.12
+85,frankdegods,solana,3256,1313,sol:2723 | eth:11 | robinhood:64 | base:143 | bsc:315,1506,1743,10695883.67
+86,derekz,ethereum,521,672,sol:385 | eth:5 | robinhood:46 | base:6 | bsc:79,254,267,1882009.99
+87,ExactTallTakin,solana,537,55,sol:514 | bsc:15 | robinhood:8,347,190,538490.44
+88,Pasterniq,solana,997,1863,sol:329 | bsc:596 | robinhood:28 | eth:6 | base:38,197,799,2553579.24
+89,frogmanhaha,solana,12,20,bsc:7 | robinhood:2 | base:3,0,9,13457.29
+90,idealplumtoad,solana,1750,16,sol:1737 | base:12 | bsc:1,796,954,1600439.68
+91,AnselFang,solana,117,158,robinhood:2 | base:34 | sol:65 | bsc:16,27,90,772921.24
+92,wukong,bsc,92,79,bsc:56 | sol:29 | base:7,6,86,551769.73
+93,0xSporadic,hood,140,261,robinhood:17 | sol:116 | bsc:3 | base:4,59,80,192930.6
+94,solarfirmdingo,solana,329,114,sol:265 | robinhood:19 | eth:1 | bsc:9 | base:35,140,189,628123.78
+95,ether_monk,bsc,252,299,sol:206 | bsc:41 | base:5,115,136,45083.92
+96,lowrivalrat,hood,65,89,robinhood:14 | sol:46 | bsc:4 | base:1,37,28,84661.67
+97,lowgrandcrane,ethereum,25,77,robinhood:11 | base:13 | eth:1,1,24,24437.15
+98,boosted,robinhood,0,0,,0,0,0.0
+99,CryptoZachLA,robinhood,0,0,,0,0,0.0
+100,XbtPika,robinhood,0,0,,0,0,0.0

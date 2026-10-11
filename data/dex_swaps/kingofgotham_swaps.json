@@ -1,6 +1,44 @@
 {
   "activities": [
     {
+      "wallet": "0x594d505cf81a5083b5bfb860ca0e1f206a236d1e",
+      "chain": "eth",
+      "tx_hash": "0x1d2dc682f98eac47c50516c38d90a07f0c2c4469ccfa5676b6fd2fef9d90c820",
+      "timestamp": 1791650867,
+      "event_type": "sell",
+      "token": {
+        "address": "0x1b54e762aa34cf6e28e9c082f2848e28e45da6b8",
+        "symbol": "CLAUS",
+        "logo": "https://gmgn.ai/external-res/d82fd24959d44be26c7d70badb96f567_v2.webp",
+        "total_supply": "994300094.6358658"
+      },
+      "token_amount": "241414.7044469163",
+      "quote_amount": "2022.782758",
+      "cost_usd": "2022.782758",
+      "buy_cost_usd": "2997.0002395407573",
+      "price_usd": "0.008378871380822545",
+      "price": "0.008378871380822545",
+      "is_open_or_close": 0,
+      "quote_token": {
+        "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logo": "https://gmgn.ai/external-res/4f16b3a2e75ccf0e01bf47ad742b9507_v2.webp"
+      },
+      "quote_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "from_address": "",
+      "to_address": "",
+      "gas_native": "0.000053849726981968",
+      "gas_usd": "0.1350093430028423",
+      "dex_native": "0",
+      "dex_usd": "0",
+      "priority_fee": "0",
+      "tip_fee": "0",
+      "launchpad": "programmable",
+      "launchpad_platform": "programmable_custom"
+    },
+    {
       "wallet": "2jANbCxjjouGqxYghVRVQHJiUMgjS9WtXapgg6DqzS9r",
       "chain": "sol",
       "tx_hash": "4wcc9h8sXxssN5t3ZuCBdzmjVGgbtweQkX1qhohsqzm4W8vRNVrY8dp3fXttVv5yYhB5FekrasLDh1Whr5MrEoeS",
@@ -3419,6 +3457,44 @@
       "tip_fee": "0",
       "launchpad": "pump",
       "launchpad_platform": "Pump.fun"
+    },
+    {
+      "wallet": "0x594d505cf81a5083b5bfb860ca0e1f206a236d1e",
+      "chain": "base",
+      "tx_hash": "0xf43d980f1174b8517b15dc018d3ab2ff5acc24d83c5ab6a93699db187b60a5b8",
+      "timestamp": 1784344387,
+      "event_type": "sell",
+      "token": {
+        "address": "0x8c81b4c816d66d36c4bf348bdec01dbcbc70e987",
+        "symbol": "BRIUN",
+        "logo": "https://gmgn.ai/external-res/79e1c0d0def510e164d5fe6b14bd2c4e_v2.webp",
+        "total_supply": "1000000000"
+      },
+      "token_amount": "18263.939265307363",
+      "quote_amount": "0.011357981409108082",
+      "cost_usd": "20.915609185058443",
+      "buy_cost_usd": "20.91119887588994",
+      "price_usd": "0.0011451860894429052",
+      "price": "0.000000621880156527",
+      "is_open_or_close": 1,
+      "quote_token": {
+        "token_address": "0x4200000000000000000000000000000000000006",
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "decimals": 18,
+        "logo": "https://gmgn.ai/external-res/3bfb259089b2f978b1878ffff8e9fd37_v2.webp"
+      },
+      "quote_address": "0x4200000000000000000000000000000000000006",
+      "from_address": "",
+      "to_address": "",
+      "gas_native": "0.000002394967753559",
+      "gas_usd": "0.0044103091685021",
+      "dex_native": "0",
+      "dex_usd": "0",
+      "priority_fee": "0",
+      "tip_fee": "0",
+      "launchpad": "",
+      "launchpad_platform": ""
     },
     {
       "wallet": "2jANbCxjjouGqxYghVRVQHJiUMgjS9WtXapgg6DqzS9r",
