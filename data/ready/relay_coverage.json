@@ -1,0 +1,2511 @@
+[
+  {
+    "queried_wallet": "0x0a6ebed0155edb4b21d92ad02897a626cd90119e",
+    "original_handles": [
+      "theunipcs"
+    ],
+    "status": "paused",
+    "requests_count": 100,
+    "pages": 2,
+    "source_eof": false,
+    "continuation": "MTc5MTM5NzM0MC4xMDE0MDBfMHgxNzkxMzk3MzM1ZjMzZDM5N2ZhODlmMGI1OTYyMjQyZTMxM2M1ZjliNjhlZWIzNDQ3Njc4NzRmMTNmODhkM2Vi",
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "2heJbC32Tpfcb3nbUb5ER61K11FGZVfVGtVnDm6LDogF",
+    "original_handles": [
+      "theunipcs"
+    ],
+    "status": "paused",
+    "requests_count": 100,
+    "pages": 2,
+    "source_eof": false,
+    "continuation": "MTc5MDg1Njk2MC4zODMyODhfMHgxNzkwODU2OTQzZjM5YWJiYThjZmI0YTYyZDMzZGZlNWViMmFjOWI5YTdlZGRhMjQ3ZTIxZjBkZDYyMDhkN2My",
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xfd87eda88be6c372453b721da63d58ad1a5b2d94",
+    "original_handles": [
+      "pointfarmcap"
+    ],
+    "status": "error",
+    "requests_count": 0,
+    "pages": 0,
+    "source_eof": false,
+    "continuation": null,
+    "error": "Relay API request failed for user=0xfd87eda88be6c372453b721da63d58ad1a5b2d94 after 1 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "Beqv6dzTcjV2eodo8RRXCiCcnSYrS1vkQKhfqwHXqeit",
+    "original_handles": [
+      "pointfarmcap"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xa0670863bd5cd0d60022bab2eed78e81e1a06bce",
+    "original_handles": [
+      "theveeman"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "F5hkYsi8JxjyA2JHN5CA7MbnnhWubkXB2ZQB7Gkaxqs6",
+    "original_handles": [
+      "theveeman"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xd1c77a04b87393e98a1220532e72e8f7d0a31c5a",
+    "original_handles": [
+      "The__Solstice"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "4ugDhHJ8XDXAeABmrNmGffFaLbJb9BkPyiFGVSV9ocwo",
+    "original_handles": [
+      "The__Solstice"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x8f62a08537cede87d511aca6436274ab4ca080a3",
+    "original_handles": [
+      "DumbCrayonEater"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "5FGoPPj1nL8LCnfVnpTmreqQtqLuMXXAwuS1uahMrp8V",
+    "original_handles": [
+      "DumbCrayonEater"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xcc0c581613dfd4ace7c8686668427236f8bd5cc5",
+    "original_handles": [
+      "0xAvast"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "8xL8S7P4QLdTGRquHas8NP5EVjp2qUGbmSgrkh97mvmq",
+    "original_handles": [
+      "0xAvast"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x8405a524d977d0998c8b585ad98d6edc41cdc943",
+    "original_handles": [
+      "Chubbi230"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "31nAKhDacwtF7WJAfpNBY5yziuboox6zcLhdmMRTNdyW",
+    "original_handles": [
+      "Chubbi230"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xb8f305f27ccc406373de0082cc06cb1d065504ea",
+    "original_handles": [
+      "Salem1299534"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "2yXwy5Dsa1XtEXcsrkFVRJeyuWD3qKkMN3pP3p5VTW3V",
+    "original_handles": [
+      "Salem1299534"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x06de9c48b1e639ed5c13ec8fbd4080a38e39f2d1",
+    "original_handles": [
+      "AvgJoesCrypto"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "H2QSGECp13sFLJgdTsDtayX3dk18Dm6sQMSQKcew7Xzk",
+    "original_handles": [
+      "AvgJoesCrypto"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x9ce0cb4a193acbce0dca3283972341aed6f3f614",
+    "original_handles": [
+      "PoorGoat_"
+    ],
+    "status": "error",
+    "requests_count": 350,
+    "pages": 7,
+    "source_eof": false,
+    "continuation": "MTc4NTE3NDYwNi4xMDQwNjJfMHhiMDZmNDM0OTM0ZjJjODM3ZTZkZmViNmE5ODJkNjJlZjc5ZmIzMGVkOGFmZDFjN2E5YmMxY2EwMjI2OTdmNDEw",
+    "error": "Relay API request failed for user=0x9ce0cb4a193acbce0dca3283972341aed6f3f614 after 5 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "HDixbrzwwLXczhDBk1JVrurPQsuLE8FUKnW2pucSXN3o",
+    "original_handles": [
+      "PoorGoat_"
+    ],
+    "status": "error",
+    "requests_count": 150,
+    "pages": 3,
+    "source_eof": false,
+    "continuation": "MTc4NjAxMTU0NS45NTU1NDlfMHgwOWIwZWQxNDA4ZDhiMGM4ZDBkZWQ4N2E0NTg0N2I3NGRiODE2MzYxYTMzMmQ5NDhlODFkY2Y1MmJmODQxNGJk",
+    "error": "Relay API request failed for user=HDixbrzwwLXczhDBk1JVrurPQsuLE8FUKnW2pucSXN3o after 5 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x1605b59dfe3c1742c815d604aab6a2faa3a5c91f",
+    "original_handles": [
+      "econoar"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "7sQJttJLutWjHkxbusTgE4GpSj5z4fegouv2USHDFN2H",
+    "original_handles": [
+      "econoar"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x2ed589426559024110e203a05a27efb49f4ed093",
+    "original_handles": [
+      "FullPinkYak"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "FWSPXhQAD57hXJBNsWRkYupwQ4grQrr75JiWM6CqzHva",
+    "original_handles": [
+      "FullPinkYak"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xd4cf04bc9d7c80b49c6c30a633f7b9bd5370b4d6",
+    "original_handles": [
+      "gajria"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "D9tPQeij7vSTZwkxzxZibso4GFuRW8aBMpCg5QhCSfVL",
+    "original_handles": [
+      "gajria"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x1890e719822bc704c4f117aa4109401c2bab6f79",
+    "original_handles": [
+      "Natan_benish"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "DCeH3aCsstGUSxQqS72VBZwTydoor1nQ6dWaxrgGQk39",
+    "original_handles": [
+      "Natan_benish"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xaf3a73c19118409936bdea72fd975c7539f85359",
+    "original_handles": [
+      "RugDalio"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "Ak6gsstZwaRDYKnzdyNg2HvCXDFvv21afjVix9VGRMQv",
+    "original_handles": [
+      "RugDalio"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x838a336d19ae121a0ca754ebbdd57282de656dfa",
+    "original_handles": [
+      "0xdetweiler"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "EC2f5DnHzuNRit1ExqghSifDbp1wgrzktsRRZCtU92MJ",
+    "original_handles": [
+      "0xdetweiler"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x712b009be8006d28738fd4810ee1440e277bae03",
+    "original_handles": [
+      "lordarbiter"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "9EhcDGGJ6NpetxNumZKwD1o1kuHBwvfNGKrmS6zekP7C",
+    "original_handles": [
+      "lordarbiter"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xe07be4390e3478e12cb1124ed011e769a3366e16",
+    "original_handles": [
+      "motiyawerey"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "DmopudSGaQQenK4cW5NgmHUsexMB3sEJNn6n1EfLKs28",
+    "original_handles": [
+      "motiyawerey"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x8e4f5d00a5f4d7877a0f66b98fdf9d40323bc52a",
+    "original_handles": [
+      "brrrgrrrz"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "GFRjGNXY8JrGSPC46inqrH4XPdUFMDLkE1oNm1nXiPsJ",
+    "original_handles": [
+      "brrrgrrrz"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x0f9a7a53b36daf1f52fe7a616ea4b25c532d2fd2",
+    "original_handles": [
+      "soby0x"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "5opd5KBmodmoNuAThQ5cmXKbRxHbQDfomWGKAs3uEUP9",
+    "original_handles": [
+      "soby0x"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x0121525f755c9e7bbc525bba6672716ab46ced57",
+    "original_handles": [
+      "Quanterty"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "8f39XhhZoRD8sYb6K5K9N7iSHXkL7BDmFFQNDF3TtsEr",
+    "original_handles": [
+      "Quanterty"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x194db29f5bebacf3201abc9dbdda452116a3ff23",
+    "original_handles": [
+      "bigbabbajohnson"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "mDR91ufq4S2uSHa9E2PYL7xg4LwcQXaQFP7YK864a1z",
+    "original_handles": [
+      "bigbabbajohnson"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x92bff72e6c943a1348aedf15d68e758e811dec64",
+    "original_handles": [
+      "changefomo"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "J9WiAZKf8JnCkHFL8fLCCXdEgdoLjLRqU2EGsDjdqYga",
+    "original_handles": [
+      "changefomo"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x8afc1142f5d3ca6c55bbc8c81d0c9cdf2cce380c",
+    "original_handles": [
+      "0xnobi"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "7MjWHGVQNo9SAsAQqK2rAjoeCjefhwYQEy3UhggxakTU",
+    "original_handles": [
+      "0xnobi"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x91645809dd21c69aa6ffdb71c7b7d8a443a18fda",
+    "original_handles": [
+      "seralberttrades"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "Cqu5uKfKh6mSfqasYKGDYghGc7J54FAp9WCus9QnQSsR",
+    "original_handles": [
+      "seralberttrades"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xa98fdae24104a6fbf0799a15069caf749112790c",
+    "original_handles": [
+      "visionary"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "4JafciCHuforHqeWqBhK36DMCGbjbMMZRkvZKis74c4s",
+    "original_handles": [
+      "visionary"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x85d26724d4447a85ec1089b0a572c97f1ad476f3",
+    "original_handles": [
+      "pricedin"
+    ],
+    "status": "completed",
+    "requests_count": 251,
+    "pages": 6,
+    "source_eof": true,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "EU7FSVgkt8eZYV199enSCoQa3qoH6h6HP8v9BqpGDeG5",
+    "original_handles": [
+      "pricedin"
+    ],
+    "status": "error",
+    "requests_count": 150,
+    "pages": 3,
+    "source_eof": false,
+    "continuation": "MTc4OTM0NzcxOC42NjU5OTZfMHgxNzg5MzQ3NzE2Mzc4NDdiNmRlZjg4YzQyNDliOWMzZTlkNWUxOGE1YmUxYmZkMGM3ODRiMmI2YjE0ODJiMzk3",
+    "error": "Relay API request failed for user=EU7FSVgkt8eZYV199enSCoQa3qoH6h6HP8v9BqpGDeG5 after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xa8c6bdae9ba7e6371d839f4bdab94085b32c8c39",
+    "original_handles": [
+      "clam"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "Dx2HdT2RWCXqPGdH964JhzrSGdGMRQVY7n2jEYZt9njF",
+    "original_handles": [
+      "clam"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x39b337121494b10cffe3e581ab3281b2d62c5b08",
+    "original_handles": [
+      "kyle"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "EJ1izM56eBS5baVLk7Q4iaQvsgCPa3W5bZgc44wwHz8U",
+    "original_handles": [
+      "kyle"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xd67d64afc4e0337613cd31bd76b69e9887b7d26c",
+    "original_handles": [
+      "0xRareDualJay"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "AXN4A7HNzncqzD9KGSbiSzE58vqvQmQxn8jhfYCKx9ai",
+    "original_handles": [
+      "0xRareDualJay"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xb7749bd1a4b632f54b054a15a8066fd227fc938e",
+    "original_handles": [
+      "CardinalSaint2"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "HYh78tNpGBUcxoHgPU9v7VeP2wqSbkapuTzrfYHjfyLo",
+    "original_handles": [
+      "CardinalSaint2"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xa562df7d4a58b34c226d4d45d58379d06d03cd3e",
+    "original_handles": [
+      "zeri_term"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "3hHvAzxMs6cMYU638oeg6cGp1C1tqRF1VPWnDEZddEhL",
+    "original_handles": [
+      "zeri_term"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x33e2230066c8665c525b1b5a25f857e243086ac2",
+    "original_handles": [
+      "TheDazzleNovak"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "HspgvMUZf9AtZz6EiqL5wjFPaEDSDegGtqFqXE6MDNxm",
+    "original_handles": [
+      "TheDazzleNovak"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x33dcea75de7cde9aabbc76482b35964e600ae359",
+    "original_handles": [
+      "TheOnlyOMP"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "49MHZz9c1mE1ePTcLxBWPjf7KKzt3Ntd25JnspKvV8vL",
+    "original_handles": [
+      "TheOnlyOMP"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x03ba951f72e59899ac8dab30cb5624dbe5d52bb8",
+    "original_handles": [
+      "RowdyCrypto"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "CzU8MaRcwvwUoNkwJFLbvtFWJugcEXAhDDQqNFE4ybb7",
+    "original_handles": [
+      "RowdyCrypto"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x5b30d0e72d624e0717d038a1982c88062c97de9a",
+    "original_handles": [
+      "boosteryting"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "EVqxB3F6iUBeWsTpBFQqWwxpqUS8s4NrzgxBvQ2VRbTq",
+    "original_handles": [
+      "boosteryting"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x1aec990ecf787863cf08f6e530d0a89affe8dc3e",
+    "original_handles": [
+      "USronaldcarter"
+    ],
+    "status": "error",
+    "requests_count": 250,
+    "pages": 5,
+    "source_eof": false,
+    "continuation": "MTc4ODEwNTQzMi4xMjk2MjhfMHgxNzg4MTA1NDI2OWZjNjhiMDliNmRiOTUzOWVhNDEyZGE0ZTlkMTY1NTU2ZjA3OTVlNTI1MGViNTUwYTEyNTcw",
+    "error": "Relay API request failed for user=0x1aec990ecf787863cf08f6e530d0a89affe8dc3e after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "6CpipySaXTAiUKDyyhWeCfYSMQLCiHrbCN1WvRv5s8kF",
+    "original_handles": [
+      "USronaldcarter"
+    ],
+    "status": "error",
+    "requests_count": 450,
+    "pages": 9,
+    "source_eof": false,
+    "continuation": "MTc4Nzc2NjI0OS44MjQzNjJfMHgzNjBlYTM4YmNlMmM2M2MwYzc0Y2JkYzAyNDAxNmY0ZTIxNTZhNmMwM2QzZWZhNjE4OWQyNGI1NGIzMDJiYmY5",
+    "error": "Relay API request failed for user=6CpipySaXTAiUKDyyhWeCfYSMQLCiHrbCN1WvRv5s8kF after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x1fce5a5d5b00c8a8cd80e8bdc608ebf8eb17cd7e",
+    "original_handles": [
+      "lp1"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "2FhGQ8XSxoeM8PFGg14QdkWGwdukyEoXa36Qags2m5uw",
+    "original_handles": [
+      "lp1"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xb02208d1b27811480cf6171bccc2b7af9513cddb",
+    "original_handles": [
+      "notanicecat69"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "7iPPqPyrqcmfenRs4xZ72ab4pyuUofXB5YaQB83WJmT9",
+    "original_handles": [
+      "notanicecat69"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x27d6a5a1d9a5e89bfce0239f08d9c95cf2256ebb",
+    "original_handles": [
+      "LehmanFarters"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "7aoGoRSexZu1DE4vC24CVo4SqWrBDeoJ34qLRGUsL9ha",
+    "original_handles": [
+      "LehmanFarters"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x68608b0c5c9781d7e38229fb67fd9ac450fecd23",
+    "original_handles": [
+      "montyMole44"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "J9k5KYANz5btiWVXWtjH28xvUTxfgo7ZbybcEUWLNsbd",
+    "original_handles": [
+      "montyMole44"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x52c754cbaa03a8cda2b3d125ec441f9d754da037",
+    "original_handles": [
+      "carlwheezor"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "ArNgsHnj485Qe8Y9YVbLL9Q4xmeejBxy4omdtpy5RRHU",
+    "original_handles": [
+      "carlwheezor"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xe2aa5249955645acd0cdcfc2b3c22fb73666b473",
+    "original_handles": [
+      "Tekkerrss"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "7UBjMaYsE3tKcanfgGrtso6aHAMhVNSVHkkX5j3t7f5y",
+    "original_handles": [
+      "Tekkerrss"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xf1882812aacac1df9a58195dbbd2f97fe48f81f2",
+    "original_handles": [
+      "cosby"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "HmLwYRdPE3QsSexagobJdjxcWFZgqrSXtsQUrRZLWqnB",
+    "original_handles": [
+      "cosby"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xeb0f432beecf10dcc828fc1e36a3386caf634637",
+    "original_handles": [
+      "0x_Leo_"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "3qBVJLMAWXCbW3nhz99T99in82zZeUHkbDeSDJThbN4Z",
+    "original_handles": [
+      "0x_Leo_"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x594d505cf81a5083b5bfb860ca0e1f206a236d1e",
+    "original_handles": [
+      "kingofgotham"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "2jANbCxjjouGqxYghVRVQHJiUMgjS9WtXapgg6DqzS9r",
+    "original_handles": [
+      "kingofgotham"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x8b1d384748b787efc3915ca02b8e7015b30fae3c",
+    "original_handles": [
+      "Milliardi"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "C4DKn6oqmJE8cZgPDU3X8N2S9MPFSjFSnUjv7WJCGxHh",
+    "original_handles": [
+      "Milliardi"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xe31abb7b23904c48a2efca4c3006da1a98723c7f",
+    "original_handles": [
+      "Bull_Path"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "F11mt2PsYTR7RF7hzfvFyeFbWREiCS3soa5pGbPX88Lb",
+    "original_handles": [
+      "Bull_Path"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x6150b917c11443d5c885ea6751db92a38fd4f5a4",
+    "original_handles": [
+      "macdegods"
+    ],
+    "status": "error",
+    "requests_count": 300,
+    "pages": 6,
+    "source_eof": false,
+    "continuation": "MTc4OTY1MDQ5My43NDg3ODJfMHgxNzg5NjUwNDkxNmUyYmM1Mjc5ZGE3ZWRlMjE1MzhhNDA0ZWQ5ZjI0MDJiMGQ3Yjg5Zjc1NDdlYmI3ZWEzZDEw",
+    "error": "Relay API request failed for user=0x6150b917c11443d5c885ea6751db92a38fd4f5a4 after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "5RZPhPW9qGEd3hRGibgYaF5Yk2jBzXR1VZMKSP71C3Lb",
+    "original_handles": [
+      "macdegods"
+    ],
+    "status": "error",
+    "requests_count": 400,
+    "pages": 8,
+    "source_eof": false,
+    "continuation": "MTc4ODk1OTA0MS40ODA5OTlfMHgxNzg4OTU5MDM5NTUxNWIwNGU2ZTE2MTczYThhNmUyOGE3YTFkYzUyODZkYjRlOGE3MWIwZWVjNTdmYmE5MDky",
+    "error": "Relay API request failed for user=5RZPhPW9qGEd3hRGibgYaF5Yk2jBzXR1VZMKSP71C3Lb after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x17fb03925acec7a799022ad5e268d2f27e9748b3",
+    "original_handles": [
+      "NachSOL"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "GAsnqm4XkNkPVgrAofNQ65jWf8f3tKCLHhE9ZqSy2AP1",
+    "original_handles": [
+      "NachSOL"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x4946384166c60244cf383927bd7d2536ed2ae962",
+    "original_handles": [
+      "OinkersRUs"
+    ],
+    "status": "error",
+    "requests_count": 200,
+    "pages": 4,
+    "source_eof": false,
+    "continuation": "MTc4OTY2MDg2MS41OTc5NjFfMHgxNzg5NjYwODU5NGZiNzBjNzFiODA1MTVkNmU2ZjMzZTZjOWNmMGI5MGVlNWI1ODdiOGQ2ZTFkNWVhYWFiZDZi",
+    "error": "Relay API request failed for user=0x4946384166c60244cf383927bd7d2536ed2ae962 after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "DPAN2Vig8BokpQCCu4mtV1mTWYLS7ktKe1hHKVBcsayL",
+    "original_handles": [
+      "OinkersRUs"
+    ],
+    "status": "error",
+    "requests_count": 250,
+    "pages": 5,
+    "source_eof": false,
+    "continuation": "MTc4OTQ5MjA5Mi40NTI3MjVfMHgxNzg5NDkyMDkwMWNiMzVhZjhkYjA3ZmNhOWM4ZmMxZjM4NzYxZTQ3YTEzNTVlNmMzZWZjZDQxYjBkNzk3NTIy",
+    "error": "Relay API request failed for user=DPAN2Vig8BokpQCCu4mtV1mTWYLS7ktKe1hHKVBcsayL after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xf83143c99163778a0021b35912b2fcd1006506c5",
+    "original_handles": [
+      "looc"
+    ],
+    "status": "error",
+    "requests_count": 350,
+    "pages": 7,
+    "source_eof": false,
+    "continuation": "MTc5MDg5NDA5NC4yODk2OTFfMHgxNzkwODk0MDkyZjI1NmM3YzU0ODE1ZDlhYjhmMjYwMDE0NGZiMDczNzQyNWM2ODc2YTVjMDg4OTFjMDg5NDkx",
+    "error": "Relay API request failed for user=0xf83143c99163778a0021b35912b2fcd1006506c5 after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "DyBKpVqM5GTXzd9w4V2xgHan5uurKbHzbUGduz2cxAha",
+    "original_handles": [
+      "looc"
+    ],
+    "status": "error",
+    "requests_count": 200,
+    "pages": 4,
+    "source_eof": false,
+    "continuation": "MTc5MTI4MDUxNC41NTEzNzlfMHgxNzkxMjgwNTAwZDczY2YyOTYzM2ZmZGU0NWRhNzdiMmVkNTU0NDBhNzM0YWE3NmZkN2U5OTg0ZjVmMGM5MTU0",
+    "error": "Relay API request failed for user=DyBKpVqM5GTXzd9w4V2xgHan5uurKbHzbUGduz2cxAha after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xafe3b520b70db0f7fb50d2e1fc00e9b837abc322",
+    "original_handles": [
+      "RZDxbt"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "5MfuqNSawthUL1qdJJTN8DauQvJYSUkuuZuySXuVc6Tz",
+    "original_handles": [
+      "RZDxbt"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x566dc593a1b15d5fdd8ef2a04f2c9acf3b0749b4",
+    "original_handles": [
+      "GuavaGuy2001"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "C481ZKiw4TZGs4EjNkhm6TB7s17swzmqAmCcNm73vGnW",
+    "original_handles": [
+      "GuavaGuy2001"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x3740315ddb76c09c873eddb71fcf3e2802991abe",
+    "original_handles": [
+      "aki11a"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "85o5GZhor1ygRCzGDNRcsRCJyiQ3daGTGYHNXvCTJ4J7",
+    "original_handles": [
+      "aki11a"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xe9132a6e4a610b796abba5fd4210911fafa55a22",
+    "original_handles": [
+      "0xsneakky"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "FfztZq1outrYfyYbKw5P4LGo4xUc4XYEdf7o91UdS7qu",
+    "original_handles": [
+      "0xsneakky"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xb3f815dac319bd560e535f6788f0d9ed9c73eb3e",
+    "original_handles": [
+      "Lingard0x"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "B9FJomxFnA5WauXkJdh4GBke3NAaGnC8nwEEW6sEGQ7y",
+    "original_handles": [
+      "Lingard0x"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xb832e0433ef093eeb789d77747197b5fe1ea3d34",
+    "original_handles": [
+      "kb"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "CZPVN8ucAkFfWUuKzGzL21Y6k1RvBo8bQLFHCcvi75z4",
+    "original_handles": [
+      "kb"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x0e17fc4e333958e7b259ab652f334b2f5bbdb27e",
+    "original_handles": [
+      "beetle"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "8RCEq8RrBJ1G6eji9vZqjtjQgkDjUHMysPtynZENWo7S",
+    "original_handles": [
+      "beetle"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xcb01c5f4697f555172bf1c2c5f52cde84a9480bb",
+    "original_handles": [
+      "cryptochi3f_"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "FF6vsaUcp4s95Q5NNm7VZ7deZU6gBU2vZmaiyQ36Ymrc",
+    "original_handles": [
+      "cryptochi3f_"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x15c6a76136b597c7896dca6da7b3319daffc987e",
+    "original_handles": [
+      "BtheBezel"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "HWYpE693cw8AWxHSynrHhUsKDbfzubAFYWpTcMZdNWKR",
+    "original_handles": [
+      "BtheBezel"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x696cba91fdc752171f7bb0a8e689c13212c77e03",
+    "original_handles": [
+      "facap_"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "6pqQAbupoEeFNsm3egPWqnWBGZUQ86x9eR7zTsiyWrCp",
+    "original_handles": [
+      "facap_"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xd73d6b8b9e875569c0f03c572a3806e619bcbec2",
+    "original_handles": [
+      "Samisa_btc"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "FS6zZg5zHTfwhwdqWBx7tmhZFmVnU8fAu9TYBFYoMGBg",
+    "original_handles": [
+      "Samisa_btc"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x6802190b213325612bc709b4972f7e6f408456a9",
+    "original_handles": [
+      "omakase"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "F5MYbjEATQFD6rxwdS2zXzEHBGuUhSGvJkUhLFAcr4hv",
+    "original_handles": [
+      "omakase"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x0bac76d5ed4274df7c7b7ce628151a922445639d",
+    "original_handles": [
+      "jols"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "AsVnRavmxdTHYEKdVygY8wz6kVGrUZzUyKYvSiDr8iBr",
+    "original_handles": [
+      "jols"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x742e3433fa40750a0eafb39fb7ffd75cd629f55f",
+    "original_handles": [
+      "dtrains"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "AgSELf8jkJYUfEpLNfUxpj3qf21tbLFdHsqvkHWjuYPC",
+    "original_handles": [
+      "dtrains"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xdb5cb33ccaf4a5c7f509b2e80f0ee9ed67861942",
+    "original_handles": [
+      "testaccount"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "FBqEkbfAFxAAGfSCZtxPQThomADu6qf1nd41Ao1E3xkH",
+    "original_handles": [
+      "testaccount"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xdce001e4ec11ab58650c51ae9658accbe0f49c48",
+    "original_handles": [
+      "user"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "2L17Sw85Lh2Ca7ejEzWqyJsZ3yS4DxQhYr52X5H5xRns",
+    "original_handles": [
+      "user"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xf21e2804f0a696eb3f005b6673704dfe5a0321c8",
+    "original_handles": [
+      "BTCdayu"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "8qzGWFhgccZCx9GtEv3iocp6jE4sGfspGUFu3qA2hMfP",
+    "original_handles": [
+      "BTCdayu"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xf75f2f708e489299c992349a73baec209b400aa0",
+    "original_handles": [
+      "dreamloaderxo"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "4KFjw2xfH4cXJJKjG1jDZRNphctZPMoFz3K6r3bAVtmD",
+    "original_handles": [
+      "dreamloaderxo"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x24fb52e17e3d4fd62a119b8f53c1a3f3bfe65c2f",
+    "original_handles": [
+      "end837"
+    ],
+    "status": "completed",
+    "requests_count": 197,
+    "pages": 4,
+    "source_eof": true,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "5DBkonys2H4qHr5x9CCeXPLSWEFbnnLFP1RdfxjJgzvy",
+    "original_handles": [
+      "end837"
+    ],
+    "status": "error",
+    "requests_count": 200,
+    "pages": 4,
+    "source_eof": false,
+    "continuation": "MTc4NjQ2NzMxMC4xNDc2NDhfMHgyYTNkODE1YTdjZDI3MDQ1MTQzMTM2ZWZjYzJkYjZlMzAxMDhiZmM1OTIxZGYwMTQxZGM5MTJiNGQwNjhmZjFj",
+    "error": "Relay API request failed for user=5DBkonys2H4qHr5x9CCeXPLSWEFbnnLFP1RdfxjJgzvy after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xbd0543e384ed7f650915d2499d7935b0e52a3640",
+    "original_handles": [
+      "tremendoustoad"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "Dw3LY8NnG3BB1EEXCNJwAKtVoEE7faEYiygYNHfFPNb1",
+    "original_handles": [
+      "tremendoustoad"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xae91bb08fda02cf7f097d2d90b4230dbd7abf8be",
+    "original_handles": [
+      "naP0Liano"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "7c7FTgNbtq6Scy8Zp5HZULn7ovV3zHQG2gSKHKUhDgT6",
+    "original_handles": [
+      "naP0Liano"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xfec1002223824973bcd7907d133b4c027beb40c0",
+    "original_handles": [
+      "sadcrissy"
+    ],
+    "status": "error",
+    "requests_count": 250,
+    "pages": 5,
+    "source_eof": false,
+    "continuation": "MTc4OTEyMDQ3OC41NzM0MDRfMHgxNzg5MTIwNDc2ZjJlNzgyMzhjMTc3Y2I3ZDAwYmU2ZGVkNDlhZTFlNjcwY2UzOGUzM2I0NjZiZWVmZmI3ZTU1",
+    "error": "Relay API request failed for user=0xfec1002223824973bcd7907d133b4c027beb40c0 after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "2GtmuqG31LuuWQmKzeK72YjH5iALPkJycuQaEQGsFzLw",
+    "original_handles": [
+      "sadcrissy"
+    ],
+    "status": "error",
+    "requests_count": 250,
+    "pages": 5,
+    "source_eof": false,
+    "continuation": "MTc4OTExODMzMy4zNTQzNTZfMHgxNzg5MTE4MzMxZWZkMGNjMTE5MTQ1NmRkMjQxMzYxM2Q2NTJiZGExOWFmZDgxM2Q1NGZmMDRmNDZkMTUxZjk3",
+    "error": "Relay API request failed for user=2GtmuqG31LuuWQmKzeK72YjH5iALPkJycuQaEQGsFzLw after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x410ddf68cf002b507e91d006e143ed57623132ff",
+    "original_handles": [
+      "ventikohi"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "5KVy7JCVrhJHXcDHmyUtWi2ri78KEhjfE3UZULyMjJE6",
+    "original_handles": [
+      "ventikohi"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xe68a514e5580c0551cdb0e772794f5a7881b8d7c",
+    "original_handles": [
+      "ionnnnn_"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "HPZJPCpMKEY1mBfvLE7RrwcpiQDncLY575dBgc6S9sJ1",
+    "original_handles": [
+      "ionnnnn_"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xdfa06f8e659b75894691bd5726b571728ade835c",
+    "original_handles": [
+      "mrfernando88"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "AUYLj5kLGUadmhn8kM91KnTJYfHiXGzcQ7TViP8uLLQv",
+    "original_handles": [
+      "mrfernando88"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x8d70dd64764a866426eaa34e02884957fc52cab4",
+    "original_handles": [
+      "carve"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "H6PEtpaDddtPEQjvGwEq5y7nF7WpNsTNy73m5h97oTye",
+    "original_handles": [
+      "carve"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x1338a67b37aeaf796357d78501a0c3695c51c48e",
+    "original_handles": [
+      "kv4rl"
+    ],
+    "status": "error",
+    "requests_count": 300,
+    "pages": 6,
+    "source_eof": false,
+    "continuation": "MTc4NzM0NTI4MS4zMzI0MjJfMHhjNmRkMDExZDdiZDY3Yjg1ODQ4OWJhNDVhNjc5NDRlMzQwYWQxNDJmZjZhYTBjNjVmNDRmY2U3NmNmZjk1MmUx",
+    "error": "Relay API request failed for user=0x1338a67b37aeaf796357d78501a0c3695c51c48e after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "33qkCrKgTSittYJrbJK3vK8inJ3gWU4zVCiGdYQytTUj",
+    "original_handles": [
+      "kv4rl"
+    ],
+    "status": "error",
+    "requests_count": 300,
+    "pages": 6,
+    "source_eof": false,
+    "continuation": "MTc4NzM0NDA5Ni4xMjk3NzBfMHg2NWM4OGUxZDRkODU2ZjEzZDczMTRhNjdlYWJlOTFiNWU3MWM5MjVkNGE1NDhiZmNhZjYxYjdkZjVjYTQ4NzJm",
+    "error": "Relay API request failed for user=33qkCrKgTSittYJrbJK3vK8inJ3gWU4zVCiGdYQytTUj after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xcbaea88c17888e3c7b84117bd6ebbdbf4f95b810",
+    "original_handles": [
+      "BitCloutCat"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "5dB6rj9CoXMLQCAymoC5UXCb1LtFjbM5rbut3MNuj9Q",
+    "original_handles": [
+      "BitCloutCat"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xd4ba7169e9f89ffa94cbbb41b0df668eee25737d",
+    "original_handles": [
+      "gameplay"
+    ],
+    "status": "error",
+    "requests_count": 250,
+    "pages": 5,
+    "source_eof": false,
+    "continuation": "MTc4OTgxNzQwNi43OTEzMzJfMHgxNzg5ODE3NDA0NjVlODljZTMxZGQzNjgxM2VmNzgzY2M1M2ViMGZhMzNiMjg4ZDRjZmNhNTZiNjYyZDVhNWZi",
+    "error": "Relay API request failed for user=0xd4ba7169e9f89ffa94cbbb41b0df668eee25737d after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "ENkZtLj1onzQRGnEeRkQfFzBeeY2dCeiQMXDzh8XbQbj",
+    "original_handles": [
+      "gameplay"
+    ],
+    "status": "error",
+    "requests_count": 150,
+    "pages": 3,
+    "source_eof": false,
+    "continuation": "MTc5MDM0MzczNy4wNDc1MzFfMHgxNzkwMzQzNzM1NWIwNDI1NDdjYzE0NWE4YzlhYjQyMmMyZmEyMDhkZmMwMGQxZmExMWU5MWM3NWM2MGYyNjA3",
+    "error": "Relay API request failed for user=ENkZtLj1onzQRGnEeRkQfFzBeeY2dCeiQMXDzh8XbQbj after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xf7c0d9aee226b632a25b1c096d8c285ed20d55b1",
+    "original_handles": [
+      "ResellCalendar"
+    ],
+    "status": "error",
+    "requests_count": 350,
+    "pages": 7,
+    "source_eof": false,
+    "continuation": "MTc4OTA4MDEzOS4yNjUyNTlfMHgxNzg5MDgwMTM3NDBkNDc0YzIzYjgyZGYxYjQ1ZjNhNTAwN2Q1ZjRmYzU5YjQxMzdlM2ZiNDE1MDM3OTQyYzcw",
+    "error": "Relay API request failed for user=0xf7c0d9aee226b632a25b1c096d8c285ed20d55b1 after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "DxM1hfY8FQ8dNGrucuJzhJcF8KRbjk8WBwrgKvQ9spPv",
+    "original_handles": [
+      "ResellCalendar"
+    ],
+    "status": "error",
+    "requests_count": 250,
+    "pages": 5,
+    "source_eof": false,
+    "continuation": "MTc4OTIyNTUwMy4xNTI2NjNfMHgxNzg5MjI1NTAwOWI0ZTBkZGVmMWJjOTZjMDljNzA1YjUxMjJmZGJkNzkwMmJhNzdlOGFjY2FhM2NlMjc4Y2Vh",
+    "error": "Relay API request failed for user=DxM1hfY8FQ8dNGrucuJzhJcF8KRbjk8WBwrgKvQ9spPv after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x172695ac783cc308fc3699e0a5d161494eb5ad58",
+    "original_handles": [
+      "yeon__"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "DHnrkgve2u4nGAmzSXdWoZSib8ksFea2xxz7N4asSrvR",
+    "original_handles": [
+      "yeon__"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xdbea0f1d234240e8f8a884cf0461371b3ec2dbcc",
+    "original_handles": [
+      "rainnen23"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "6TW1xYEWNB9umdAAkvyj1jYGhxCGmkJv67dv8MMYecK9",
+    "original_handles": [
+      "rainnen23"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x696d1265c8fc4f14797abebfae3c43ebfa9d8e28",
+    "original_handles": [
+      "frankdegods"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "498g1rVnFcnjBjpfw1xyqA1WvgQXUU8RWuELjxkjAayQ",
+    "original_handles": [
+      "frankdegods"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xa81a48e9e52527564b1fddba2ea600b6d2d74c61",
+    "original_handles": [
+      "derekz"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "ApUwcBwDnXN9Ttn8g7m9pnyDucSGpU8jknWfLxvX54J8",
+    "original_handles": [
+      "derekz"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x6434454a2f00b3dbbf714de40c71c86857f881a3",
+    "original_handles": [
+      "ExactTallTakin"
+    ],
+    "status": "completed",
+    "requests_count": 48,
+    "pages": 1,
+    "source_eof": true,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "AGdtsMmphhymH5wYW3dWKSkAxpLYRrNDCTFAfuq8ii9v",
+    "original_handles": [
+      "ExactTallTakin"
+    ],
+    "status": "completed",
+    "requests_count": 47,
+    "pages": 1,
+    "source_eof": true,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x6c1234dc73ee99934e8553ac82c4b0755f09a80a",
+    "original_handles": [
+      "Pasterniq"
+    ],
+    "status": "error",
+    "requests_count": 200,
+    "pages": 4,
+    "source_eof": false,
+    "continuation": "MTc5MDI5MjM0OC42OTg2ODdfMHgxNzkwMjkyMzQ2N2IyNDJlN2FjNTc2ZTU3OWNmZDYyY2RmYmZlMjc5ZTg2MzI2OTNiMTI0Y2IzY2M0ZDdhNmRk",
+    "error": "Relay API request failed for user=0x6c1234dc73ee99934e8553ac82c4b0755f09a80a after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "9zZCjLr9xfXfp3qdqvPh6YeaEaagepz21khLhca69B18",
+    "original_handles": [
+      "Pasterniq"
+    ],
+    "status": "error",
+    "requests_count": 200,
+    "pages": 4,
+    "source_eof": false,
+    "continuation": "MTc5MDI5MjM0OC42OTg2ODdfMHgxNzkwMjkyMzQ2N2IyNDJlN2FjNTc2ZTU3OWNmZDYyY2RmYmZlMjc5ZTg2MzI2OTNiMTI0Y2IzY2M0ZDdhNmRk",
+    "error": "Relay API request failed for user=9zZCjLr9xfXfp3qdqvPh6YeaEaagepz21khLhca69B18 after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x14aa2a71dbb5ef87b81f92205e2699aa4aa65794",
+    "original_handles": [
+      "frogmanhaha"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "9wMSNoA7TzhwUjqsACVGEvzAxAibCHnsZTgXEAGov8zQ",
+    "original_handles": [
+      "frogmanhaha"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xdfa705fa2db5044e672d597e5eddcc11a9f2815c",
+    "original_handles": [
+      "idealplumtoad"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "5fkAwNVpT8A1UHEnY62VEFpqgagdoP8FYrv5ideiQp5c",
+    "original_handles": [
+      "idealplumtoad"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x5d65ac436e045fef100b457ce160d42b9ed484a6",
+    "original_handles": [
+      "AnselFang"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "DDV38CR14kXmjpedoxvvVoWHtX1c2qtacB6J2tWr6DAw",
+    "original_handles": [
+      "AnselFang"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x021339b32fa1b40c7773f70e5a1835a7fd01de07",
+    "original_handles": [
+      "wukong"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "DgmDUhxSoeek4sbiSP7Jnj68MJQayTLHjXncE4MLowVe",
+    "original_handles": [
+      "wukong"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xa1be71b903206120fa2b2245e145a5d7be09d8f7",
+    "original_handles": [
+      "0xSporadic"
+    ],
+    "status": "error",
+    "requests_count": 250,
+    "pages": 5,
+    "source_eof": false,
+    "continuation": "MTc4ODQ1MTUzOC45MDc1MDdfMHgxNzg4NDUxNTMzYjk2ZTQ1MmQwYzMxNDU1NWUyYWFlY2ZmYTY4NDNkYjk0OGUyN2ZiNzg2ZDAyZjFiZTRlYjY2",
+    "error": "Relay API request failed for user=0xa1be71b903206120fa2b2245e145a5d7be09d8f7 after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "bhMTLsPCE8J8kbSgJeWYhSDEDbPYWxb8HepgMgsdSo3",
+    "original_handles": [
+      "0xSporadic"
+    ],
+    "status": "error",
+    "requests_count": 300,
+    "pages": 6,
+    "source_eof": false,
+    "continuation": "MTc4Nzg3NjEyNC44MjkxODdfMHgxNzg3ODc2MTIwYWI2OGQ3MWRkYjM4MzUzZGU5ODFhMjkwMjBiZGQxYTA1OTIwOTAxMjdmMDAxNGFmMDk3YTkw",
+    "error": "Relay API request failed for user=bhMTLsPCE8J8kbSgJeWYhSDEDbPYWxb8HepgMgsdSo3 after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x124cef73f47627f3f919bbab725b5fe924445d69",
+    "original_handles": [
+      "solarfirmdingo"
+    ],
+    "status": "error",
+    "requests_count": 300,
+    "pages": 6,
+    "source_eof": false,
+    "continuation": "MTc4NDQ2MTY0MC4zMjI4NDBfMHhlMTYwZGM2NThmMmRkMWY1NGVjZTBiM2E3M2RkNDFkMDY5YmVhNGFmZTJiODI3ODBmNmUzNGNlOGQ5NzUyOTBi",
+    "error": "Relay API request failed for user=0x124cef73f47627f3f919bbab725b5fe924445d69 after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "Ga4qb3YHybjDjAmhYwrR43yzsUkiWRgSbTGHGJGwVJ6S",
+    "original_handles": [
+      "solarfirmdingo"
+    ],
+    "status": "error",
+    "requests_count": 350,
+    "pages": 7,
+    "source_eof": false,
+    "continuation": "MTc3ODcwMzM2MC42MTkyOTNfMHgwNjkwNWFmNzFmNDA3ZTUwNGIwOWNkNzAyMjBhMjRmY2U4MzkxYWM4YjgzZGRkNzQ1OWM5MTE2MGVhYWI0MTQ2",
+    "error": "Relay API request failed for user=Ga4qb3YHybjDjAmhYwrR43yzsUkiWRgSbTGHGJGwVJ6S after 3 attempts: HTTP 429",
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x1412e6a737a516935982e8bdafe682305200212a",
+    "original_handles": [
+      "ether_monk"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "9rEdxWQUrpnRHmwos43dsPxLGXzRg2RPyjRFScxA4jAo",
+    "original_handles": [
+      "ether_monk"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0xfdea46fc1096da8929f5f1aff54682f4ece545d3",
+    "original_handles": [
+      "lowrivalrat"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "QKmzCtedsemC6Xwx3jndZv51TP2tSHQgwSYwDHjZ86x",
+    "original_handles": [
+      "lowrivalrat"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  },
+  {
+    "queried_wallet": "0x9919e20bb91c78cd5282d3da39fead7d597d342c",
+    "original_handles": [
+      "lowgrandcrane"
+    ],
+    "status": "not_collected",
+    "requests_count": 0,
+    "pages": null,
+    "source_eof": false,
+    "continuation": null,
+    "error": null,
+    "all_history_verified": false
+  }
+]

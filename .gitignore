@@ -35,3 +35,13 @@ ENV/
 # uv cache
 .uv/
 .cache/
+
+.env
+.env.*
+!.env.example
+data/raw/
+data/ready/*.parquet
+data/ready/quarantine.jsonl
+v2_batch/receipts/
+v2_batch/data/
+data/ready/inputs/

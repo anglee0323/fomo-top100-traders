@@ -1,0 +1,15 @@
+{
+  "original_cohort_sha256": "a7d507cc7b28c27da859355cd4e8358da12d7bf5fb7a8bf2c2b07f38383c1a36",
+  "original_entities": 100,
+  "known_wallet_sources": 193,
+  "raw_source_rows": 7693,
+  "unique_intent_rows": 4574,
+  "source_eof": 4,
+  "statuses": {
+    "completed": 4,
+    "error": 27,
+    "not_collected": 160,
+    "paused": 2
+  },
+  "note": "Requests may be incoming from third parties; user/recipient are separate from declared profile wallets. Not a buy/sell or profit table."
+}

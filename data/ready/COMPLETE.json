@@ -1,0 +1,23 @@
+{
+  "dataset": "fomo",
+  "cohort_source_sha256": "a7d507cc7b28c27da859355cd4e8358da12d7bf5fb7a8bf2c2b07f38383c1a36",
+  "entities": 100,
+  "raw_source_rows": 261171,
+  "normalized_rows": 261171,
+  "buy_sell_rows": 104759,
+  "exact_duplicates_removed": 0,
+  "all_history_complete": false,
+  "generated_at_utc": "2026-10-12T15:05:56.672134+00:00",
+  "files": {
+    "trades.parquet": {
+      "bytes": 16972389,
+      "rows": 104759
+    },
+    "events.parquet": {
+      "bytes": 66292901,
+      "rows": 261171
+    }
+  },
+  "trades_table_note": "raw_json retained in events.parquet and captured sources; trades.parquet is the compact query table",
+  "original_inputs_captured_independently": true
+}
