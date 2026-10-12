@@ -58,3 +58,6 @@ coverage = pd.read_csv('data/ready/coverage.csv')
 coverage 按账户/钱包/来源保留 source_eof、续 cursor、预算暂停、实际错误、未查询和无完整地址。API EOF 仅指该来源分页终止；当前余额快照不使用历史 EOF 作为完成定义。签名、完整回执、来源活动、意图及独立经济交易是不同计数。
 
 原 FOMO 三个掩码账户 boosted/CryptoZachLA/XbtPika 保留原排名与公开掩码，完整地址缺失；lowgrandcrane 缺 Sol 地址。它们不变成零余额/零交易，也不阻挡其他账户的数据交付。旧无合约或 mint 的持仓档案只作原始参考，不进入已验证资产持仓表。
+
+`ethereum_internal_v1.parquet` 为同一公开索引兼容接口的原始内部调用源表，和 V2 表独立保存。`transactionHash`/`index`/`callType` 等完整字段保留在 raw_json；`amount_raw` 对应原始 call value，不自动认定已结算转账，`gasUsed` 不解释为整笔网络费。没有填写未知 decimals、amount_basic 或 fee_raw。
+若服务报告部分区块内部交易尚未处理，coverage 保留 provider_index_incomplete；可见分页结束不等于索引完整。HTTP429 是实际查询限制，不标 EOF。未查询账户标 not_collected，不冒称每个账户都单独返回429。来源页、冻结 endblock、每页 SHA 和具体服务信息可从 chain_inputs/chain_coverage 回放。
