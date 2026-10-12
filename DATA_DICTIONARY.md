@@ -61,3 +61,27 @@ coverage 按账户/钱包/来源保留 source_eof、续 cursor、预算暂停、
 
 `ethereum_internal_v1.parquet` 为同一公开索引兼容接口的原始内部调用源表，和 V2 表独立保存。`transactionHash`/`index`/`callType` 等完整字段保留在 raw_json；`amount_raw` 对应原始 call value，不自动认定已结算转账，`gasUsed` 不解释为整笔网络费。没有填写未知 decimals、amount_basic 或 fee_raw。
 若服务报告部分区块内部交易尚未处理，coverage 保留 provider_index_incomplete；可见分页结束不等于索引完整。HTTP429 是实际查询限制，不标 EOF。未查询账户标 not_collected，不冒称每个账户都单独返回429。来源页、冻结 endblock、每页 SHA 和具体服务信息可从 chain_inputs/chain_coverage 回放。
+
+
+## Hyperliquid / HyperCore 独立源表
+
+`hyperliquid/` 是已完成可见来源分页的固定组件，原100人保持不变，97已知地址的成交、资金费与非资金费账本分别查询；3个掩码地址保留为缺口。HyperCore（Relay chainId1337）不是HyperEVM（999）的JSON-RPC交易回执。
+
+|表|内容|
+|---|---|
+|hyperliquid_fills|未按时间聚合的实际成交；同一hash内不同tid/oid保留|
+|hyperliquid_funding|API报告的资金费记录；delta.usdc为来源USDC数量|
+|hyperliquid_ledger|入金、转账、出金等来源账本记录；完整delta保留|
+|hyperliquid_positions|明确查询的Perp dex当前仓位，包括实际成交出现的HIP-3前缀|
+|hyperliquid_balances|账户当前Spot余额；不是历史初始本金|
+|hyperliquid_state_summaries|完整账户状态来源，保留margin/账户模式等字段；不跨dex虚构合计|
+
+`coin_source`与`dex_source`是HyperCore自身资产/交易对/Perp dex标识，不能当EVM CA。
+`quantity_source`、`price_source`、`fee_source`均为来源基本单位字符串，不是待除以10^18的整数；`quantity_currency_source`说明数量对应币或来源标识。资金费数量按原delta.usdc保留USDC，其他未明确单位的账本金额保持未知并保留raw_json。
+`fee_currency_source`来自feeToken；`builder_fee_source`单独保留，来源fee总额已包含该项时不能再加一次。`closed_pnl_source`仅是API报告值，不是本项目验证的账户完整净利润。
+`order_id`、`trade_id`以字符串保存以避免大整数精度丢失；`source_time_ms`为原毫秒时间，`timestamp_utc`为对应UTC。当前状态的观察时间在覆盖表中，不偷换成成交时间。
+
+只删除同账户、同source/dex且完整对象完全相同的分页边界重复。来源原页保持，行SHA及JSONpointer可回放。source_path相对该组件目录。
+
+来源API文档说明近期成交保留限制，但实际返回记录可能超过文档数量；不按文档数量裁掉真实返回行。可见范围分页EOF不证明源服务从创世至今保存了全部成交或资金记录；起止时间与未知边界在chain_coverage.json中明确记录。
+来源：[Info](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint)、[Perpetuals](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals)。
