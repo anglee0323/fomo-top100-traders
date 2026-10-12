@@ -1,101 +1,101 @@
-rank,handle,primary_chain,total_swaps,new_swaps_synced,chain_breakdown,buy_count,sell_count,total_volume_usd
-1,theunipcs,hood,938,789,sol:248 | bsc:603 | robinhood:77 | eth:2 | base:8,60,491,742697.28
-2,pointfarmcap,solana,2574,133,sol:2481 | bsc:71 | robinhood:10 | base:12,2048,484,774319.57
-3,theveeman,solana,1248,876,sol:600 | robinhood:42 | bsc:567 | eth:3 | base:36,226,1022,807952.81
-4,The__Solstice,solana,1714,811,sol:1472 | robinhood:36 | bsc:25 | base:181,994,719,857437.25
-5,DumbCrayonEater,hood,562,101,eth:1 | sol:486 | bsc:19 | robinhood:17 | base:39,314,245,266533.27
-6,0xAvast,bsc,297,22,sol:194 | bsc:94 | robinhood:5 | eth:2 | base:2,92,204,465974.39
-7,Chubbi230,hood,195,2,robinhood:43 | sol:150 | bsc:2,118,77,146321.08
-8,Salem1299534,hood,473,247,robinhood:79 | sol:280 | bsc:52 | base:54 | eth:8,196,275,3049490.47
-9,AvgJoesCrypto,hood,293,86,eth:12 | base:34 | robinhood:53 | sol:193 | bsc:1,87,206,242522.12
-10,PoorGoat_,solana,1560,142,bsc:133 | sol:1417 | robinhood:9 | base:1,766,659,695348.64
-11,econoar,hood,551,98,eth:5 | robinhood:106 | sol:408 | bsc:19 | base:13,327,215,2132319.32
-12,FullPinkYak,solana,398,279,sol:295 | bsc:85 | robinhood:3 | base:15,177,221,609618.48
-13,gajria,hood,29,40,eth:1 | robinhood:6 | base:3 | sol:12 | bsc:7,2,27,180800.25
-14,Natan_benish,hood,35,15,robinhood:1 | bsc:1 | sol:22 | base:11,15,19,1202.29
-15,RugDalio,hood,540,26,sol:470 | robinhood:59 | bsc:7 | eth:1 | base:3,197,343,318397.05
-16,0xdetweiler,solana,3564,1337,robinhood:119 | sol:2730 | eth:1 | bsc:92 | base:622,1358,2201,4905935.41
-17,lordarbiter,hood,103,137,robinhood:22 | sol:63 | bsc:14 | base:4,48,55,71095.02
-18,motiyawerey,solana,1464,85,sol:1383 | bsc:39 | robinhood:38 | eth:3 | base:1,783,681,1473629.57
-19,brrrgrrrz,hood,1487,163,robinhood:21 | sol:1370 | base:1 | bsc:95,731,754,1028713.22
-20,soby0x,hood,151,57,sol:75 | robinhood:37 | bsc:36 | eth:1 | base:2,49,93,487769.64
-21,Quanterty,bsc,395,38,sol:191 | bsc:191 | robinhood:10 | base:3,113,137,1001779.95
-22,bigbabbajohnson,solana,3992,1619,sol:2973 | eth:12 | bsc:324 | base:539 | robinhood:144,1894,2088,4120867.48
-23,changefomo,hood,2855,1978,eth:1 | sol:2139 | robinhood:33 | bsc:31 | base:651,1572,1256,3955729.95
-24,0xnobi,hood,1140,98,sol:1071 | robinhood:20 | base:45 | bsc:4,700,431,262001.31
-25,seralberttrades,hood,1727,1054,sol:1157 | robinhood:122 | bsc:281 | base:158 | eth:9,652,1074,2399224.7
-26,visionary,solana,15,0,sol:11 | robinhood:4,10,5,18758.87
-27,pricedin,hood,114,49,robinhood:13 | eth:9 | sol:90 | base:1 | bsc:1,71,42,204035.64
-28,clam,hood,457,213,robinhood:86 | sol:285 | bsc:2 | base:84,275,182,209507.06
-29,kyle,hood,754,464,robinhood:264 | base:144 | eth:31 | bsc:74 | sol:241,169,585,450651.25
-30,0xRareDualJay,hood,770,260,robinhood:311 | sol:329 | bsc:89 | eth:11 | base:30,180,590,342067.35
-31,CardinalSaint2,hood,455,40,sol:412 | robinhood:32 | bsc:11,214,241,325202.58
-32,zeri_term,solana,541,11,sol:532 | eth:5 | robinhood:2 | base:2,240,301,571673.29
-33,TheDazzleNovak,solana,560,50,sol:512 | robinhood:23 | eth:4 | bsc:17 | base:4,250,310,624424.39
-34,TheOnlyOMP,solana,507,116,sol:484 | robinhood:6 | base:17,256,251,388170.3
-35,RowdyCrypto,solana,1110,722,sol:794 | eth:23 | bsc:196 | robinhood:49 | base:48,399,710,3196490.19
-36,boosteryting,solana,3170,861,sol:2551 | bsc:495 | eth:17 | robinhood:29 | base:78,1362,1797,838984.06
-37,USronaldcarter,solana,804,12,sol:802 | base:2,451,353,892139.34
-38,lp1,hood,974,1452,robinhood:67 | base:136 | sol:770 | bsc:1,530,444,167946.21
-39,notanicecat69,hood,648,37,robinhood:80 | sol:557 | eth:2 | bsc:4 | base:5,275,373,1289086.48
-40,LehmanFarters,hood,67,36,robinhood:45 | sol:21 | eth:1,13,48,149919.22
-41,montyMole44,hood,243,47,sol:199 | robinhood:4 | bsc:39 | base:1,118,125,75292.54
-42,carlwheezor,hood,4074,630,sol:3693 | base:366 | bsc:15,1852,2222,1142568.26
-43,Tekkerrss,solana,3144,663,sol:2789 | robinhood:86 | bsc:211 | eth:7 | base:51,1745,1399,1244327.12
-44,cosby,hood,214,85,robinhood:144 | sol:47 | bsc:16 | base:7,50,164,347366.0
-45,0x_Leo_,solana,489,255,base:42 | sol:421 | robinhood:17 | bsc:9,257,232,3042520.92
-46,kingofgotham,solana,94,4,eth:1 | sol:83 | robinhood:9 | base:1,73,21,251762.55
-47,Milliardi,solana,115,55,sol:100 | robinhood:3 | eth:1 | bsc:11,55,60,664520.34
-48,Bull_Path,solana,541,248,sol:449 | bsc:64 | robinhood:9 | base:19,307,234,574455.56
-49,macdegods,solana,1969,543,robinhood:56 | eth:12 | sol:1698 | base:84 | bsc:119,1131,834,2900494.76
-50,NachSOL,ethereum,1993,1220,sol:1635 | robinhood:168 | eth:15 | bsc:140 | base:35,903,1088,3323907.47
-51,OinkersRUs,solana,2217,261,sol:2018 | robinhood:55 | bsc:42 | eth:3 | base:99,910,1301,1417666.53
-52,looc,hood,3118,774,sol:2517 | eth:54 | robinhood:329 | bsc:133 | base:85,1397,1714,4203892.11
-53,RZDxbt,solana,1273,84,sol:1225 | eth:3 | bsc:33 | robinhood:10 | base:2,549,724,1519642.82
-54,GuavaGuy2001,bsc,314,53,eth:7 | robinhood:11 | bsc:21 | sol:269 | base:6,107,207,516260.2
-55,aki11a,hood,204,85,bsc:7 | sol:145 | robinhood:24 | base:28,92,112,363586.94
-56,0xsneakky,solana,3576,1063,sol:2836 | eth:29 | bsc:298 | robinhood:141 | base:272,1065,2499,2435070.47
-57,Lingard0x,base,632,492,bsc:73 | sol:456 | robinhood:52 | base:51,243,387,1022599.83
-58,kb,hood,189,19,sol:164 | robinhood:14 | bsc:10 | base:1,87,101,89163.37
-59,beetle,bsc,783,914,bsc:329 | base:154 | sol:283 | robinhood:11 | eth:6,222,474,1105816.68
-60,cryptochi3f_,hood,1419,448,sol:1067 | robinhood:80 | base:63 | bsc:209,565,851,530515.56
-61,BtheBezel,solana,2730,596,robinhood:55 | sol:2357 | bsc:140 | eth:2 | base:176,1145,1582,1780145.52
-62,facap_,hood,732,122,sol:595 | bsc:13 | robinhood:85 | base:33 | eth:6,293,439,1020902.5
-63,Samisa_btc,hood,1938,200,robinhood:65 | sol:1741 | eth:9 | bsc:35 | base:88,919,1019,449090.56
-64,omakase,solana,1999,215,sol:1874 | robinhood:58 | eth:6 | bsc:51 | base:10,926,1072,2201987.95
-65,jols,hood,304,392,base:4 | bsc:27 | sol:249 | robinhood:24,154,150,143957.99
-66,dtrains,solana,438,27,sol:430 | robinhood:2 | base:4 | bsc:2,196,241,770706.21
-67,testaccount,hood,376,693,sol:273 | robinhood:3 | base:12 | bsc:88,141,235,525907.81
-68,user,solana,3518,1159,sol:2920 | robinhood:172 | eth:17 | bsc:143 | base:266,1788,1725,3825224.56
-69,BTCdayu,hood,70,165,robinhood:13 | bsc:43 | base:13 | eth:1,2,68,162587.16
-70,dreamloaderxo,solana,3522,821,sol:2922 | eth:18 | bsc:200 | robinhood:296 | base:86,2237,1282,1821724.92
-71,end837,hood,56,50,sol:40 | robinhood:16,39,17,71134.21
-72,tremendoustoad,solana,301,4,sol:298 | robinhood:3,104,197,985020.6
-73,naP0Liano,ethereum,187,52,sol:151 | bsc:18 | eth:7 | robinhood:11,118,69,102961.71
-74,sadcrissy,solana,4143,3830,sol:2544 | bsc:948 | robinhood:11 | base:640,802,3337,2457090.05
-75,ventikohi,solana,130,37,sol:93 | robinhood:23 | bsc:7 | base:7,59,71,289592.92
-76,ionnnnn_,solana,532,68,sol:492 | eth:7 | robinhood:14 | bsc:19,268,264,540563.1
-77,mrfernando88,solana,634,147,sol:554 | bsc:65 | robinhood:14 | base:1,240,394,734735.21
-78,carve,solana,1839,177,sol:1776 | eth:5 | robinhood:31 | bsc:26 | base:1,951,888,1490224.79
-79,kv4rl,base,139,243,eth:2 | sol:102 | robinhood:5 | base:30,59,80,277582.44
-80,BitCloutCat,solana,358,151,sol:276 | bsc:59 | eth:1 | robinhood:13 | base:9,156,196,535651.51
-81,gameplay,hood,2840,1454,sol:1641 | robinhood:493 | eth:44 | base:656 | bsc:6,780,2047,2115150.04
-82,ResellCalendar,solana,4184,1503,bsc:72 | sol:3245 | eth:4 | robinhood:32 | base:831,1474,2694,3677388.01
-83,yeon__,solana,594,777,sol:298 | bsc:206 | robinhood:40 | base:48 | eth:2,197,396,1078811.72
-84,rainnen23,solana,269,263,sol:176 | robinhood:18 | bsc:24 | base:51,90,178,397178.12
-85,frankdegods,solana,3256,1313,sol:2723 | eth:11 | robinhood:64 | base:143 | bsc:315,1506,1743,10695883.67
-86,derekz,ethereum,521,672,sol:385 | eth:5 | robinhood:46 | base:6 | bsc:79,254,267,1882009.99
-87,ExactTallTakin,solana,537,55,sol:514 | bsc:15 | robinhood:8,347,190,538490.44
-88,Pasterniq,solana,997,1863,sol:329 | bsc:596 | robinhood:28 | eth:6 | base:38,197,799,2553579.24
-89,frogmanhaha,solana,12,20,bsc:7 | robinhood:2 | base:3,0,9,13457.29
-90,idealplumtoad,solana,1750,16,sol:1737 | base:12 | bsc:1,796,954,1600439.68
-91,AnselFang,solana,117,158,robinhood:2 | base:34 | sol:65 | bsc:16,27,90,772921.24
-92,wukong,bsc,92,79,bsc:56 | sol:29 | base:7,6,86,551769.73
-93,0xSporadic,hood,140,261,robinhood:17 | sol:116 | bsc:3 | base:4,59,80,192930.6
-94,solarfirmdingo,solana,329,114,sol:265 | robinhood:19 | eth:1 | bsc:9 | base:35,140,189,628123.78
-95,ether_monk,bsc,252,299,sol:206 | bsc:41 | base:5,115,136,45083.92
-96,lowrivalrat,hood,65,89,robinhood:14 | sol:46 | bsc:4 | base:1,37,28,84661.67
-97,lowgrandcrane,ethereum,25,77,robinhood:11 | base:13 | eth:1,1,24,24437.15
-98,boosted,robinhood,0,0,,0,0,0.0
-99,CryptoZachLA,robinhood,0,0,,0,0,0.0
-100,XbtPika,robinhood,0,0,,0,0,0.0
+rank,handle,activity_rows,buy_rows,sell_rows,transfer_in_rows,other_rows,chain_counts_json,source_pagination_eof_proven
+1,theunipcs,3788,60,491,2850,387,"{""base"": 358, ""bsc"": 1853, ""eth"": 2, ""robinhood"": 1327, ""sol"": 248}",False
+2,pointfarmcap,4439,2048,484,1865,42,"{""base"": 306, ""bsc"": 446, ""robinhood"": 1206, ""sol"": 2481}",False
+3,theveeman,4252,226,1022,3004,0,"{""base"": 543, ""bsc"": 1814, ""eth"": 3, ""robinhood"": 1292, ""sol"": 600}",False
+4,The__Solstice,3617,994,719,1903,1,"{""base"": 532, ""bsc"": 327, ""robinhood"": 1286, ""sol"": 1472}",False
+5,DumbCrayonEater,4213,314,245,3651,3,"{""base"": 1190, ""bsc"": 1269, ""eth"": 1, ""robinhood"": 1267, ""sol"": 486}",False
+6,0xAvast,2588,92,204,2291,1,"{""base"": 142, ""bsc"": 995, ""eth"": 2, ""robinhood"": 1255, ""sol"": 194}",False
+7,Chubbi230,1646,118,77,1451,0,"{""base"": 48, ""bsc"": 155, ""robinhood"": 1293, ""sol"": 150}",False
+8,Salem1299534,2665,196,275,2192,2,"{""base"": 523, ""bsc"": 525, ""eth"": 8, ""robinhood"": 1329, ""sol"": 280}",False
+9,AvgJoesCrypto,2623,87,206,2330,0,"{""base"": 643, ""bsc"": 472, ""eth"": 12, ""robinhood"": 1303, ""sol"": 193}",False
+10,PoorGoat_,4567,766,659,3007,135,"{""base"": 508, ""bsc"": 1383, ""robinhood"": 1259, ""sol"": 1417}",False
+11,econoar,2264,327,215,1713,9,"{""base"": 160, ""bsc"": 335, ""eth"": 5, ""robinhood"": 1356, ""sol"": 408}",False
+12,FullPinkYak,2099,177,221,1701,0,"{""base"": 121, ""bsc"": 430, ""robinhood"": 1253, ""sol"": 295}",False
+13,gajria,1335,2,27,1306,0,"{""base"": 32, ""bsc"": 34, ""eth"": 1, ""robinhood"": 1256, ""sol"": 12}",False
+14,Natan_benish,2077,15,19,2042,1,"{""base"": 362, ""bsc"": 442, ""robinhood"": 1251, ""sol"": 22}",False
+15,RugDalio,2048,197,343,1508,0,"{""base"": 61, ""bsc"": 207, ""eth"": 1, ""robinhood"": 1309, ""sol"": 470}",False
+16,0xdetweiler,6406,1358,2201,2842,5,"{""base"": 1872, ""bsc"": 434, ""eth"": 1, ""robinhood"": 1369, ""sol"": 2730}",False
+17,lordarbiter,1609,48,55,1506,0,"{""base"": 51, ""bsc"": 223, ""robinhood"": 1272, ""sol"": 63}",False
+18,motiyawerey,2029,783,681,565,0,"{""base"": 18, ""bsc"": 247, ""eth"": 3, ""robinhood"": 378, ""sol"": 1383}",False
+19,brrrgrrrz,3732,731,754,2245,2,"{""base"": 214, ""bsc"": 877, ""robinhood"": 1271, ""sol"": 1370}",False
+20,soby0x,2681,49,93,2530,9,"{""base"": 32, ""bsc"": 1286, ""eth"": 1, ""robinhood"": 1287, ""sol"": 75}",False
+21,Quanterty,3193,113,137,2798,145,"{""base"": 301, ""bsc"": 1441, ""robinhood"": 1260, ""sol"": 191}",False
+22,bigbabbajohnson,7554,1894,2088,3562,10,"{""base"": 1601, ""bsc"": 1574, ""eth"": 12, ""robinhood"": 1394, ""sol"": 2973}",False
+23,changefomo,5826,1572,1256,2971,27,"{""base"": 1866, ""bsc"": 537, ""eth"": 1, ""robinhood"": 1283, ""sol"": 2139}",False
+24,0xnobi,3256,700,431,2116,9,"{""base"": 717, ""bsc"": 198, ""robinhood"": 1270, ""sol"": 1071}",False
+25,seralberttrades,4534,652,1074,2807,1,"{""base"": 466, ""bsc"": 1530, ""eth"": 9, ""robinhood"": 1372, ""sol"": 1157}",False
+26,visionary,952,10,5,937,0,"{""base"": 9, ""bsc"": 6, ""robinhood"": 926, ""sol"": 11}",False
+27,pricedin,886,71,42,772,1,"{""base"": 17, ""bsc"": 20, ""eth"": 9, ""robinhood"": 750, ""sol"": 90}",False
+28,clam,2168,275,182,1711,0,"{""base"": 273, ""bsc"": 274, ""robinhood"": 1336, ""sol"": 285}",False
+29,kyle,3164,169,585,2410,0,"{""base"": 650, ""bsc"": 728, ""eth"": 31, ""robinhood"": 1514, ""sol"": 241}",False
+30,0xRareDualJay,2311,180,590,1541,0,"{""base"": 239, ""bsc"": 305, ""eth"": 11, ""robinhood"": 1427, ""sol"": 329}",False
+31,CardinalSaint2,2161,214,241,1706,0,"{""base"": 67, ""bsc"": 400, ""robinhood"": 1282, ""sol"": 412}",False
+32,zeri_term,696,240,301,155,0,"{""base"": 11, ""bsc"": 1, ""eth"": 5, ""robinhood"": 147, ""sol"": 532}",False
+33,TheDazzleNovak,1046,250,310,486,0,"{""base"": 50, ""bsc"": 92, ""eth"": 4, ""robinhood"": 388, ""sol"": 512}",False
+34,TheOnlyOMP,719,256,251,212,0,"{""base"": 124, ""bsc"": 3, ""robinhood"": 108, ""sol"": 484}",False
+35,RowdyCrypto,3985,399,710,2875,1,"{""base"": 423, ""bsc"": 1446, ""eth"": 23, ""robinhood"": 1299, ""sol"": 794}",False
+36,boosteryting,5924,1362,1797,2754,11,"{""base"": 429, ""bsc"": 1648, ""eth"": 17, ""robinhood"": 1279, ""sol"": 2551}",False
+37,USronaldcarter,1002,451,353,198,0,"{""base"": 62, ""bsc"": 2, ""robinhood"": 136, ""sol"": 802}",False
+38,lp1,2279,530,444,1305,0,"{""base"": 465, ""bsc"": 148, ""robinhood"": 896, ""sol"": 770}",False
+39,notanicecat69,2199,275,373,1551,0,"{""base"": 123, ""bsc"": 187, ""eth"": 2, ""robinhood"": 1330, ""sol"": 557}",False
+40,LehmanFarters,1359,13,48,1292,6,"{""base"": 28, ""bsc"": 14, ""eth"": 1, ""robinhood"": 1295, ""sol"": 21}",False
+41,montyMole44,1238,118,125,995,0,"{""base"": 45, ""bsc"": 346, ""robinhood"": 648, ""sol"": 199}",False
+42,carlwheezor,6611,1852,2222,2537,0,"{""base"": 1470, ""bsc"": 198, ""robinhood"": 1250, ""sol"": 3693}",False
+43,Tekkerrss,5396,1745,1399,2252,0,"{""base"": 311, ""bsc"": 1190, ""eth"": 7, ""robinhood"": 1099, ""sol"": 2789}",False
+44,cosby,2063,50,164,1849,0,"{""base"": 100, ""bsc"": 522, ""robinhood"": 1394, ""sol"": 47}",False
+45,0x_Leo_,2405,257,232,1916,0,"{""base"": 509, ""bsc"": 208, ""robinhood"": 1267, ""sol"": 421}",False
+46,kingofgotham,1359,73,21,1265,0,"{""base"": 15, ""bsc"": 1, ""eth"": 1, ""robinhood"": 1259, ""sol"": 83}",False
+47,Milliardi,289,55,60,174,0,"{""base"": 15, ""bsc"": 42, ""eth"": 1, ""robinhood"": 131, ""sol"": 100}",False
+48,Bull_Path,2681,307,234,2140,0,"{""base"": 409, ""bsc"": 564, ""robinhood"": 1259, ""sol"": 449}",False
+49,macdegods,5277,1131,834,3308,4,"{""base"": 1007, ""bsc"": 1254, ""eth"": 12, ""robinhood"": 1306, ""sol"": 1698}",False
+50,NachSOL,4365,903,1088,2372,2,"{""base"": 385, ""bsc"": 912, ""eth"": 15, ""robinhood"": 1418, ""sol"": 1635}",False
+51,OinkersRUs,4389,910,1301,2172,6,"{""base"": 922, ""bsc"": 141, ""eth"": 3, ""robinhood"": 1305, ""sol"": 2018}",False
+52,looc,4899,1397,1714,1781,7,"{""base"": 295, ""bsc"": 454, ""eth"": 54, ""robinhood"": 1579, ""sol"": 2517}",False
+53,RZDxbt,2643,549,724,1370,0,"{""base"": 35, ""bsc"": 120, ""eth"": 3, ""robinhood"": 1260, ""sol"": 1225}",False
+54,GuavaGuy2001,3025,107,207,2711,0,"{""base"": 217, ""bsc"": 1271, ""eth"": 7, ""robinhood"": 1261, ""sol"": 269}",False
+55,aki11a,1910,92,112,1706,0,"{""base"": 193, ""bsc"": 298, ""robinhood"": 1274, ""sol"": 145}",False
+56,0xsneakky,6631,1065,2499,3055,12,"{""base"": 1291, ""bsc"": 1084, ""eth"": 29, ""robinhood"": 1391, ""sol"": 2836}",False
+57,Lingard0x,1530,243,387,898,2,"{""base"": 328, ""bsc"": 461, ""robinhood"": 285, ""sol"": 456}",False
+58,kb,977,87,101,788,1,"{""base"": 31, ""bsc"": 61, ""robinhood"": 721, ""sol"": 164}",False
+59,beetle,3437,222,474,2654,87,"{""base"": 401, ""bsc"": 1579, ""eth"": 6, ""robinhood"": 1168, ""sol"": 283}",False
+60,cryptochi3f_,3218,565,851,1799,3,"{""base"": 253, ""bsc"": 568, ""robinhood"": 1330, ""sol"": 1067}",False
+61,BtheBezel,4628,1145,1582,1898,3,"{""base"": 565, ""bsc"": 399, ""eth"": 2, ""robinhood"": 1305, ""sol"": 2357}",False
+62,facap_,1309,293,439,577,0,"{""base"": 148, ""bsc"": 67, ""eth"": 6, ""robinhood"": 493, ""sol"": 595}",False
+63,Samisa_btc,3996,919,1019,2058,0,"{""base"": 664, ""bsc"": 267, ""eth"": 9, ""robinhood"": 1315, ""sol"": 1741}",False
+64,omakase,2549,926,1072,550,1,"{""base"": 56, ""bsc"": 245, ""eth"": 6, ""robinhood"": 368, ""sol"": 1874}",False
+65,jols,562,154,150,258,0,"{""base"": 37, ""bsc"": 61, ""robinhood"": 215, ""sol"": 249}",False
+66,dtrains,477,196,241,39,1,"{""base"": 23, ""bsc"": 5, ""robinhood"": 19, ""sol"": 430}",False
+67,testaccount,1204,141,235,828,0,"{""base"": 361, ""bsc"": 440, ""robinhood"": 130, ""sol"": 273}",False
+68,user,6466,1788,1725,2948,5,"{""base"": 1500, ""bsc"": 607, ""eth"": 17, ""robinhood"": 1422, ""sol"": 2920}",False
+69,BTCdayu,763,2,68,693,0,"{""base"": 47, ""bsc"": 458, ""eth"": 1, ""robinhood"": 257}",False
+70,dreamloaderxo,5259,2237,1282,1737,3,"{""base"": 262, ""bsc"": 803, ""eth"": 18, ""robinhood"": 1254, ""sol"": 2922}",False
+71,end837,756,39,17,700,0,"{""base"": 11, ""robinhood"": 705, ""sol"": 40}",False
+72,tremendoustoad,337,104,197,36,0,"{""robinhood"": 39, ""sol"": 298}",False
+73,naP0Liano,338,118,69,151,0,"{""base"": 18, ""bsc"": 87, ""eth"": 7, ""robinhood"": 75, ""sol"": 151}",False
+74,sadcrissy,7153,802,3337,3010,4,"{""base"": 1151, ""bsc"": 2197, ""robinhood"": 1261, ""sol"": 2544}",False
+75,ventikohi,1113,59,71,983,0,"{""base"": 101, ""bsc"": 50, ""robinhood"": 869, ""sol"": 93}",False
+76,ionnnnn_,736,268,264,204,0,"{""base"": 2, ""bsc"": 83, ""eth"": 7, ""robinhood"": 152, ""sol"": 492}",False
+77,mrfernando88,951,240,394,317,0,"{""base"": 9, ""bsc"": 276, ""robinhood"": 112, ""sol"": 554}",False
+78,carve,2031,951,888,192,0,"{""base"": 6, ""bsc"": 73, ""eth"": 5, ""robinhood"": 171, ""sol"": 1776}",False
+79,kv4rl,226,59,80,87,0,"{""base"": 83, ""bsc"": 1, ""eth"": 2, ""robinhood"": 38, ""sol"": 102}",False
+80,BitCloutCat,3193,156,196,2835,6,"{""base"": 344, ""bsc"": 1309, ""eth"": 1, ""robinhood"": 1263, ""sol"": 276}",False
+81,gameplay,5134,780,2047,2294,13,"{""base"": 1534, ""bsc"": 172, ""eth"": 44, ""robinhood"": 1743, ""sol"": 1641}",False
+82,ResellCalendar,7122,1474,2694,2938,16,"{""base"": 2081, ""bsc"": 510, ""eth"": 4, ""robinhood"": 1282, ""sol"": 3245}",False
+83,yeon__,2199,197,396,1605,1,"{""base"": 192, ""bsc"": 1157, ""eth"": 2, ""robinhood"": 550, ""sol"": 298}",False
+84,rainnen23,1699,90,178,1430,1,"{""base"": 192, ""bsc"": 63, ""robinhood"": 1268, ""sol"": 176}",False
+85,frankdegods,7006,1506,1743,3750,7,"{""base"": 1393, ""bsc"": 1565, ""eth"": 11, ""robinhood"": 1314, ""sol"": 2723}",False
+86,derekz,1418,254,267,897,0,"{""base"": 32, ""bsc"": 501, ""eth"": 5, ""robinhood"": 495, ""sol"": 385}",False
+87,ExactTallTakin,613,347,190,76,0,"{""base"": 1, ""bsc"": 64, ""robinhood"": 34, ""sol"": 514}",False
+88,Pasterniq,3737,197,799,2740,1,"{""base"": 278, ""bsc"": 1846, ""eth"": 6, ""robinhood"": 1278, ""sol"": 329}",False
+89,frogmanhaha,1700,0,9,1688,3,"{""base"": 193, ""bsc"": 255, ""robinhood"": 1252}",False
+90,idealplumtoad,2092,796,954,342,0,"{""base"": 111, ""bsc"": 2, ""robinhood"": 242, ""sol"": 1737}",False
+91,AnselFang,516,27,90,399,0,"{""base"": 281, ""bsc"": 86, ""robinhood"": 84, ""sol"": 65}",False
+92,wukong,811,6,86,719,0,"{""base"": 39, ""bsc"": 706, ""robinhood"": 37, ""sol"": 29}",False
+93,0xSporadic,267,59,80,127,1,"{""base"": 35, ""bsc"": 23, ""robinhood"": 93, ""sol"": 116}",False
+94,solarfirmdingo,1223,140,189,894,0,"{""base"": 572, ""bsc"": 33, ""eth"": 1, ""robinhood"": 352, ""sol"": 265}",False
+95,ether_monk,417,115,136,165,1,"{""base"": 10, ""bsc"": 72, ""robinhood"": 129, ""sol"": 206}",False
+96,lowrivalrat,569,37,28,504,0,"{""base"": 12, ""bsc"": 51, ""robinhood"": 460, ""sol"": 46}",False
+97,lowgrandcrane,366,1,24,341,0,"{""base"": 110, ""eth"": 1, ""robinhood"": 255}",False
+98,boosted,0,0,0,0,0,{},False
+99,CryptoZachLA,0,0,0,0,0,{},False
+100,XbtPika,0,0,0,0,0,{},False
