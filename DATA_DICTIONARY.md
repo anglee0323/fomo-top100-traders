@@ -106,3 +106,12 @@ coverage 按账户/钱包/来源保留 source_eof、续 cursor、预算暂停、
 网络标识明确区分Ethereum1、Optimism10、BSC56、Monad143、HyperEVM999、Robinhood4663、Arc5042、Base8453、Arbitrum42161。Relay的1337是HyperCore来源标识，与999的HyperEVM RPC分开；1337动作引用查独立HyperCore源，不填造EVM回执。
 
 `source_path`相对该回执组件目录，`source_sha256`为捕获文件字节摘要，`source_pointer`定位完整JSON对象。批量RPC的wire响应、query ID与transactionHash一一对应；规范JSON摘要与原响应字节摘要不可互换。RPC null、HTTP403/429、timeout和未查询均各自记录，不能作为“交易不存在”“零记录”或来源EOF。未来新增意图可能揭示额外执行引用，覆盖表须按实际冻结的引用清单说明范围。
+
+
+## 完成的地址活动组件
+
+`address_activity/events.parquet`保存本轮固定原100人的地址来源记录，`trades.parquet`为其中来源buy/sell的精简投影；旧`data/ready`是独立原档案基线。两者的来源字段/版本可不同，不能只按tx_hash删旧记录，也不能直接把两表行数相加当独立交易。仅同账户、同链、完整来源对象完全相同的重复可去除。
+
+`address_activity/chain_coverage.json`固定100账户×5链500个位置。484个已知位置都已核对真实success终页且无续cursor，16个缺地址位置为未知，不填零交易。4个相同链、相同钱包的既有GMGN来源按实际捕获SHA复用，原FOMO排名不变。
+
+这里的coverage.pages是实际分页回执文件数量，包括留存的失败请求回执，不表示每页都成功或每页都有50条记录；实际行数来自捕获记录，最终终点只由匹配编译版本的成功末页判断。完整逐页原始回执保留在data/raw/gmgn_activity，组件内保留固定编译来源、对应终页及其字节SHA和JSONpointer。字段单位仍按来源报告值，未知不猜。
