@@ -117,3 +117,14 @@ coverage 按账户/钱包/来源保留 source_eof、续 cursor、预算暂停、
 这里的coverage.pages是实际分页回执文件数量，包括留存的失败请求回执，不表示每页都成功或每页都有50条记录；实际行数来自捕获记录，最终终点只由匹配编译版本的成功末页判断。完整逐页原始回执保留在data/raw/gmgn_activity，组件内保留固定编译来源、对应终页及其字节SHA和JSONpointer。字段单位仍按来源报告值，未知不猜。
 
 `address_activity/raw_pages_manifest.json`索引全部5914份实际回执文件（5892份成功、22份失败），逐条保留原始路径、字节SHA、页号、实际item_count、请求/返回时间和input/output cursor。它区分物理回执、页号和成功页；不按页号乘50估计记录。原始gzip和4个复用来源的原链钱包raw均保持在原路径，不因清洗删除。
+
+
+## 原100人直接查询主活动表
+
+`main_activity/events.parquet`合并原261171条档案和本轮279494条地址来源记录；`trades.parquet`保留来源buy/sell，`source_observations.parquet`按账户、链和event_id保留全部原文件SHA与JSONpointer。实际两类完整来源对象没有相同的重复，因此540665是来源观察行数，不是540665笔独立经济交易；同一tx的不同事件或来源版本保持可区分。
+
+这里只允许同账户、同链、完整来源对象完全相同的重复去除。不按tx_hash删记录，也不让当前API末页覆盖旧档案中的更早记录。数量、费用、资产地址、状态和时间均照来源保留，不补价格、币量单位或净收益。
+
+该主表source_path为已验收捕获文件的本机绝对路径；inputs.json给出515个实际非空输入及SHA，MAIN_SUMMARY.json明确路径基准。不要只搬Parquet而丢掉这些捕获输入。coverage.json保留100人×5链全部500位置，484个已知地址位置的当前来源EOF与16个无地址位置分开，旧档案没有分页证明。
+
+旧主表和address_activity是同一合并表的来源组件，不再与main_activity重复拼接。HyperCore、Relay及链上签名/回执是不同类型的来源表，需要按明确ID和来源关联，不能相加当独立交易或把未取得的费用填0。
