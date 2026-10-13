@@ -85,3 +85,24 @@ coverage 按账户/钱包/来源保留 source_eof、续 cursor、预算暂停、
 
 来源API文档说明近期成交保留限制，但实际返回记录可能超过文档数量；不按文档数量裁掉真实返回行。可见范围分页EOF不证明源服务从创世至今保存了全部成交或资金记录；起止时间与未知边界在chain_coverage.json中明确记录。
 来源：[Info](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint)、[Perpetuals](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals)。
+
+
+## Relay引用的跨链执行来源
+
+跨链意图、查询钱包和执行交易分开保存。`relay_transaction_links`保留原账户成员关系与意图中的两端chainId/hash，但链接本身不证明每笔执行由该账户拥有或支付费用。
+
+|表|内容及读取边界|
+|---|---|
+|evm_transaction_receipts|实际成功返回的EVM交易回执，transactionHash必须与查询一致；执行status、gasUsed、effectiveGasPrice和其他字段在raw_json|
+|evm_receipt_logs|实际回执logs，保留合约asset_address及完整topics/data/logIndex；不按tx_hash合并日志，不凭symbol解码币量|
+|evm_indexed_transactions|公开索引实际返回的交易元数据；用来补RPC null的来源缺口，不能冒充完整RPC回执|
+|evm_indexed_logs|公开索引分页得到的logs，单独保留页SHA、指针、续游标及EOF状态|
+|relay_transaction_links|原意图、执行链/哈希、账户成员关系及源记录的连接，不等于独立交易计数|
+
+`fee_raw`仅在回执同时提供gasUsed和effectiveGasPrice时保存其整数乘积，单位`fee_unit=wei`；`fee_type_source=execution_gas_product_excluding_other_costs`明确它不包含所有blob、应用、路由、跨链或其他费用。原生币小单位不直接换成美元。`fee_payer`保留回执from，不证明原账户承担费用，也不把solver/bundler视为owner。
+
+这些来源的token `amount_raw`/`decimals_source`没有充分单位依据时保持null；完整topics/data及原始数量仍可从raw_json和捕获输入恢复。到账、报价、协议存款与应用费用分别保留，不能把报价当实际到账或重复扣已净实收费用。
+
+网络标识明确区分Ethereum1、Optimism10、BSC56、Monad143、HyperEVM999、Robinhood4663、Arc5042、Base8453、Arbitrum42161。Relay的1337是HyperCore来源标识，与999的HyperEVM RPC分开；1337动作引用查独立HyperCore源，不填造EVM回执。
+
+`source_path`相对该回执组件目录，`source_sha256`为捕获文件字节摘要，`source_pointer`定位完整JSON对象。批量RPC的wire响应、query ID与transactionHash一一对应；规范JSON摘要与原响应字节摘要不可互换。RPC null、HTTP403/429、timeout和未查询均各自记录，不能作为“交易不存在”“零记录”或来源EOF。未来新增意图可能揭示额外执行引用，覆盖表须按实际冻结的引用清单说明范围。

@@ -12,8 +12,8 @@ FOMO官方条款明确其交易在第三方基础设施执行，并列有跨链/
 来源：https://fomo.family/terms
 Relay官方接口说明：https://docs.relay.link/references/api/api_guides/migrating-to-requests-v3
 
-本轮用原第一名theunipcs的声明EVM与Solana地址，各取得100条真实Relay请求（共200条来源行，非200笔独立交易）。
-原第二名pointfarmcap的EVM查询随后HTTP429，已共享暂停；其他未尝试账户不能标无数据或完成。
+早期少量Relay试查已扩展到原97个完整EVM与96个完整Solana地址，共193个实际来源位置，并沿已有游标继续。每个来源的实际状态、已取得记录、错误和剩余游标以data/raw/relay各钱包manifest/checkpoint及summary为准；预算暂停或429不是EOF。
+原100人名单不变，7个无完整地址位置单列。不同分页观察行、意图ID和执行交易是不同计数，不把任何一轮数量当全平台历史。
 请求包含user/recipient、两端chainId/hash、费用和原始状态，分别保留；外部付款人或solver不自动视作账户钱包。
 
 ## 真实缺口
