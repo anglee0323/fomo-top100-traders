@@ -115,3 +115,5 @@ coverage 按账户/钱包/来源保留 source_eof、续 cursor、预算暂停、
 `address_activity/chain_coverage.json`固定100账户×5链500个位置。484个已知位置都已核对真实success终页且无续cursor，16个缺地址位置为未知，不填零交易。4个相同链、相同钱包的既有GMGN来源按实际捕获SHA复用，原FOMO排名不变。
 
 这里的coverage.pages是实际分页回执文件数量，包括留存的失败请求回执，不表示每页都成功或每页都有50条记录；实际行数来自捕获记录，最终终点只由匹配编译版本的成功末页判断。完整逐页原始回执保留在data/raw/gmgn_activity，组件内保留固定编译来源、对应终页及其字节SHA和JSONpointer。字段单位仍按来源报告值，未知不猜。
+
+`address_activity/raw_pages_manifest.json`索引全部5914份实际回执文件（5892份成功、22份失败），逐条保留原始路径、字节SHA、页号、实际item_count、请求/返回时间和input/output cursor。它区分物理回执、页号和成功页；不按页号乘50估计记录。原始gzip和4个复用来源的原链钱包raw均保持在原路径，不因清洗删除。
