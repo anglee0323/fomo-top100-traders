@@ -28,8 +28,9 @@
 |evm_native_balances/|388条当前原生币余额，97地址×4链；3掩码账户的12位置保留，非ERC20全持仓|
 |address_gaps/|原100人原字段与7个缺失钱包位置的逐行证据；3掩码账户及lowgrandcrane缺Sol，不填0或猜地址|
 |ethereum_internal_compatibility/|45条实际兼容索引内部调用；服务报告索引不完整或429、未查询均保留，非完整历史|
+|ethereum_index/|10298条实际历史索引记录：普通交易301、代币转账6038、内部调用1898、UserOp2061；97已知EVM地址的普通交易/代币转账/UserOp均到来源末页，内部调用34来源末页、63接口错误保留续页|
 
-这些表的`source_path`相对各组件目录；旧`data/ready`只取events.parquet和trades.parquet作原档案基线，其中早期部分Relay表不作为当前最终Relay来源。
+链补充表及HyperCore表的`source_path`相对各组件目录；`main_activity`使用已捕获输入的本机绝对路径；旧`data/ready`只取events.parquet和trades.parquet作原档案基线，其中早期部分Relay表不作为当前最终Relay来源。
 
 完整性：**原始数据可使用，全历史未证明完整**。已存活动不是261171笔独立经济交易，也不构成完整费用/净利润对账。
 详见 [完整性调查](COMPLETENESS.md)、[字段字典](DATA_DICTIONARY.md)。
