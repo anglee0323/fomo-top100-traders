@@ -45,3 +45,9 @@ data/ready/quarantine.jsonl
 v2_batch/receipts/
 v2_batch/data/
 data/ready/inputs/
+
+# Local immutable data and captured source inputs
+data/**/*.parquet
+data/**/chain_inputs/
+data/**/source_inputs/
+data/**/inputs/

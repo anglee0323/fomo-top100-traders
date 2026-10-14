@@ -1,46 +1,24 @@
-# FOMO 原100人数据
+# FOMO 原100账户交易数据
 
-固定使用原 `data/traders_profiles.json` 的100人；不会从其他排行榜增加、替换或重新排序。
+最终入口：[data/final_original100_20261014/README.md](data/final_original100_20261014/README.md)。名单固定为原data/traders_profiles.json，未增加、替换或重新排序。
 
-|文件|用途|
+|主表|内容|
 |---|---|
-|data/traders_profiles.json / csv|原100人资料、声明钱包及原指标|
-|data/dex_swaps/|原100个JSON；97非空，共261171条来源活动|
-|data/ready/events.parquet|全部261171条可读来源活动，包含转账与其他类别|
-|data/ready/trades.parquet|104759条来源买卖；不混入transfer_in|
-|data/ready/cohort.json|原名单与SHA256，不是另一份榜单|
-|data/ready/coverage.csv / json|每账户×链的范围、空数据、未知与分页状态|
-|data/ready/inputs.json|输入路径、字节SHA256与行数|
-|data/raw/relay/|本轮按原钱包补查的意图、两端执行与续游标|
-|data/tokens_holdings.json / csv|原持仓快照，非所有历史持仓|
+|solana/transactions.parquet|135986条账户×Sol签名记录；96个已知地址的GMGN可见来源已到终页|
+|evm_transactions.parquet|332970条账户×链×交易哈希记录，全部对应可验证回执|
+|evm_receipts.parquet|243641份去重链上回执；保留真实执行状态与gas乘积|
+|relay_orders/transactions.parquet|58066条账户×Relay订单记录，原始字段与两端执行引用保留|
+|relay_orders/owner_asset_changes.parquet|109797条平台报告的原账户资产变化，quote与实收不混用|
+|indexed_transfers/fungible_transfer_history.parquet|354333条可读同质化转移记录；NFT2202条另表|
 
-原活动总体时间：2025-10-09T19:24:52Z至2026-10-11T15:56:38Z；这是整体极值，不代表每人覆盖整个区间。
-97完整EVM地址、96完整Solana地址；3个原名单账户地址掩码，1个原账户未提供Solana地址，均保留在100人分母。
+这些是不同记录层次，不相加当交易笔数或金额。费用是执行gas或平台分别报告的费用，不是已证明全部成本/净收益。
 
-已验收的固定补充组件位于`data/ready_final_original_cohorts_v1/`；联合最终交付仍在组装，下面的来源分别读取，不相加当独立交易：
+[覆盖表](data/final_original100_20261014/coverage.csv)、[具体缺口](data/final_original100_20261014/gaps.csv)、[字典](data/final_original100_20261014/DATA_DICTIONARY.md)、[文件摘要](data/final_original100_20261014/MANIFEST.json)均在最终目录。
 
-|组件|已验收记录与范围|
-|---|---|
-|main_activity/|540665条可直接查询的原档案+新地址来源观察，382981条来源buy/sell；source_observations保留全部来源链接，非独立经济交易计数；其他服务补采仍进行中|
-|address_activity/|279494条地址来源活动及278222条来源buy/sell查询记录；484个已知账户×链位置均有成功终页，16个缺地址位置保留；不是FOMO平台独占或全链历史，旧261171条档案继续独立保留|
-|hyperliquid/|234823条成交、7079条资金费、1513条其他账本；97已知EVM地址的三类可见分页均到来源终点，3掩码账户保留缺口；当前仓位、余额与状态另表|
-|sol_holdings/|37377条当前native/SPL/Token2022余额，96已知Sol地址的288个源快照；4个无Sol地址位置保留|
-|evm_native_balances/|388条当前原生币余额，97地址×4链；3掩码账户的12位置保留，非ERC20全持仓|
-|address_gaps/|原100人原字段与7个缺失钱包位置的逐行证据；3掩码账户及lowgrandcrane缺Sol，不填0或猜地址|
-|ethereum_internal_compatibility/|45条实际兼容索引内部调用；服务报告索引不完整或429、未查询均保留，非完整历史|
-|ethereum_index/|10298条实际历史索引记录：普通交易301、代币转账6038、内部调用1898、UserOp2061；97已知EVM地址的普通交易/代币转账/UserOp均到来源末页，内部调用34来源末页、63接口错误保留续页|
+3个原账户钱包掩码（boosted、CryptoZachLA、XbtPika），lowgrandcrane未提供Sol地址，保留原字段和7个钱包位置缺口。
+Relay订单源44/97到终点；其余53的旧订单元数据仍有续游标/网络失败，已使用原钱包四主链地址索引补可得链上记录。不能从链上回执编造缺失的订单ID或私有平台元数据。
+转移索引不供应失败/零资产变化交易，BSC与Robinhood原生内部转移也不在该索引范围；未知范围逐账户列明。
 
-链补充表及HyperCore表的`source_path`相对各组件目录；`main_activity`使用已捕获输入的本机绝对路径；旧`data/ready`只取events.parquet和trades.parquet作原档案基线，其中早期部分Relay表不作为当前最终Relay来源。
+Sol表是GMGN可见活动，未证明所有已关闭ATA的全链历史。各来源时间范围分别保留，目录日期是整理日期，不代表所有源都更新到同一时刻。
 
-完整性：**原始数据可使用，全历史未证明完整**。已存活动不是261171笔独立经济交易，也不构成完整费用/净利润对账。
-详见 [完整性调查](COMPLETENESS.md)、[字段字典](DATA_DICTIONARY.md)。
-
-```python
-import pandas as pd
-trades = pd.read_parquet('data/ready/trades.parquet',
-    columns=['wallet', 'chain', 'timestamp_utc', 'event_type', 'asset_address', 'token_amount_provider'])
-coverage = pd.read_csv('data/ready/coverage.csv')
-```
-
-采集和整理代码位于 `smart-money-dataset-builder`，本仓库只放数据与说明。原始文件不被清洗覆盖。
-较大的本地Parquet/raw不提交GitHub；仓库保存结构、范围与可核对manifest，实际文件位于本机上述路径。
+原100个dex_swaps文件、261171条旧活动及已捕获来源保留作回放；无关服务表不作为主交易入口。大表和原始回执只存本机，Git同步代码、说明与可核对元数据，不上传凭据。

@@ -1,0 +1,106 @@
+{
+  "generated_at_utc": "2026-10-14T07:50:35.736641+00:00",
+  "cohort_sha256": "a7d507cc7b28c27da859355cd4e8358da12d7bf5fb7a8bf2c2b07f38383c1a36",
+  "original_accounts": 100,
+  "known_evm_addresses": 97,
+  "known_solana_addresses": 96,
+  "unique_receipts": 243641,
+  "evm_account_chain_transaction_rows": 332970,
+  "evm_transaction_rows_missing_receipt": 0,
+  "files": {
+    "evm_receipts.parquet": {
+      "rows": 243641,
+      "bytes": 859108246,
+      "sha256": "a8aa4673a84bd7c8c441131eece9a4e8804d4dcb028379d96426184742ebda33"
+    },
+    "evm_transactions.parquet": {
+      "rows": 332970,
+      "bytes": 27425507,
+      "sha256": "635d02926ef6e0f732ea0258d685880ca166d300d14799b51370522da1fde3df"
+    },
+    "indexed_receipts/receipts.parquet": {
+      "rows": 155219,
+      "bytes": 489990674,
+      "sha256": "e4a8f03d84a4a8cc882446dc254bda0a584fb2ccdf5a3ab43477bfe764e4a9ab"
+    },
+    "indexed_transfers/fungible_transfer_history.parquet": {
+      "rows": 354333,
+      "bytes": 65942508,
+      "sha256": "727792d4ead3bc093176ef81620624b1c7b91d31357b46f222c0a60b65edbe6c"
+    },
+    "indexed_transfers/other_asset_history.parquet": {
+      "rows": 2202,
+      "bytes": 175640,
+      "sha256": "1ccd799faf366b84266d869d3eb1513d7617793707b359ddbfe0b10c9bc7b901"
+    },
+    "known_node_evidence/owner_transfer_logs.parquet": {
+      "rows": 184247,
+      "bytes": 23576930,
+      "sha256": "63f5d1ddc8283fa171fd4f8aa8d43c7ae3475776423fabd201e41141fab9dfc2"
+    },
+    "known_node_evidence/receipts.parquet": {
+      "rows": 80699,
+      "bytes": 339909239,
+      "sha256": "30fcf0d1eb1ed667b6b0a6134d179b8e5916e60c87ea0615de05a2e1c3d750ff"
+    },
+    "known_node_evidence/relay_reference_associations.parquet": {
+      "rows": 14000,
+      "bytes": 1679066,
+      "sha256": "faa65e747738cb313adca5f11e7b01d50d23ea533e0b2049f95e94d7d50387ca"
+    },
+    "known_node_evidence/transactions.parquet": {
+      "rows": 80699,
+      "bytes": 205082041,
+      "sha256": "014df6b8dd5903d939f15166259c1c6666f266071e0b445fa81d247ea21cee75"
+    },
+    "relay_orders/owner_asset_changes.parquet": {
+      "rows": 109797,
+      "bytes": 11546367,
+      "sha256": "731fc03f5c1379f40658b317485f9e6c41edea057f8f61838043ac1bd25fedf4"
+    },
+    "relay_orders/transactions.parquet": {
+      "rows": 58066,
+      "bytes": 23941500,
+      "sha256": "db613cd9429ae697d6f2ee030844c1b921c614e982ae40679edad37eb1c489b1"
+    },
+    "relay_rpc_evidence/evm_indexed_logs.parquet": {
+      "rows": 27309,
+      "bytes": 4623661,
+      "sha256": "0132eb12cba4ab3ed497a5c7d11728c4345f461f34374a82933a6133d2b37716"
+    },
+    "relay_rpc_evidence/evm_indexed_transactions.parquet": {
+      "rows": 842,
+      "bytes": 1588738,
+      "sha256": "97494549f4553d10f96bc79269cf04fa276cf69cc76eabcef0be1b0970b226c5"
+    },
+    "relay_rpc_evidence/evm_receipt_logs.parquet": {
+      "rows": 426983,
+      "bytes": 46019771,
+      "sha256": "82daf5f8b7cef1c0bb622d2afdca1306ea735f33b7cdf4795699a88ce133add7"
+    },
+    "relay_rpc_evidence/evm_transaction_receipts.parquet": {
+      "rows": 14383,
+      "bytes": 26867901,
+      "sha256": "b74264f83853c20081b1f8480a19af14ffc03a9a8c72350704e5daf6f0a627bc"
+    },
+    "relay_rpc_evidence/relay_transaction_links.parquet": {
+      "rows": 31009,
+      "bytes": 2950488,
+      "sha256": "c4b48a5d966d7ed0bdd95aee07de78aca0065686a76a2a6d305572b7830978c4"
+    },
+    "solana/trading_transactions.parquet": {
+      "rows": 135789,
+      "bytes": 36185404,
+      "sha256": "2a4e6dfea120f3fe61fa78f9f648e2195e7e42f13cd5fb066b2128d7de9a0f2a"
+    },
+    "solana/transactions.parquet": {
+      "rows": 135986,
+      "bytes": 36221989,
+      "sha256": "af3d8232a74a5bc313ed6684130a46e9776edf0e5e9491e93e5550f9628c0a1a"
+    }
+  },
+  "all_chain_history_complete": false,
+  "sol_scope": "GMGN-visible address activities, not exhaustive ATA history",
+  "evm_scope": "Relay orders and indexed transfers are distinct source records; never sum them as independent trades",
+  "unknowns": "Failed/zero-change transactions are outside transfer-index scope; native internal transfers unavailable on BSC/RH. Unknown units/costs remain null."
+}
