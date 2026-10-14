@@ -1,0 +1,50 @@
+{
+  "status": "validated",
+  "snapshot_date": "2026-10-14",
+  "table_sha256_verified": true,
+  "table_row_counts_verified": true,
+  "source_files_sha256_verified": 24235,
+  "source_references_relative_to_dataset": true,
+  "source_pointer_samples_verified": true,
+  "all_chain_history_complete": false,
+  "analysis_example_executed": true,
+  "ml_numeric_matrix_finite": true,
+  "table_count": 8,
+  "primary_keys_verified": {
+    "solana/transactions.parquet": [
+      "rank",
+      "tx_hash"
+    ],
+    "evm_transactions.parquet": [
+      "rank",
+      "chain_id",
+      "tx_hash"
+    ],
+    "evm_receipts.parquet": [
+      "chain",
+      "tx_hash"
+    ],
+    "relay_orders/transactions.parquet": [
+      "rank",
+      "request_id"
+    ],
+    "relay_orders/owner_asset_changes.parquet": [
+      "rank",
+      "request_id",
+      "phase",
+      "leg_index",
+      "change_index"
+    ],
+    "indexed_transfers/fungible_transfer_history.parquet": [
+      "record_id"
+    ],
+    "indexed_transfers/other_asset_history.parquet": [
+      "record_id"
+    ],
+    "account_features.parquet": [
+      "account_id",
+      "chain"
+    ]
+  },
+  "missing_evm_transaction_receipt_joins": 0
+}

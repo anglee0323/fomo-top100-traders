@@ -1,0 +1,1013 @@
+{
+  "format": "Apache Parquet",
+  "timestamps": "UTC",
+  "null_semantics": "unknown or not supplied; never implicit zero",
+  "tables": {
+    "solana/transactions.parquet": {
+      "rows": 135986,
+      "fields": [
+        {
+          "name": "account_id",
+          "type": "string",
+          "nullable": true,
+          "description": "数据集内稳定账户/链钱包角色键；FOMO的original_fomo:rank:handle为本地标识。"
+        },
+        {
+          "name": "rank",
+          "type": "int32",
+          "nullable": true,
+          "description": "冻结样本中的原排名；GMGN排名在每链内部定义。"
+        },
+        {
+          "name": "handle",
+          "type": "string",
+          "nullable": true,
+          "description": "来源账户用户名，可为空。"
+        },
+        {
+          "name": "wallet",
+          "type": "string",
+          "nullable": true,
+          "description": "被查询/关联的钱包；回执表可为空，账户成员关系见memberships_json。"
+        },
+        {
+          "name": "tx_hash",
+          "type": "string",
+          "nullable": true,
+          "description": "EVM交易哈希或Solana签名；UserOp来源中为用户操作哈希，需在raw_json读取外层交易。"
+        },
+        {
+          "name": "timestamp_utc",
+          "type": "string",
+          "nullable": true,
+          "description": "来源时间，ISO 8601 UTC文本；未知为null，读取时显式转换为UTC时间。"
+        },
+        {
+          "name": "has_buy_sell",
+          "type": "bool",
+          "nullable": true,
+          "description": "该Solana交易的来源观察是否包含buy/sell分类。"
+        },
+        {
+          "name": "source_event_observation_count",
+          "type": "int32",
+          "nullable": true,
+          "description": "聚合到该账户×签名的活动观察数。"
+        },
+        {
+          "name": "event_observations_json",
+          "type": "string",
+          "nullable": true,
+          "description": "该账户×签名的活动及逐条来源引用JSON数组。"
+        }
+      ]
+    },
+    "evm_transactions.parquet": {
+      "rows": 332970,
+      "fields": [
+        {
+          "name": "rank",
+          "type": "int64",
+          "nullable": true,
+          "description": "冻结样本中的原排名；GMGN排名在每链内部定义。"
+        },
+        {
+          "name": "handle",
+          "type": "string",
+          "nullable": true,
+          "description": "来源账户用户名，可为空。"
+        },
+        {
+          "name": "wallet",
+          "type": "string",
+          "nullable": true,
+          "description": "被查询/关联的钱包；回执表可为空，账户成员关系见memberships_json。"
+        },
+        {
+          "name": "chain_id",
+          "type": "int64",
+          "nullable": true,
+          "description": "十进制EVM链ID：1 Ethereum、56 BSC、8453 Base、4663 Robinhood。"
+        },
+        {
+          "name": "tx_hash",
+          "type": "string",
+          "nullable": true,
+          "description": "EVM交易哈希或Solana签名；UserOp来源中为用户操作哈希，需在raw_json读取外层交易。"
+        },
+        {
+          "name": "timestamp_utc",
+          "type": "string",
+          "nullable": true,
+          "description": "来源时间，ISO 8601 UTC文本；未知为null，读取时显式转换为UTC时间。"
+        },
+        {
+          "name": "block_number",
+          "type": "string",
+          "nullable": true,
+          "description": "EVM区块高度十进制文本。"
+        },
+        {
+          "name": "receipt_available",
+          "type": "bool",
+          "nullable": true,
+          "description": "纳入哈希是否有已验证链上回执。"
+        },
+        {
+          "name": "execution_status",
+          "type": "string",
+          "nullable": true,
+          "description": "EVM回执执行状态：0x1成功、0x0失败；未知为null。"
+        },
+        {
+          "name": "execution_fee_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "gasUsed × effectiveGasPrice的wei整数文本，不代表全部钱包费用。"
+        },
+        {
+          "name": "fee_unit",
+          "type": "string",
+          "nullable": true,
+          "description": "费用计量单位，例如wei；不是美元。"
+        },
+        {
+          "name": "fee_payer",
+          "type": "string",
+          "nullable": true,
+          "description": "执行费用付款地址，可能为bundler，不一定等于样本钱包。"
+        },
+        {
+          "name": "receipt_source_path",
+          "type": "string",
+          "nullable": true,
+          "description": "执行回执来源路径，相对dataset根目录。"
+        },
+        {
+          "name": "receipt_source_sha256",
+          "type": "string",
+          "nullable": true,
+          "description": "执行回执来源原始字节SHA256。"
+        },
+        {
+          "name": "receipt_source_pointer",
+          "type": "string",
+          "nullable": true,
+          "description": "执行回执在来源JSON中的指针。"
+        },
+        {
+          "name": "index_source_path",
+          "type": "string",
+          "nullable": true,
+          "description": "地址索引来源路径，相对dataset根目录。"
+        },
+        {
+          "name": "index_source_sha256",
+          "type": "string",
+          "nullable": true,
+          "description": "索引来源原始字节SHA256。"
+        },
+        {
+          "name": "index_source_pointer",
+          "type": "string",
+          "nullable": true,
+          "description": "索引来源JSON指针。"
+        },
+        {
+          "name": "indexed_event_count",
+          "type": "int64",
+          "nullable": true,
+          "description": "纳入该账户×链×交易的地址索引事件数。"
+        },
+        {
+          "name": "relay_references_json",
+          "type": "string",
+          "nullable": true,
+          "description": "关联Relay请求/执行腿的JSON引用数组。"
+        }
+      ]
+    },
+    "evm_receipts.parquet": {
+      "rows": 243641,
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "nullable": true,
+          "description": "来源记录的稳定标识，不能替代交易哈希。"
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "nullable": true,
+          "description": "来源接口/记录类型。"
+        },
+        {
+          "name": "chain",
+          "type": "string",
+          "nullable": true,
+          "description": "链标识；GMGN使用sol/bsc/base/eth/robinhood；通用EVM来源表使用十进制chain ID文本。"
+        },
+        {
+          "name": "wallet",
+          "type": "string",
+          "nullable": true,
+          "description": "被查询/关联的钱包；回执表可为空，账户成员关系见memberships_json。"
+        },
+        {
+          "name": "memberships_json",
+          "type": "string",
+          "nullable": true,
+          "description": "关联账户/链钱包角色列表的JSON文本；回执可同时属于多个账户。"
+        },
+        {
+          "name": "tx_hash",
+          "type": "string",
+          "nullable": true,
+          "description": "EVM交易哈希或Solana签名；UserOp来源中为用户操作哈希，需在raw_json读取外层交易。"
+        },
+        {
+          "name": "timestamp_utc",
+          "type": "string",
+          "nullable": true,
+          "description": "来源时间，ISO 8601 UTC文本；未知为null，读取时显式转换为UTC时间。"
+        },
+        {
+          "name": "asset_address",
+          "type": "string",
+          "nullable": true,
+          "description": "链内资产合约或mint标识；原生资产可为空。"
+        },
+        {
+          "name": "token_account",
+          "type": "string",
+          "nullable": true,
+          "description": "来源提供的代币账户，可缺失。"
+        },
+        {
+          "name": "amount_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "来源资产原始整数文本；避免浮点转换。"
+        },
+        {
+          "name": "decimals_source",
+          "type": "int32",
+          "nullable": true,
+          "description": "来源资产精度，0是有效值，未知为null。"
+        },
+        {
+          "name": "amount_basic",
+          "type": "string",
+          "nullable": true,
+          "description": "按来源精度换算的十进制数量文本；精度未知时为null。"
+        },
+        {
+          "name": "amount_ui_source",
+          "type": "string",
+          "nullable": true,
+          "description": "来源显示数量文本，仅保留观察值。"
+        },
+        {
+          "name": "fee_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "来源原始费用整数文本；类型及单位由fee_type_source/fee_unit指定。"
+        },
+        {
+          "name": "fee_unit",
+          "type": "string",
+          "nullable": true,
+          "description": "费用计量单位，例如wei；不是美元。"
+        },
+        {
+          "name": "fee_type_source",
+          "type": "string",
+          "nullable": true,
+          "description": "费用的来源含义/计算口径。"
+        },
+        {
+          "name": "fee_payer",
+          "type": "string",
+          "nullable": true,
+          "description": "执行费用付款地址，可能为bundler，不一定等于样本钱包。"
+        },
+        {
+          "name": "context_slot",
+          "type": "string",
+          "nullable": true,
+          "description": "来源区块高度/上下文槽位文本，具体语义按source解释。"
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "nullable": true,
+          "description": "相对dataset根目录的压缩来源文件路径。"
+        },
+        {
+          "name": "source_sha256",
+          "type": "string",
+          "nullable": true,
+          "description": "来源文件原始字节SHA256；先解压存储层再校验。"
+        },
+        {
+          "name": "source_pointer",
+          "type": "string",
+          "nullable": true,
+          "description": "解码来源JSON后定位原记录的RFC 6901 JSON指针。"
+        },
+        {
+          "name": "raw_json",
+          "type": "string",
+          "nullable": true,
+          "description": "完整来源记录的JSON文本。"
+        }
+      ]
+    },
+    "relay_orders/transactions.parquet": {
+      "rows": 58066,
+      "fields": [
+        {
+          "name": "account_id",
+          "type": "string",
+          "nullable": true,
+          "description": "数据集内稳定账户/链钱包角色键；FOMO的original_fomo:rank:handle为本地标识。"
+        },
+        {
+          "name": "handle",
+          "type": "string",
+          "nullable": true,
+          "description": "来源账户用户名，可为空。"
+        },
+        {
+          "name": "wallet",
+          "type": "string",
+          "nullable": true,
+          "description": "被查询/关联的钱包；回执表可为空，账户成员关系见memberships_json。"
+        },
+        {
+          "name": "request_id",
+          "type": "string",
+          "nullable": true,
+          "description": "Relay请求标识；同一请求可有多个账户成员或多条执行腿。"
+        },
+        {
+          "name": "created_at_utc",
+          "type": "string",
+          "nullable": true,
+          "description": "来源请求创建时间UTC。"
+        },
+        {
+          "name": "updated_at_utc",
+          "type": "string",
+          "nullable": true,
+          "description": "来源请求更新时间UTC。"
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "nullable": true,
+          "description": "来源请求状态。"
+        },
+        {
+          "name": "participation",
+          "type": "string",
+          "nullable": true,
+          "description": "原账户的参与角色，例如initiator或recipient_only。"
+        },
+        {
+          "name": "initiator",
+          "type": "string",
+          "nullable": true,
+          "description": "来源请求发起者。"
+        },
+        {
+          "name": "recipient",
+          "type": "string",
+          "nullable": true,
+          "description": "来源请求收款者。"
+        },
+        {
+          "name": "input_asset",
+          "type": "string",
+          "nullable": true,
+          "description": "输入资产合约/mint。"
+        },
+        {
+          "name": "input_symbol",
+          "type": "string",
+          "nullable": true,
+          "description": "输入资产显示符号。"
+        },
+        {
+          "name": "input_amount_reported_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "来源报告的输入原始数量整数文本。"
+        },
+        {
+          "name": "input_amount_reported_basic",
+          "type": "string",
+          "nullable": true,
+          "description": "按来源精度缩放的输入数量文本。"
+        },
+        {
+          "name": "output_asset",
+          "type": "string",
+          "nullable": true,
+          "description": "输出资产合约/mint。"
+        },
+        {
+          "name": "output_symbol",
+          "type": "string",
+          "nullable": true,
+          "description": "输出资产显示符号。"
+        },
+        {
+          "name": "output_amount_reported_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "来源报告的输出原始数量整数文本。"
+        },
+        {
+          "name": "output_amount_reported_basic",
+          "type": "string",
+          "nullable": true,
+          "description": "按来源精度缩放的输出数量文本，保留reported口径。"
+        },
+        {
+          "name": "origin_owner_asset_delta_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "来源报告的输入侧原账户资产变化原始整数文本。"
+        },
+        {
+          "name": "origin_owner_asset_delta_basic",
+          "type": "string",
+          "nullable": true,
+          "description": "输入侧原账户资产变化的十进制数量文本。"
+        },
+        {
+          "name": "destination_owner_asset_delta_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "来源报告的输出侧原账户资产变化原始整数文本。"
+        },
+        {
+          "name": "destination_owner_asset_delta_basic",
+          "type": "string",
+          "nullable": true,
+          "description": "输出侧原账户资产变化的十进制数量文本。"
+        },
+        {
+          "name": "in_transactions_json",
+          "type": "string",
+          "nullable": true,
+          "description": "输入侧执行交易数组JSON。"
+        },
+        {
+          "name": "out_transactions_json",
+          "type": "string",
+          "nullable": true,
+          "description": "输出侧执行交易数组JSON。"
+        },
+        {
+          "name": "app_fee_currency_json",
+          "type": "string",
+          "nullable": true,
+          "description": "来源应用费用资产对象JSON。"
+        },
+        {
+          "name": "app_fees_reported_json",
+          "type": "string",
+          "nullable": true,
+          "description": "来源报告应用费用JSON。"
+        },
+        {
+          "name": "app_fees_paid_json",
+          "type": "string",
+          "nullable": true,
+          "description": "来源实际支付应用费用JSON，与reported分开。"
+        },
+        {
+          "name": "relay_fees_reported_json",
+          "type": "string",
+          "nullable": true,
+          "description": "来源Relay费用JSON。"
+        },
+        {
+          "name": "relay_fees_usd_reported_json",
+          "type": "string",
+          "nullable": true,
+          "description": "来源报告的USD Relay费用JSON。"
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "nullable": true,
+          "description": "相对dataset根目录的压缩来源文件路径。"
+        },
+        {
+          "name": "source_sha256",
+          "type": "string",
+          "nullable": true,
+          "description": "来源文件原始字节SHA256；先解压存储层再校验。"
+        },
+        {
+          "name": "source_pointer",
+          "type": "string",
+          "nullable": true,
+          "description": "解码来源JSON后定位原记录的RFC 6901 JSON指针。"
+        },
+        {
+          "name": "source_request_sha256",
+          "type": "string",
+          "nullable": true,
+          "description": "来源请求对象的规范化内容SHA256。"
+        },
+        {
+          "name": "rank",
+          "type": "int64",
+          "nullable": true,
+          "description": "冻结样本中的原排名；GMGN排名在每链内部定义。"
+        },
+        {
+          "name": "input_chain_id",
+          "type": "int64",
+          "nullable": true,
+          "description": "来源请求输入链ID。"
+        },
+        {
+          "name": "input_decimals_source",
+          "type": "int64",
+          "nullable": true,
+          "description": "输入资产来源精度。"
+        },
+        {
+          "name": "output_chain_id",
+          "type": "int64",
+          "nullable": true,
+          "description": "来源请求输出链ID。"
+        },
+        {
+          "name": "output_decimals_source",
+          "type": "int64",
+          "nullable": true,
+          "description": "输出资产来源精度。"
+        }
+      ]
+    },
+    "relay_orders/owner_asset_changes.parquet": {
+      "rows": 109797,
+      "fields": [
+        {
+          "name": "account_id",
+          "type": "string",
+          "nullable": true,
+          "description": "数据集内稳定账户/链钱包角色键；FOMO的original_fomo:rank:handle为本地标识。"
+        },
+        {
+          "name": "handle",
+          "type": "string",
+          "nullable": true,
+          "description": "来源账户用户名，可为空。"
+        },
+        {
+          "name": "request_id",
+          "type": "string",
+          "nullable": true,
+          "description": "Relay请求标识；同一请求可有多个账户成员或多条执行腿。"
+        },
+        {
+          "name": "phase",
+          "type": "string",
+          "nullable": true,
+          "description": "执行腿方向/阶段，例如in/out。"
+        },
+        {
+          "name": "tx_hash",
+          "type": "string",
+          "nullable": true,
+          "description": "EVM交易哈希或Solana签名；UserOp来源中为用户操作哈希，需在raw_json读取外层交易。"
+        },
+        {
+          "name": "tx_status",
+          "type": "string",
+          "nullable": true,
+          "description": "该执行腿的来源状态。"
+        },
+        {
+          "name": "owner_address",
+          "type": "string",
+          "nullable": true,
+          "description": "该条资产变化所属的原账户地址。"
+        },
+        {
+          "name": "asset_address",
+          "type": "string",
+          "nullable": true,
+          "description": "链内资产合约或mint标识；原生资产可为空。"
+        },
+        {
+          "name": "amount_delta_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "带符号资产变化原始整数文本。"
+        },
+        {
+          "name": "amount_delta_basic",
+          "type": "string",
+          "nullable": true,
+          "description": "带符号十进制资产变化文本。"
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "nullable": true,
+          "description": "相对dataset根目录的压缩来源文件路径。"
+        },
+        {
+          "name": "source_sha256",
+          "type": "string",
+          "nullable": true,
+          "description": "来源文件原始字节SHA256；先解压存储层再校验。"
+        },
+        {
+          "name": "source_pointer",
+          "type": "string",
+          "nullable": true,
+          "description": "解码来源JSON后定位原记录的RFC 6901 JSON指针。"
+        },
+        {
+          "name": "rank",
+          "type": "int64",
+          "nullable": true,
+          "description": "冻结样本中的原排名；GMGN排名在每链内部定义。"
+        },
+        {
+          "name": "chain_id",
+          "type": "int64",
+          "nullable": true,
+          "description": "十进制EVM链ID：1 Ethereum、56 BSC、8453 Base、4663 Robinhood。"
+        },
+        {
+          "name": "leg_index",
+          "type": "int64",
+          "nullable": true,
+          "description": "来源执行腿数组下标。"
+        },
+        {
+          "name": "change_index",
+          "type": "int64",
+          "nullable": true,
+          "description": "来源资产变化数组下标。"
+        },
+        {
+          "name": "decimals_source",
+          "type": "int64",
+          "nullable": true,
+          "description": "来源资产精度，0是有效值，未知为null。"
+        }
+      ]
+    },
+    "indexed_transfers/fungible_transfer_history.parquet": {
+      "rows": 354333,
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "nullable": true,
+          "description": "来源记录的稳定标识，不能替代交易哈希。"
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "nullable": true,
+          "description": "来源接口/记录类型。"
+        },
+        {
+          "name": "chain",
+          "type": "string",
+          "nullable": true,
+          "description": "链标识；GMGN使用sol/bsc/base/eth/robinhood；通用EVM来源表使用十进制chain ID文本。"
+        },
+        {
+          "name": "wallet",
+          "type": "string",
+          "nullable": true,
+          "description": "被查询/关联的钱包；回执表可为空，账户成员关系见memberships_json。"
+        },
+        {
+          "name": "memberships_json",
+          "type": "string",
+          "nullable": true,
+          "description": "关联账户/链钱包角色列表的JSON文本；回执可同时属于多个账户。"
+        },
+        {
+          "name": "tx_hash",
+          "type": "string",
+          "nullable": true,
+          "description": "EVM交易哈希或Solana签名；UserOp来源中为用户操作哈希，需在raw_json读取外层交易。"
+        },
+        {
+          "name": "timestamp_utc",
+          "type": "string",
+          "nullable": true,
+          "description": "来源时间，ISO 8601 UTC文本；未知为null，读取时显式转换为UTC时间。"
+        },
+        {
+          "name": "asset_address",
+          "type": "string",
+          "nullable": true,
+          "description": "链内资产合约或mint标识；原生资产可为空。"
+        },
+        {
+          "name": "token_account",
+          "type": "string",
+          "nullable": true,
+          "description": "来源提供的代币账户，可缺失。"
+        },
+        {
+          "name": "amount_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "来源资产原始整数文本；避免浮点转换。"
+        },
+        {
+          "name": "decimals_source",
+          "type": "int32",
+          "nullable": true,
+          "description": "来源资产精度，0是有效值，未知为null。"
+        },
+        {
+          "name": "amount_basic",
+          "type": "string",
+          "nullable": true,
+          "description": "按来源精度换算的十进制数量文本；精度未知时为null。"
+        },
+        {
+          "name": "amount_ui_source",
+          "type": "string",
+          "nullable": true,
+          "description": "来源显示数量文本，仅保留观察值。"
+        },
+        {
+          "name": "fee_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "来源原始费用整数文本；类型及单位由fee_type_source/fee_unit指定。"
+        },
+        {
+          "name": "fee_unit",
+          "type": "string",
+          "nullable": true,
+          "description": "费用计量单位，例如wei；不是美元。"
+        },
+        {
+          "name": "fee_type_source",
+          "type": "string",
+          "nullable": true,
+          "description": "费用的来源含义/计算口径。"
+        },
+        {
+          "name": "fee_payer",
+          "type": "string",
+          "nullable": true,
+          "description": "执行费用付款地址，可能为bundler，不一定等于样本钱包。"
+        },
+        {
+          "name": "context_slot",
+          "type": "string",
+          "nullable": true,
+          "description": "来源区块高度/上下文槽位文本，具体语义按source解释。"
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "nullable": true,
+          "description": "相对dataset根目录的压缩来源文件路径。"
+        },
+        {
+          "name": "source_sha256",
+          "type": "string",
+          "nullable": true,
+          "description": "来源文件原始字节SHA256；先解压存储层再校验。"
+        },
+        {
+          "name": "source_pointer",
+          "type": "string",
+          "nullable": true,
+          "description": "解码来源JSON后定位原记录的RFC 6901 JSON指针。"
+        },
+        {
+          "name": "raw_json",
+          "type": "string",
+          "nullable": true,
+          "description": "完整来源记录的JSON文本。"
+        }
+      ]
+    },
+    "indexed_transfers/other_asset_history.parquet": {
+      "rows": 2202,
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "nullable": true,
+          "description": "来源记录的稳定标识，不能替代交易哈希。"
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "nullable": true,
+          "description": "来源接口/记录类型。"
+        },
+        {
+          "name": "chain",
+          "type": "string",
+          "nullable": true,
+          "description": "链标识；GMGN使用sol/bsc/base/eth/robinhood；通用EVM来源表使用十进制chain ID文本。"
+        },
+        {
+          "name": "wallet",
+          "type": "string",
+          "nullable": true,
+          "description": "被查询/关联的钱包；回执表可为空，账户成员关系见memberships_json。"
+        },
+        {
+          "name": "memberships_json",
+          "type": "string",
+          "nullable": true,
+          "description": "关联账户/链钱包角色列表的JSON文本；回执可同时属于多个账户。"
+        },
+        {
+          "name": "tx_hash",
+          "type": "string",
+          "nullable": true,
+          "description": "EVM交易哈希或Solana签名；UserOp来源中为用户操作哈希，需在raw_json读取外层交易。"
+        },
+        {
+          "name": "timestamp_utc",
+          "type": "string",
+          "nullable": true,
+          "description": "来源时间，ISO 8601 UTC文本；未知为null，读取时显式转换为UTC时间。"
+        },
+        {
+          "name": "asset_address",
+          "type": "string",
+          "nullable": true,
+          "description": "链内资产合约或mint标识；原生资产可为空。"
+        },
+        {
+          "name": "token_account",
+          "type": "string",
+          "nullable": true,
+          "description": "来源提供的代币账户，可缺失。"
+        },
+        {
+          "name": "amount_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "来源资产原始整数文本；避免浮点转换。"
+        },
+        {
+          "name": "decimals_source",
+          "type": "int32",
+          "nullable": true,
+          "description": "来源资产精度，0是有效值，未知为null。"
+        },
+        {
+          "name": "amount_basic",
+          "type": "string",
+          "nullable": true,
+          "description": "按来源精度换算的十进制数量文本；精度未知时为null。"
+        },
+        {
+          "name": "amount_ui_source",
+          "type": "string",
+          "nullable": true,
+          "description": "来源显示数量文本，仅保留观察值。"
+        },
+        {
+          "name": "fee_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "来源原始费用整数文本；类型及单位由fee_type_source/fee_unit指定。"
+        },
+        {
+          "name": "fee_unit",
+          "type": "string",
+          "nullable": true,
+          "description": "费用计量单位，例如wei；不是美元。"
+        },
+        {
+          "name": "fee_type_source",
+          "type": "string",
+          "nullable": true,
+          "description": "费用的来源含义/计算口径。"
+        },
+        {
+          "name": "fee_payer",
+          "type": "string",
+          "nullable": true,
+          "description": "执行费用付款地址，可能为bundler，不一定等于样本钱包。"
+        },
+        {
+          "name": "context_slot",
+          "type": "string",
+          "nullable": true,
+          "description": "来源区块高度/上下文槽位文本，具体语义按source解释。"
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "nullable": true,
+          "description": "相对dataset根目录的压缩来源文件路径。"
+        },
+        {
+          "name": "source_sha256",
+          "type": "string",
+          "nullable": true,
+          "description": "来源文件原始字节SHA256；先解压存储层再校验。"
+        },
+        {
+          "name": "source_pointer",
+          "type": "string",
+          "nullable": true,
+          "description": "解码来源JSON后定位原记录的RFC 6901 JSON指针。"
+        },
+        {
+          "name": "raw_json",
+          "type": "string",
+          "nullable": true,
+          "description": "完整来源记录的JSON文本。"
+        }
+      ]
+    },
+    "account_features.parquet": {
+      "rows": 581,
+      "fields": [
+        {
+          "name": "account_id",
+          "type": "large_string",
+          "nullable": true,
+          "description": "数据集内稳定账户/链钱包角色键；FOMO的original_fomo:rank:handle为本地标识。"
+        },
+        {
+          "name": "rank",
+          "type": "int64",
+          "nullable": true,
+          "description": "冻结样本中的原排名；GMGN排名在每链内部定义。"
+        },
+        {
+          "name": "wallet",
+          "type": "large_string",
+          "nullable": true,
+          "description": "被查询/关联的钱包；回执表可为空，账户成员关系见memberships_json。"
+        },
+        {
+          "name": "chain",
+          "type": "large_string",
+          "nullable": true,
+          "description": "链标识；GMGN使用sol/bsc/base/eth/robinhood；通用EVM来源表使用十进制chain ID文本。"
+        },
+        {
+          "name": "event_count",
+          "type": "int64",
+          "nullable": true,
+          "description": "本账户×链的来源观察数；GMGN为活动行，FOMO为账户交易头行。"
+        },
+        {
+          "name": "transaction_count",
+          "type": "int64",
+          "nullable": true,
+          "description": "本账户×链的不同交易哈希/签名数量。"
+        },
+        {
+          "name": "active_days",
+          "type": "int64",
+          "nullable": true,
+          "description": "有可解析UTC时间的观察日期数。"
+        },
+        {
+          "name": "first_seen_utc",
+          "type": "timestamp[us, tz=Asia/Shanghai]",
+          "nullable": true,
+          "description": "本来源观察的最早UTC时间，不代表账户创建时间。"
+        },
+        {
+          "name": "last_seen_utc",
+          "type": "timestamp[us, tz=Asia/Shanghai]",
+          "nullable": true,
+          "description": "本来源观察的最晚UTC时间。"
+        },
+        {
+          "name": "has_observed_activity",
+          "type": "bool",
+          "nullable": true,
+          "description": "本数据表是否包含该账户×链的观察；false不证明链上无活动。"
+        }
+      ]
+    }
+  }
+}
