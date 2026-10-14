@@ -36,7 +36,9 @@ def main():
     data.mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='.download-', dir=root) as directory:
         directory = Path(directory)
-        subprocess.run(['gh', 'release', 'download', TAG, '-R', REPOSITORY,
+        github_cli = shutil.which('gh') or next((str(p) for p in [Path('/opt/homebrew/bin/gh'), Path('/usr/local/bin/gh')] if p.is_file()), None)
+        if github_cli is None: raise RuntimeError('Install GitHub CLI before downloading')
+        subprocess.run([github_cli, 'release', 'download', TAG, '-R', REPOSITORY,
                         '--pattern', 'clean-data.tar.part*', '--pattern', 'ARCHIVE.json',
                         '--pattern', 'SHA256SUMS', '--dir', str(directory)], check=True)
         manifest = json.loads((directory / 'ARCHIVE.json').read_bytes())
