@@ -1,0 +1,22 @@
+{
+  "replaced_paths_removed": [
+    "data/dex_swaps",
+    "data/final_fomo100",
+    "data/final_original100_20261014",
+    "data/raw",
+    "data/ready",
+    "data/ready_final_original_cohorts_v1",
+    "data/sample_dex_swaps",
+    "data/dex_swaps_summary.csv",
+    "data/tokens_holdings.csv",
+    "data/tokens_holdings.json",
+    "data/traders_profiles.csv",
+    "data/traders_profiles.json",
+    "README_CN.md",
+    "COMPLETENESS.md",
+    "DATA_DICTIONARY.md"
+  ],
+  "proof": "ACCEPTANCE.json: all business fields unchanged; every retained source is portable compressed evidence",
+  "original_masked_accounts_removed": 3,
+  "missing_sol_scope_removed_only": 1
+}

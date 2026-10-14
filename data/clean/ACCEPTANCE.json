@@ -1,0 +1,43 @@
+{
+  "accepted": true,
+  "dataset": "fomo",
+  "evidence_files_checked": 24235,
+  "table_count": 7,
+  "preserved_business_values": {
+    "solana/transactions.parquet": "all_rows_and_business_columns_equal",
+    "evm_transactions.parquet": "all_rows_and_business_columns_equal",
+    "evm_receipts.parquet": "all_rows_and_business_columns_equal",
+    "relay_orders/transactions.parquet": "all_rows_and_business_columns_equal",
+    "relay_orders/owner_asset_changes.parquet": "all_rows_and_business_columns_equal",
+    "indexed_transfers/fungible_transfer_history.parquet": "all_rows_and_business_columns_equal",
+    "indexed_transfers/other_asset_history.parquet": "all_rows_and_business_columns_equal"
+  },
+  "sample_pointer_replays": [
+    {
+      "table": "solana/transactions.parquet",
+      "nested_observation_pointer_replayed": true
+    },
+    {
+      "table": "evm_receipts.parquet",
+      "pointer_replayed": true
+    },
+    {
+      "table": "relay_orders/transactions.parquet",
+      "pointer_replayed": true
+    },
+    {
+      "table": "relay_orders/owner_asset_changes.parquet",
+      "pointer_replayed": true
+    },
+    {
+      "table": "indexed_transfers/fungible_transfer_history.parquet",
+      "pointer_replayed": true
+    },
+    {
+      "table": "indexed_transfers/other_asset_history.parquet",
+      "pointer_replayed": true
+    }
+  ],
+  "all_source_references_portable": true,
+  "all_chain_history_complete": false
+}

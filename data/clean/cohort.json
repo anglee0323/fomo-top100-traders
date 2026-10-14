@@ -1,0 +1,778 @@
+[
+  {
+    "rank": 1,
+    "handle": "theunipcs",
+    "name": "Unipcs",
+    "x_username": "theunipcs",
+    "evm_address": "0x0a6ebed0155edb4b21d92ad02897a626cd90119e",
+    "sol_address": "2heJbC32Tpfcb3nbUb5ER61K11FGZVfVGtVnDm6LDogF"
+  },
+  {
+    "rank": 2,
+    "handle": "pointfarmcap",
+    "name": "point farm capital",
+    "x_username": "pointfarmcap",
+    "evm_address": "0xfd87eda88be6c372453b721da63d58ad1a5b2d94",
+    "sol_address": "Beqv6dzTcjV2eodo8RRXCiCcnSYrS1vkQKhfqwHXqeit"
+  },
+  {
+    "rank": 3,
+    "handle": "theveeman",
+    "name": "Vee",
+    "x_username": "theveeman",
+    "evm_address": "0xa0670863bd5cd0d60022bab2eed78e81e1a06bce",
+    "sol_address": "F5hkYsi8JxjyA2JHN5CA7MbnnhWubkXB2ZQB7Gkaxqs6"
+  },
+  {
+    "rank": 4,
+    "handle": "The__Solstice",
+    "name": "TheSLstice",
+    "x_username": "The__Solstice",
+    "evm_address": "0xd1c77a04b87393e98a1220532e72e8f7d0a31c5a",
+    "sol_address": "4ugDhHJ8XDXAeABmrNmGffFaLbJb9BkPyiFGVSV9ocwo"
+  },
+  {
+    "rank": 5,
+    "handle": "DumbCrayonEater",
+    "name": "DumbCrayonEater",
+    "x_username": "DumbCrayonEater",
+    "evm_address": "0x8f62a08537cede87d511aca6436274ab4ca080a3",
+    "sol_address": "5FGoPPj1nL8LCnfVnpTmreqQtqLuMXXAwuS1uahMrp8V"
+  },
+  {
+    "rank": 6,
+    "handle": "0xAvast",
+    "name": "Avast",
+    "x_username": "0xAvast",
+    "evm_address": "0xcc0c581613dfd4ace7c8686668427236f8bd5cc5",
+    "sol_address": "8xL8S7P4QLdTGRquHas8NP5EVjp2qUGbmSgrkh97mvmq"
+  },
+  {
+    "rank": 7,
+    "handle": "Chubbi230",
+    "name": "230",
+    "x_username": "Chubbi230",
+    "evm_address": "0x8405a524d977d0998c8b585ad98d6edc41cdc943",
+    "sol_address": "31nAKhDacwtF7WJAfpNBY5yziuboox6zcLhdmMRTNdyW"
+  },
+  {
+    "rank": 8,
+    "handle": "Salem1299534",
+    "name": "Salem",
+    "x_username": "Salem1299534",
+    "evm_address": "0xb8f305f27ccc406373de0082cc06cb1d065504ea",
+    "sol_address": "2yXwy5Dsa1XtEXcsrkFVRJeyuWD3qKkMN3pP3p5VTW3V"
+  },
+  {
+    "rank": 9,
+    "handle": "AvgJoesCrypto",
+    "name": "AJC",
+    "x_username": "AvgJoesCrypto",
+    "evm_address": "0x06de9c48b1e639ed5c13ec8fbd4080a38e39f2d1",
+    "sol_address": "H2QSGECp13sFLJgdTsDtayX3dk18Dm6sQMSQKcew7Xzk"
+  },
+  {
+    "rank": 10,
+    "handle": "PoorGoat_",
+    "name": "Poorgoat",
+    "x_username": "PoorGoat_",
+    "evm_address": "0x9ce0cb4a193acbce0dca3283972341aed6f3f614",
+    "sol_address": "HDixbrzwwLXczhDBk1JVrurPQsuLE8FUKnW2pucSXN3o"
+  },
+  {
+    "rank": 11,
+    "handle": "econoar",
+    "name": "eric",
+    "x_username": "econoar",
+    "evm_address": "0x1605b59dfe3c1742c815d604aab6a2faa3a5c91f",
+    "sol_address": "7sQJttJLutWjHkxbusTgE4GpSj5z4fegouv2USHDFN2H"
+  },
+  {
+    "rank": 12,
+    "handle": "FullPinkYak",
+    "name": "FullPinkYak",
+    "x_username": "FullPinkYak",
+    "evm_address": "0x2ed589426559024110e203a05a27efb49f4ed093",
+    "sol_address": "FWSPXhQAD57hXJBNsWRkYupwQ4grQrr75JiWM6CqzHva"
+  },
+  {
+    "rank": 13,
+    "handle": "gajria",
+    "name": "him",
+    "x_username": "gajria",
+    "evm_address": "0xd4cf04bc9d7c80b49c6c30a633f7b9bd5370b4d6",
+    "sol_address": "D9tPQeij7vSTZwkxzxZibso4GFuRW8aBMpCg5QhCSfVL"
+  },
+  {
+    "rank": 14,
+    "handle": "Natan_benish",
+    "name": "nate",
+    "x_username": "Natan_benish",
+    "evm_address": "0x1890e719822bc704c4f117aa4109401c2bab6f79",
+    "sol_address": "DCeH3aCsstGUSxQqS72VBZwTydoor1nQ6dWaxrgGQk39"
+  },
+  {
+    "rank": 15,
+    "handle": "RugDalio",
+    "name": "rugdalio",
+    "x_username": "RugDalio",
+    "evm_address": "0xaf3a73c19118409936bdea72fd975c7539f85359",
+    "sol_address": "Ak6gsstZwaRDYKnzdyNg2HvCXDFvv21afjVix9VGRMQv"
+  },
+  {
+    "rank": 16,
+    "handle": "0xdetweiler",
+    "name": "theo",
+    "x_username": "0xdetweiler",
+    "evm_address": "0x838a336d19ae121a0ca754ebbdd57282de656dfa",
+    "sol_address": "EC2f5DnHzuNRit1ExqghSifDbp1wgrzktsRRZCtU92MJ"
+  },
+  {
+    "rank": 17,
+    "handle": "lordarbiter",
+    "name": "lordarbiter",
+    "x_username": "lordarbiter",
+    "evm_address": "0x712b009be8006d28738fd4810ee1440e277bae03",
+    "sol_address": "9EhcDGGJ6NpetxNumZKwD1o1kuHBwvfNGKrmS6zekP7C"
+  },
+  {
+    "rank": 18,
+    "handle": "motiyawerey",
+    "name": "Werey",
+    "x_username": "motiyawerey",
+    "evm_address": "0xe07be4390e3478e12cb1124ed011e769a3366e16",
+    "sol_address": "DmopudSGaQQenK4cW5NgmHUsexMB3sEJNn6n1EfLKs28"
+  },
+  {
+    "rank": 19,
+    "handle": "brrrgrrrz",
+    "name": "Burgz",
+    "x_username": "brrrgrrrz",
+    "evm_address": "0x8e4f5d00a5f4d7877a0f66b98fdf9d40323bc52a",
+    "sol_address": "GFRjGNXY8JrGSPC46inqrH4XPdUFMDLkE1oNm1nXiPsJ"
+  },
+  {
+    "rank": 20,
+    "handle": "soby0x",
+    "name": "soby",
+    "x_username": "soby0x",
+    "evm_address": "0x0f9a7a53b36daf1f52fe7a616ea4b25c532d2fd2",
+    "sol_address": "5opd5KBmodmoNuAThQ5cmXKbRxHbQDfomWGKAs3uEUP9"
+  },
+  {
+    "rank": 21,
+    "handle": "Quanterty",
+    "name": "Qwerty",
+    "x_username": "Quanterty",
+    "evm_address": "0x0121525f755c9e7bbc525bba6672716ab46ced57",
+    "sol_address": "8f39XhhZoRD8sYb6K5K9N7iSHXkL7BDmFFQNDF3TtsEr"
+  },
+  {
+    "rank": 22,
+    "handle": "bigbabbajohnson",
+    "name": "big babba johnson",
+    "x_username": "bigbabbajohnson",
+    "evm_address": "0x194db29f5bebacf3201abc9dbdda452116a3ff23",
+    "sol_address": "mDR91ufq4S2uSHa9E2PYL7xg4LwcQXaQFP7YK864a1z"
+  },
+  {
+    "rank": 23,
+    "handle": "changefomo",
+    "name": "change",
+    "x_username": "changefomo",
+    "evm_address": "0x92bff72e6c943a1348aedf15d68e758e811dec64",
+    "sol_address": "J9WiAZKf8JnCkHFL8fLCCXdEgdoLjLRqU2EGsDjdqYga"
+  },
+  {
+    "rank": 24,
+    "handle": "0xnobi",
+    "name": "nobi",
+    "x_username": "0xnobi",
+    "evm_address": "0x8afc1142f5d3ca6c55bbc8c81d0c9cdf2cce380c",
+    "sol_address": "7MjWHGVQNo9SAsAQqK2rAjoeCjefhwYQEy3UhggxakTU"
+  },
+  {
+    "rank": 25,
+    "handle": "seralberttrades",
+    "name": "Ser Albert",
+    "x_username": "seralberttrades",
+    "evm_address": "0x91645809dd21c69aa6ffdb71c7b7d8a443a18fda",
+    "sol_address": "Cqu5uKfKh6mSfqasYKGDYghGc7J54FAp9WCus9QnQSsR"
+  },
+  {
+    "rank": 26,
+    "handle": "visionary",
+    "name": "Visionary",
+    "x_username": "visionary",
+    "evm_address": "0xa98fdae24104a6fbf0799a15069caf749112790c",
+    "sol_address": "4JafciCHuforHqeWqBhK36DMCGbjbMMZRkvZKis74c4s"
+  },
+  {
+    "rank": 27,
+    "handle": "pricedin",
+    "name": "pricedin",
+    "x_username": "pricedin",
+    "evm_address": "0x85d26724d4447a85ec1089b0a572c97f1ad476f3",
+    "sol_address": "EU7FSVgkt8eZYV199enSCoQa3qoH6h6HP8v9BqpGDeG5"
+  },
+  {
+    "rank": 28,
+    "handle": "clam",
+    "name": "clam",
+    "x_username": "clam",
+    "evm_address": "0xa8c6bdae9ba7e6371d839f4bdab94085b32c8c39",
+    "sol_address": "Dx2HdT2RWCXqPGdH964JhzrSGdGMRQVY7n2jEYZt9njF"
+  },
+  {
+    "rank": 29,
+    "handle": "kyle",
+    "name": "kyle",
+    "x_username": "kyle",
+    "evm_address": "0x39b337121494b10cffe3e581ab3281b2d62c5b08",
+    "sol_address": "EJ1izM56eBS5baVLk7Q4iaQvsgCPa3W5bZgc44wwHz8U"
+  },
+  {
+    "rank": 30,
+    "handle": "0xRareDualJay",
+    "name": "RareDualJay",
+    "x_username": "0xRareDualJay",
+    "evm_address": "0xd67d64afc4e0337613cd31bd76b69e9887b7d26c",
+    "sol_address": "AXN4A7HNzncqzD9KGSbiSzE58vqvQmQxn8jhfYCKx9ai"
+  },
+  {
+    "rank": 31,
+    "handle": "CardinalSaint2",
+    "name": "Cardinal Saint",
+    "x_username": "CardinalSaint2",
+    "evm_address": "0xb7749bd1a4b632f54b054a15a8066fd227fc938e",
+    "sol_address": "HYh78tNpGBUcxoHgPU9v7VeP2wqSbkapuTzrfYHjfyLo"
+  },
+  {
+    "rank": 32,
+    "handle": "zeri_term",
+    "name": "zeri_terminal",
+    "x_username": "zeri_term",
+    "evm_address": "0xa562df7d4a58b34c226d4d45d58379d06d03cd3e",
+    "sol_address": "3hHvAzxMs6cMYU638oeg6cGp1C1tqRF1VPWnDEZddEhL"
+  },
+  {
+    "rank": 33,
+    "handle": "TheDazzleNovak",
+    "name": "Dazzle Novak",
+    "x_username": "TheDazzleNovak",
+    "evm_address": "0x33e2230066c8665c525b1b5a25f857e243086ac2",
+    "sol_address": "HspgvMUZf9AtZz6EiqL5wjFPaEDSDegGtqFqXE6MDNxm"
+  },
+  {
+    "rank": 34,
+    "handle": "TheOnlyOMP",
+    "name": "Old Man Pervert",
+    "x_username": "TheOnlyOMP",
+    "evm_address": "0x33dcea75de7cde9aabbc76482b35964e600ae359",
+    "sol_address": "49MHZz9c1mE1ePTcLxBWPjf7KKzt3Ntd25JnspKvV8vL"
+  },
+  {
+    "rank": 35,
+    "handle": "RowdyCrypto",
+    "name": "rowdy",
+    "x_username": "RowdyCrypto",
+    "evm_address": "0x03ba951f72e59899ac8dab30cb5624dbe5d52bb8",
+    "sol_address": "CzU8MaRcwvwUoNkwJFLbvtFWJugcEXAhDDQqNFE4ybb7"
+  },
+  {
+    "rank": 36,
+    "handle": "boosteryting",
+    "name": "jack",
+    "x_username": "boosteryting",
+    "evm_address": "0x5b30d0e72d624e0717d038a1982c88062c97de9a",
+    "sol_address": "EVqxB3F6iUBeWsTpBFQqWwxpqUS8s4NrzgxBvQ2VRbTq"
+  },
+  {
+    "rank": 37,
+    "handle": "USronaldcarter",
+    "name": "Ronald",
+    "x_username": "USronaldcarter",
+    "evm_address": "0x1aec990ecf787863cf08f6e530d0a89affe8dc3e",
+    "sol_address": "6CpipySaXTAiUKDyyhWeCfYSMQLCiHrbCN1WvRv5s8kF"
+  },
+  {
+    "rank": 38,
+    "handle": "lp1",
+    "name": "LP1",
+    "x_username": "lp1",
+    "evm_address": "0x1fce5a5d5b00c8a8cd80e8bdc608ebf8eb17cd7e",
+    "sol_address": "2FhGQ8XSxoeM8PFGg14QdkWGwdukyEoXa36Qags2m5uw"
+  },
+  {
+    "rank": 39,
+    "handle": "notanicecat69",
+    "name": "wood",
+    "x_username": "notanicecat69",
+    "evm_address": "0xb02208d1b27811480cf6171bccc2b7af9513cddb",
+    "sol_address": "7iPPqPyrqcmfenRs4xZ72ab4pyuUofXB5YaQB83WJmT9"
+  },
+  {
+    "rank": 40,
+    "handle": "LehmanFarters",
+    "name": "Lehman Farters",
+    "x_username": "LehmanFarters",
+    "evm_address": "0x27d6a5a1d9a5e89bfce0239f08d9c95cf2256ebb",
+    "sol_address": "7aoGoRSexZu1DE4vC24CVo4SqWrBDeoJ34qLRGUsL9ha"
+  },
+  {
+    "rank": 41,
+    "handle": "montyMole44",
+    "name": "jb",
+    "x_username": "montyMole44",
+    "evm_address": "0x68608b0c5c9781d7e38229fb67fd9ac450fecd23",
+    "sol_address": "J9k5KYANz5btiWVXWtjH28xvUTxfgo7ZbybcEUWLNsbd"
+  },
+  {
+    "rank": 42,
+    "handle": "carlwheezor",
+    "name": "Carl Wheezor",
+    "x_username": "carlwheezor",
+    "evm_address": "0x52c754cbaa03a8cda2b3d125ec441f9d754da037",
+    "sol_address": "ArNgsHnj485Qe8Y9YVbLL9Q4xmeejBxy4omdtpy5RRHU"
+  },
+  {
+    "rank": 43,
+    "handle": "Tekkerrss",
+    "name": "Tekkerrss",
+    "x_username": "Tekkerrss",
+    "evm_address": "0xe2aa5249955645acd0cdcfc2b3c22fb73666b473",
+    "sol_address": "7UBjMaYsE3tKcanfgGrtso6aHAMhVNSVHkkX5j3t7f5y"
+  },
+  {
+    "rank": 44,
+    "handle": "cosby",
+    "name": "cosby",
+    "x_username": "cosby",
+    "evm_address": "0xf1882812aacac1df9a58195dbbd2f97fe48f81f2",
+    "sol_address": "HmLwYRdPE3QsSexagobJdjxcWFZgqrSXtsQUrRZLWqnB"
+  },
+  {
+    "rank": 45,
+    "handle": "0x_Leo_",
+    "name": "leo",
+    "x_username": "0x_Leo_",
+    "evm_address": "0xeb0f432beecf10dcc828fc1e36a3386caf634637",
+    "sol_address": "3qBVJLMAWXCbW3nhz99T99in82zZeUHkbDeSDJThbN4Z"
+  },
+  {
+    "rank": 46,
+    "handle": "kingofgotham",
+    "name": "kingofgotham",
+    "x_username": "kingofgotham",
+    "evm_address": "0x594d505cf81a5083b5bfb860ca0e1f206a236d1e",
+    "sol_address": "2jANbCxjjouGqxYghVRVQHJiUMgjS9WtXapgg6DqzS9r"
+  },
+  {
+    "rank": 47,
+    "handle": "Milliardi",
+    "name": "Michael Milliardi",
+    "x_username": "Milliardi",
+    "evm_address": "0x8b1d384748b787efc3915ca02b8e7015b30fae3c",
+    "sol_address": "C4DKn6oqmJE8cZgPDU3X8N2S9MPFSjFSnUjv7WJCGxHh"
+  },
+  {
+    "rank": 48,
+    "handle": "Bull_Path",
+    "name": "Bull.Path",
+    "x_username": "Bull_Path",
+    "evm_address": "0xe31abb7b23904c48a2efca4c3006da1a98723c7f",
+    "sol_address": "F11mt2PsYTR7RF7hzfvFyeFbWREiCS3soa5pGbPX88Lb"
+  },
+  {
+    "rank": 49,
+    "handle": "macdegods",
+    "name": "333",
+    "x_username": "macdegods",
+    "evm_address": "0x6150b917c11443d5c885ea6751db92a38fd4f5a4",
+    "sol_address": "5RZPhPW9qGEd3hRGibgYaF5Yk2jBzXR1VZMKSP71C3Lb"
+  },
+  {
+    "rank": 50,
+    "handle": "NachSOL",
+    "name": "nach",
+    "x_username": "NachSOL",
+    "evm_address": "0x17fb03925acec7a799022ad5e268d2f27e9748b3",
+    "sol_address": "GAsnqm4XkNkPVgrAofNQ65jWf8f3tKCLHhE9ZqSy2AP1"
+  },
+  {
+    "rank": 51,
+    "handle": "OinkersRUs",
+    "name": "Grant Liu",
+    "x_username": "OinkersRUs",
+    "evm_address": "0x4946384166c60244cf383927bd7d2536ed2ae962",
+    "sol_address": "DPAN2Vig8BokpQCCu4mtV1mTWYLS7ktKe1hHKVBcsayL"
+  },
+  {
+    "rank": 52,
+    "handle": "looc",
+    "name": "looc",
+    "x_username": "looc",
+    "evm_address": "0xf83143c99163778a0021b35912b2fcd1006506c5",
+    "sol_address": "DyBKpVqM5GTXzd9w4V2xgHan5uurKbHzbUGduz2cxAha"
+  },
+  {
+    "rank": 53,
+    "handle": "RZDxbt",
+    "name": "rzd",
+    "x_username": "RZDxbt",
+    "evm_address": "0xafe3b520b70db0f7fb50d2e1fc00e9b837abc322",
+    "sol_address": "5MfuqNSawthUL1qdJJTN8DauQvJYSUkuuZuySXuVc6Tz"
+  },
+  {
+    "rank": 54,
+    "handle": "GuavaGuy2001",
+    "name": "Guava Guy",
+    "x_username": "GuavaGuy2001",
+    "evm_address": "0x566dc593a1b15d5fdd8ef2a04f2c9acf3b0749b4",
+    "sol_address": "C481ZKiw4TZGs4EjNkhm6TB7s17swzmqAmCcNm73vGnW"
+  },
+  {
+    "rank": 55,
+    "handle": "aki11a",
+    "name": "aki",
+    "x_username": "aki11a",
+    "evm_address": "0x3740315ddb76c09c873eddb71fcf3e2802991abe",
+    "sol_address": "85o5GZhor1ygRCzGDNRcsRCJyiQ3daGTGYHNXvCTJ4J7"
+  },
+  {
+    "rank": 56,
+    "handle": "0xsneakky",
+    "name": "Sneaky",
+    "x_username": "0xsneakky",
+    "evm_address": "0xe9132a6e4a610b796abba5fd4210911fafa55a22",
+    "sol_address": "FfztZq1outrYfyYbKw5P4LGo4xUc4XYEdf7o91UdS7qu"
+  },
+  {
+    "rank": 57,
+    "handle": "Lingard0x",
+    "name": "Lingard",
+    "x_username": "Lingard0x",
+    "evm_address": "0xb3f815dac319bd560e535f6788f0d9ed9c73eb3e",
+    "sol_address": "B9FJomxFnA5WauXkJdh4GBke3NAaGnC8nwEEW6sEGQ7y"
+  },
+  {
+    "rank": 58,
+    "handle": "kb",
+    "name": "kb",
+    "x_username": "kb",
+    "evm_address": "0xb832e0433ef093eeb789d77747197b5fe1ea3d34",
+    "sol_address": "CZPVN8ucAkFfWUuKzGzL21Y6k1RvBo8bQLFHCcvi75z4"
+  },
+  {
+    "rank": 59,
+    "handle": "beetle",
+    "name": "beetle",
+    "x_username": "beetle",
+    "evm_address": "0x0e17fc4e333958e7b259ab652f334b2f5bbdb27e",
+    "sol_address": "8RCEq8RrBJ1G6eji9vZqjtjQgkDjUHMysPtynZENWo7S"
+  },
+  {
+    "rank": 60,
+    "handle": "cryptochi3f_",
+    "name": "CryptoChief",
+    "x_username": "cryptochi3f_",
+    "evm_address": "0xcb01c5f4697f555172bf1c2c5f52cde84a9480bb",
+    "sol_address": "FF6vsaUcp4s95Q5NNm7VZ7deZU6gBU2vZmaiyQ36Ymrc"
+  },
+  {
+    "rank": 61,
+    "handle": "BtheBezel",
+    "name": "B The Bezel",
+    "x_username": "BtheBezel",
+    "evm_address": "0x15c6a76136b597c7896dca6da7b3319daffc987e",
+    "sol_address": "HWYpE693cw8AWxHSynrHhUsKDbfzubAFYWpTcMZdNWKR"
+  },
+  {
+    "rank": 62,
+    "handle": "facap_",
+    "name": "fa cap",
+    "x_username": "facap_",
+    "evm_address": "0x696cba91fdc752171f7bb0a8e689c13212c77e03",
+    "sol_address": "6pqQAbupoEeFNsm3egPWqnWBGZUQ86x9eR7zTsiyWrCp"
+  },
+  {
+    "rank": 63,
+    "handle": "Samisa_btc",
+    "name": "samisa",
+    "x_username": "Samisa_btc",
+    "evm_address": "0xd73d6b8b9e875569c0f03c572a3806e619bcbec2",
+    "sol_address": "FS6zZg5zHTfwhwdqWBx7tmhZFmVnU8fAu9TYBFYoMGBg"
+  },
+  {
+    "rank": 64,
+    "handle": "omakase",
+    "name": "Omakase",
+    "x_username": "omakase",
+    "evm_address": "0x6802190b213325612bc709b4972f7e6f408456a9",
+    "sol_address": "F5MYbjEATQFD6rxwdS2zXzEHBGuUhSGvJkUhLFAcr4hv"
+  },
+  {
+    "rank": 65,
+    "handle": "jols",
+    "name": "jols",
+    "x_username": "jols",
+    "evm_address": "0x0bac76d5ed4274df7c7b7ce628151a922445639d",
+    "sol_address": "AsVnRavmxdTHYEKdVygY8wz6kVGrUZzUyKYvSiDr8iBr"
+  },
+  {
+    "rank": 66,
+    "handle": "dtrains",
+    "name": "dtrains",
+    "x_username": "dtrains",
+    "evm_address": "0x742e3433fa40750a0eafb39fb7ffd75cd629f55f",
+    "sol_address": "AgSELf8jkJYUfEpLNfUxpj3qf21tbLFdHsqvkHWjuYPC"
+  },
+  {
+    "rank": 67,
+    "handle": "testaccount",
+    "name": "Test Account",
+    "x_username": "testaccount",
+    "evm_address": "0xdb5cb33ccaf4a5c7f509b2e80f0ee9ed67861942",
+    "sol_address": "FBqEkbfAFxAAGfSCZtxPQThomADu6qf1nd41Ao1E3xkH"
+  },
+  {
+    "rank": 68,
+    "handle": "user",
+    "name": "user",
+    "x_username": "user",
+    "evm_address": "0xdce001e4ec11ab58650c51ae9658accbe0f49c48",
+    "sol_address": "2L17Sw85Lh2Ca7ejEzWqyJsZ3yS4DxQhYr52X5H5xRns"
+  },
+  {
+    "rank": 69,
+    "handle": "BTCdayu",
+    "name": "大宇",
+    "x_username": "BTCdayu",
+    "evm_address": "0xf21e2804f0a696eb3f005b6673704dfe5a0321c8",
+    "sol_address": "8qzGWFhgccZCx9GtEv3iocp6jE4sGfspGUFu3qA2hMfP"
+  },
+  {
+    "rank": 70,
+    "handle": "dreamloaderxo",
+    "name": "dreamloader",
+    "x_username": "dreamloaderxo",
+    "evm_address": "0xf75f2f708e489299c992349a73baec209b400aa0",
+    "sol_address": "4KFjw2xfH4cXJJKjG1jDZRNphctZPMoFz3K6r3bAVtmD"
+  },
+  {
+    "rank": 71,
+    "handle": "end837",
+    "name": "end",
+    "x_username": "end837",
+    "evm_address": "0x24fb52e17e3d4fd62a119b8f53c1a3f3bfe65c2f",
+    "sol_address": "5DBkonys2H4qHr5x9CCeXPLSWEFbnnLFP1RdfxjJgzvy"
+  },
+  {
+    "rank": 72,
+    "handle": "tremendoustoad",
+    "name": "tremendoustoad",
+    "x_username": "tremendoustoad",
+    "evm_address": "0xbd0543e384ed7f650915d2499d7935b0e52a3640",
+    "sol_address": "Dw3LY8NnG3BB1EEXCNJwAKtVoEE7faEYiygYNHfFPNb1"
+  },
+  {
+    "rank": 73,
+    "handle": "naP0Liano",
+    "name": "SpaceHart",
+    "x_username": "naP0Liano",
+    "evm_address": "0xae91bb08fda02cf7f097d2d90b4230dbd7abf8be",
+    "sol_address": "7c7FTgNbtq6Scy8Zp5HZULn7ovV3zHQG2gSKHKUhDgT6"
+  },
+  {
+    "rank": 74,
+    "handle": "sadcrissy",
+    "name": "Crissy",
+    "x_username": "sadcrissy",
+    "evm_address": "0xfec1002223824973bcd7907d133b4c027beb40c0",
+    "sol_address": "2GtmuqG31LuuWQmKzeK72YjH5iALPkJycuQaEQGsFzLw"
+  },
+  {
+    "rank": 75,
+    "handle": "ventikohi",
+    "name": "kohi",
+    "x_username": "ventikohi",
+    "evm_address": "0x410ddf68cf002b507e91d006e143ed57623132ff",
+    "sol_address": "5KVy7JCVrhJHXcDHmyUtWi2ri78KEhjfE3UZULyMjJE6"
+  },
+  {
+    "rank": 76,
+    "handle": "ionnnnn_",
+    "name": "Spartee",
+    "x_username": "ionnnnn_",
+    "evm_address": "0xe68a514e5580c0551cdb0e772794f5a7881b8d7c",
+    "sol_address": "HPZJPCpMKEY1mBfvLE7RrwcpiQDncLY575dBgc6S9sJ1"
+  },
+  {
+    "rank": 77,
+    "handle": "mrfernando88",
+    "name": "MrFernando",
+    "x_username": "mrfernando88",
+    "evm_address": "0xdfa06f8e659b75894691bd5726b571728ade835c",
+    "sol_address": "AUYLj5kLGUadmhn8kM91KnTJYfHiXGzcQ7TViP8uLLQv"
+  },
+  {
+    "rank": 78,
+    "handle": "carve",
+    "name": "Carve",
+    "x_username": "carve",
+    "evm_address": "0x8d70dd64764a866426eaa34e02884957fc52cab4",
+    "sol_address": "H6PEtpaDddtPEQjvGwEq5y7nF7WpNsTNy73m5h97oTye"
+  },
+  {
+    "rank": 79,
+    "handle": "kv4rl",
+    "name": "k4rl",
+    "x_username": "kv4rl",
+    "evm_address": "0x1338a67b37aeaf796357d78501a0c3695c51c48e",
+    "sol_address": "33qkCrKgTSittYJrbJK3vK8inJ3gWU4zVCiGdYQytTUj"
+  },
+  {
+    "rank": 80,
+    "handle": "BitCloutCat",
+    "name": "Lasercat397",
+    "x_username": "BitCloutCat",
+    "evm_address": "0xcbaea88c17888e3c7b84117bd6ebbdbf4f95b810",
+    "sol_address": "5dB6rj9CoXMLQCAymoC5UXCb1LtFjbM5rbut3MNuj9Q"
+  },
+  {
+    "rank": 81,
+    "handle": "gameplay",
+    "name": "gameplay",
+    "x_username": "gameplay",
+    "evm_address": "0xd4ba7169e9f89ffa94cbbb41b0df668eee25737d",
+    "sol_address": "ENkZtLj1onzQRGnEeRkQfFzBeeY2dCeiQMXDzh8XbQbj"
+  },
+  {
+    "rank": 82,
+    "handle": "ResellCalendar",
+    "name": "rc",
+    "x_username": "ResellCalendar",
+    "evm_address": "0xf7c0d9aee226b632a25b1c096d8c285ed20d55b1",
+    "sol_address": "DxM1hfY8FQ8dNGrucuJzhJcF8KRbjk8WBwrgKvQ9spPv"
+  },
+  {
+    "rank": 83,
+    "handle": "yeon__",
+    "name": "Yeon",
+    "x_username": "yeon__",
+    "evm_address": "0x172695ac783cc308fc3699e0a5d161494eb5ad58",
+    "sol_address": "DHnrkgve2u4nGAmzSXdWoZSib8ksFea2xxz7N4asSrvR"
+  },
+  {
+    "rank": 84,
+    "handle": "rainnen23",
+    "name": "rain",
+    "x_username": "rainnen23",
+    "evm_address": "0xdbea0f1d234240e8f8a884cf0461371b3ec2dbcc",
+    "sol_address": "6TW1xYEWNB9umdAAkvyj1jYGhxCGmkJv67dv8MMYecK9"
+  },
+  {
+    "rank": 85,
+    "handle": "frankdegods",
+    "name": "Frank",
+    "x_username": "frankdegods",
+    "evm_address": "0x696d1265c8fc4f14797abebfae3c43ebfa9d8e28",
+    "sol_address": "498g1rVnFcnjBjpfw1xyqA1WvgQXUU8RWuELjxkjAayQ"
+  },
+  {
+    "rank": 86,
+    "handle": "derekz",
+    "name": "derekz",
+    "x_username": "derekz",
+    "evm_address": "0xa81a48e9e52527564b1fddba2ea600b6d2d74c61",
+    "sol_address": "ApUwcBwDnXN9Ttn8g7m9pnyDucSGpU8jknWfLxvX54J8"
+  },
+  {
+    "rank": 87,
+    "handle": "ExactTallTakin",
+    "name": "ExactTallTakin",
+    "x_username": "ExactTallTakin",
+    "evm_address": "0x6434454a2f00b3dbbf714de40c71c86857f881a3",
+    "sol_address": "AGdtsMmphhymH5wYW3dWKSkAxpLYRrNDCTFAfuq8ii9v"
+  },
+  {
+    "rank": 88,
+    "handle": "Pasterniq",
+    "name": "Pasterniq",
+    "x_username": "Pasterniq",
+    "evm_address": "0x6c1234dc73ee99934e8553ac82c4b0755f09a80a",
+    "sol_address": "9zZCjLr9xfXfp3qdqvPh6YeaEaagepz21khLhca69B18"
+  },
+  {
+    "rank": 89,
+    "handle": "frogmanhaha",
+    "name": "Frogman",
+    "x_username": "frogmanhaha",
+    "evm_address": "0x14aa2a71dbb5ef87b81f92205e2699aa4aa65794",
+    "sol_address": "9wMSNoA7TzhwUjqsACVGEvzAxAibCHnsZTgXEAGov8zQ"
+  },
+  {
+    "rank": 90,
+    "handle": "idealplumtoad",
+    "name": "IdealPlumToad",
+    "x_username": "idealplumtoad",
+    "evm_address": "0xdfa705fa2db5044e672d597e5eddcc11a9f2815c",
+    "sol_address": "5fkAwNVpT8A1UHEnY62VEFpqgagdoP8FYrv5ideiQp5c"
+  },
+  {
+    "rank": 91,
+    "handle": "AnselFang",
+    "name": "lonewolf孤狼",
+    "x_username": "AnselFang",
+    "evm_address": "0x5d65ac436e045fef100b457ce160d42b9ed484a6",
+    "sol_address": "DDV38CR14kXmjpedoxvvVoWHtX1c2qtacB6J2tWr6DAw"
+  },
+  {
+    "rank": 92,
+    "handle": "wukong",
+    "name": "WuKong",
+    "x_username": "wukong",
+    "evm_address": "0x021339b32fa1b40c7773f70e5a1835a7fd01de07",
+    "sol_address": "DgmDUhxSoeek4sbiSP7Jnj68MJQayTLHjXncE4MLowVe"
+  },
+  {
+    "rank": 93,
+    "handle": "0xSporadic",
+    "name": "Sporadic",
+    "x_username": "0xSporadic",
+    "evm_address": "0xa1be71b903206120fa2b2245e145a5d7be09d8f7",
+    "sol_address": "bhMTLsPCE8J8kbSgJeWYhSDEDbPYWxb8HepgMgsdSo3"
+  },
+  {
+    "rank": 94,
+    "handle": "solarfirmdingo",
+    "name": "SolarFirmDingo",
+    "x_username": "solarfirmdingo",
+    "evm_address": "0x124cef73f47627f3f919bbab725b5fe924445d69",
+    "sol_address": "Ga4qb3YHybjDjAmhYwrR43yzsUkiWRgSbTGHGJGwVJ6S"
+  },
+  {
+    "rank": 95,
+    "handle": "ether_monk",
+    "name": "Ethermonk",
+    "x_username": "ether_monk",
+    "evm_address": "0x1412e6a737a516935982e8bdafe682305200212a",
+    "sol_address": "9rEdxWQUrpnRHmwos43dsPxLGXzRg2RPyjRFScxA4jAo"
+  },
+  {
+    "rank": 96,
+    "handle": "lowrivalrat",
+    "name": "LowRivalRat",
+    "x_username": "lowrivalrat",
+    "evm_address": "0xfdea46fc1096da8929f5f1aff54682f4ece545d3",
+    "sol_address": "QKmzCtedsemC6Xwx3jndZv51TP2tSHQgwSYwDHjZ86x"
+  },
+  {
+    "rank": 97,
+    "handle": "lowgrandcrane",
+    "name": "LowGrandCrane",
+    "x_username": "lowgrandcrane",
+    "evm_address": "0x9919e20bb91c78cd5282d3da39fead7d597d342c",
+    "sol_address": null
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "dataset": "fomo",
+  "generated_at_utc": "2026-10-14T09:06:52.574684+00:00",
+  "source_cohort_sha256": "a7d507cc7b28c27da859355cd4e8358da12d7bf5fb7a8bf2c2b07f38383c1a36",
+  "active_cohort_sha256": "1fed51f373c6a8b0374a9419cf3fcbbc20445909700463f1bc0298b51f9c0550",
+  "cohort_count": 97,
+  "known_evm_wallets": 97,
+  "known_sol_wallets": 96,
+  "all_chain_history_complete": false,
+  "missing_known_evm_receipts": 0,
+  "coverage_rows": 405,
+  "gap_rows": 371,
+  "evidence_files": 24235,
+  "evidence_original_bytes": 29224987917,
+  "evidence_stored_bytes": 2331722624,
+  "source_path_base": "data/clean, not the current working directory",
+  "evidence_format": "gzip decompress once -> original bytes, verify source_sha256, then decode source gzip if necessary and apply JSON pointer",
+  "tables": {
+    "solana/transactions.parquet": {
+      "rows": 135986,
+      "bytes": 35729606,
+      "sha256": "1d4a72f9b1519ed2ee01fd0a28f98a35d4837dc1c3eb6557cc71a9ec6bf5d243"
+    },
+    "evm_transactions.parquet": {
+      "rows": 332970,
+      "bytes": 26095921,
+      "sha256": "0b3807c1729f4a6e57252b1bad59eec23d9b1d2e8622bb30ee590dcb881de064"
+    },
+    "evm_receipts.parquet": {
+      "rows": 243641,
+      "bytes": 841987575,
+      "sha256": "96b81d6dcb48730deb2ae7f4340d8fb6b0170a12c1ae1b74799d82e29f424f25"
+    },
+    "relay_orders/transactions.parquet": {
+      "rows": 58066,
+      "bytes": 22844178,
+      "sha256": "8adb787faad9cf46b6e3430d666b74b52bc345559db23a29aae39c4bda4c0dc5"
+    },
+    "relay_orders/owner_asset_changes.parquet": {
+      "rows": 109797,
+      "bytes": 11170032,
+      "sha256": "5b735b58683316bea77610b4816fd43539ccae5556ce92ad41fb532365255a55"
+    },
+    "indexed_transfers/fungible_transfer_history.parquet": {
+      "rows": 354333,
+      "bytes": 63738843,
+      "sha256": "740bdbbd397a46ba48f1d6866820df8a91d6bc75b4a3597f9f24382ec9a9b428"
+    },
+    "indexed_transfers/other_asset_history.parquet": {
+      "rows": 2202,
+      "bytes": 161339,
+      "sha256": "4fbbe5beb25f90ca274ee4ec4a3f021756d60b4786f436836192f33007ddccdc"
+    }
+  }
+}

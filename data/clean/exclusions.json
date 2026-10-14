@@ -1,0 +1,26 @@
+[
+  {
+    "original_rank": 97,
+    "handle": "lowgrandcrane",
+    "excluded_scope": "solana_only",
+    "reason": "No full public wallet address in original supplied cohort"
+  },
+  {
+    "original_rank": 98,
+    "handle": "boosted",
+    "excluded_scope": "account",
+    "reason": "No full public wallet address in original supplied cohort"
+  },
+  {
+    "original_rank": 99,
+    "handle": "CryptoZachLA",
+    "excluded_scope": "account",
+    "reason": "No full public wallet address in original supplied cohort"
+  },
+  {
+    "original_rank": 100,
+    "handle": "XbtPika",
+    "excluded_scope": "account",
+    "reason": "No full public wallet address in original supplied cohort"
+  }
+]

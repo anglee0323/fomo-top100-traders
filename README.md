@@ -1,24 +1,35 @@
-# FOMO 原100账户交易数据
+# FOMO 清洗后可用数据
 
-最终入口：[data/final_original100_20261014/README.md](data/final_original100_20261014/README.md)。名单固定为原data/traders_profiles.json，未增加、替换或重新排序。
+唯一入口：`data/clean/`。原100名单仅剔除无完整地址的3个账户，保留97个EVM账户、96个Sol地址；rank不重排、不补其他人。lowgrandcrane保留EVM，缺失Sol不采集。
 
-|主表|内容|
-|---|---|
-|solana/transactions.parquet|135986条账户×Sol签名记录；96个已知地址的GMGN可见来源已到终页|
-|evm_transactions.parquet|332970条账户×链×交易哈希记录，全部对应可验证回执|
-|evm_receipts.parquet|243641份去重链上回执；保留真实执行状态与gas乘积|
-|relay_orders/transactions.parquet|58066条账户×Relay订单记录，原始字段与两端执行引用保留|
-|relay_orders/owner_asset_changes.parquet|109797条平台报告的原账户资产变化，quote与实收不混用|
-|indexed_transfers/fungible_transfer_history.parquet|354333条可读同质化转移记录；NFT2202条另表|
+## 下载实际数据
 
-这些是不同记录层次，不相加当交易笔数或金额。费用是执行gas或平台分别报告的费用，不是已证明全部成本/净收益。
+[清洗数据 Release（包含全部主表及唯一压缩来源证据）](https://github.com/anglee0323/fomo-top100-traders/releases/tag/clean-20261014)。先安装GitHub CLI并正常登录，克隆仓库后执行：
 
-[覆盖表](data/final_original100_20261014/coverage.csv)、[具体缺口](data/final_original100_20261014/gaps.csv)、[字典](data/final_original100_20261014/DATA_DICTIONARY.md)、[文件摘要](data/final_original100_20261014/MANIFEST.json)均在最终目录。
+```sh
+uv run --no-project python download_data.py
+```
 
-3个原账户钱包掩码（boosted、CryptoZachLA、XbtPika），lowgrandcrane未提供Sol地址，保留原字段和7个钱包位置缺口。
-Relay订单源44/97到终点；其余53的旧订单元数据仍有续游标/网络失败，已使用原钱包四主链地址索引补可得链上记录。不能从链上回执编造缺失的订单ID或私有平台元数据。
-转移索引不供应失败/零资产变化交易，BSC与Robinhood原生内部转移也不在该索引范围；未知范围逐账户列明。
+脚本自动下载分卷、校验SHA256并解包；已有`data/clean`时拒绝覆盖。只克隆Git仓库会得到说明与元数据，实际大表在Release中。
 
-Sol表是GMGN可见活动，未证明所有已关闭ATA的全链历史。各来源时间范围分别保留，目录日期是整理日期，不代表所有源都更新到同一时刻。
+## 可直接使用的表
 
-原100个dex_swaps文件、261171条旧活动及已捕获来源保留作回放；无关服务表不作为主交易入口。大表和原始回执只存本机，Git同步代码、说明与可核对元数据，不上传凭据。
+|文件|记录数|含义|
+|---|---:|---|
+|solana/transactions.parquet|135986|原账户×Sol签名，内嵌来源活动|
+|evm_transactions.parquet|332970|原账户×链×交易哈希；已知哈希缺回执0|
+|evm_receipts.parquet|243641|去重链×交易回执，包含真实status及日志|
+|relay_orders/transactions.parquet|58066|已有Relay订单/执行元数据|
+|relay_orders/owner_asset_changes.parquet|109797|来源报告的原账户资产变化|
+|indexed_transfers/fungible_transfer_history.parquet|354333|同质化转移事件与原始单位|
+|indexed_transfers/other_asset_history.parquet|2202|NFT等其他资产事件，单独保存|
+
+这些表是不同层次，不能相加当独立交易笔数。默认先读取Sol/EVM两个transactions主表；其余用于资产明细、订单上下文和执行证据。
+
+`coverage.csv`保留405个真实来源范围；`gaps.csv`的371项为来源限制/未闭合元数据，**不是371笔已知丢失交易**。Sol是GMGN可见地址活动；EVM索引不保证失败/零资产变化交易，BSC/Robinhood不供应原生内部转移。已知纳入哈希均有回执，不代表所有地址全生命周期完整。
+
+原始rank/handle/完整地址在`cohort.json`，剔除记录在`exclusions.json`。单位见`DATA_DICTIONARY.md`，实际校验见`ACCEPTANCE.json`，文件摘要见`MANIFEST.json`。
+
+来源文件已按内容SHA去重并压缩，仅保留一份`evidence/`；所有引用均相对于`data/clean`，不依赖旧报告或旧数据目录。
+
+下次采集使用[唯一采集流程](https://github.com/anglee0323/smart-money-dataset-builder)：FOMO Sol直接分页，EVM走Alchemy地址索引及批量回执。没有换名单或重新采集的动作。
