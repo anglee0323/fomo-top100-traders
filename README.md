@@ -33,7 +33,7 @@ Solana使用钱包直接活动分页，96个已知地址均到达该来源终页
 
 ## 下载与使用
 
-Git仓库包含说明、账户名单、覆盖清单和示例；Parquet表及压缩来源文件从Release下载。安装uv与GitHub CLI后，在仓库根目录执行：
+Git仓库包含说明、账户名单、覆盖清单和示例；Parquet表及压缩来源文件从Release下载。安装uv并完成GitHub CLI登录（`gh auth login`）后，在仓库根目录执行：
 
 ```sh
 uv run --no-project python download_data.py
